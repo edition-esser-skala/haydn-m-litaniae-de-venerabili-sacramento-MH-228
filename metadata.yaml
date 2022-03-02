@@ -1,0 +1,21 @@
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Litaniæ de Venerabili Sacramento
+id: MH 228
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor (\flat B), vl solo, 2 vl, 3 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  C1:
+    siglum: F-Pn
+    shelfmark: D-5988
+    date: 1776-03-26
+    rism: 990028943
+    url: https://catalogue.bnf.fr/ark:/12148/cb44908088r
+    license: public domain
+    principal: true
+    notes: Breitkopf und Härtel, Leipzig (1823), plate number 3504
+imslp:
+parts:
+  cor12: Corno I, II
