@@ -26,7 +26,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "B" "flat"
-            % \transpose c b'
+            % \transpose c b,
             \partCombine \KyrieCornoI \KyrieCornoII
           >>
         >>
@@ -82,7 +82,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 65 }
     }
   }
 }
