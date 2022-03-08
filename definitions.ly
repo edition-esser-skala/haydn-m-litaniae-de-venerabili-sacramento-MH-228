@@ -6,7 +6,8 @@
 \include "ees.ly"
 
 
-tempoKyrie = \tempoMarkup "Adagio"
+tempoKyrie = \tempoMarkup "Adagio con sordino"
+tempoPanis = \tempoMarkup "Allegro spirituoso"
 
 
 \include "notes/ob1.ly"

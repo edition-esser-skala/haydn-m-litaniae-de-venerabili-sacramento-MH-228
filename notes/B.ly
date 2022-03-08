@@ -186,10 +186,72 @@ PanisBasso = {
   \relative c {
     \clef bass
     \key b \major \time 4/4 \autoBeamOff \tempoPanis
-    
+    \mvTr b'2\fE^\tuttiE b
+    a4 a a a
+    g2 f4 f
+    es es es es
+    d d b d %5
+    f4. f8 a,2
+    b4 r r2
+    R1*99 %106
+    \mvTr g'2\fE^\tutti fis
+    g c,
+    d2. d4
+    g, r r2 %110
+    R1*35 %145
+    \mvTr es'2\p^\tutti d
+    es as,
+    b1
+    es4 r r2
+    R1 %150
+    b'2\f a!
+    b es,
+    f2.( fis4)
+    g r r2
+    es4. es8 es4 es %155
+    d d b d
+    f4. f8 a,2
+    b4 r r2
+    R1*60 %218
+    \mvTr b'2\fE^\tutti a
+    b es, %220
+    f1
+    b,4 r r2
+    R1*4 %226
+    R1\fermata \bar "|." %227 finis
   }
 }
 
 PanisBassoLyrics = \lyricmode {
+  Pa -- nis
+  vi -- vus, qui de
+  coe -- lo, de
+  coe -- lo de -- scen --
+  di -- sti, mi -- se -- %5
+  re -- re no --
+  bis.
 
+  A -- gnus %107
+  abs -- que
+  ma -- cu --
+  la. %110
+
+  Ver -- bum %146
+  ca -- ro
+  fa --
+  ctum,
+  %150
+  ver -- bum
+  ca -- ro
+  fa --
+  ctum,
+  ha -- bi -- tans in %155
+  no -- bis, mi -- se --
+  re -- re no --
+  bis.
+
+  Mi -- se -- %219
+  re -- re %220
+  no --
+  bis. %222 finis
 }

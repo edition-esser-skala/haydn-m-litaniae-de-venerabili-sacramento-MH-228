@@ -106,6 +106,130 @@ PanisCornoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoPanis
-    
+    c4\fE c8 c c4 r
+    g' g8 g g4 r
+    c, r c r
+    r d' g, g
+    c, c8 c c4 r %5
+    g2 g4 g
+    g r r2
+    r4 r8 g' g g g g
+    c,4 r r2
+    r4 r8 c c c c c %10
+    c4 r r2
+    R1
+    r8 g' g g g4 r
+    R1*3 %16
+    c,4\fE r8 c c'4 g
+    c, r8 c c'4 g
+    c, r r2
+    r r4 g' %20
+    e r r2
+    R1*7 %28
+    r8 c\p c c c4 r
+    R1*5 %34
+    r4 g g r %35
+    g1
+    g4 r g' r
+    R1
+    c4 r c r
+    R1 %40
+    r4 d d r
+    R1*7 %48
+    d4\f r d r
+    g, r r2 %50
+    g4 r r2
+    g4 r r2
+    R1
+    g4 r8 g e'4 d
+    g, r r2 %55
+    R1*13 %68
+    c,1\p
+    c4\f r c r %70
+    R1
+    g'4\f r g r
+    R1*4 %76
+    c4\f c,8. c16 c4 r
+    r r8 g'\p g g g g
+    c,4\f c8. c16 c4 r
+    r r8 c c c c c %80
+    c4 r r2
+    g'4\p r r2
+    R1*3 %85
+    r8 g g g g4 r
+    R1*8 %94
+    g,4 r g r %95
+    g1
+    c4 r r2
+    R1*2
+    g'4\f r g r %100
+    g r8 c, c'4 g
+    c, r8 c c' c g g
+    c,4 r r2
+    r r4 g'
+    e r r2 %105
+    r e8\ffE e e e
+    e4 r r e
+    e r r2
+    r4 e e8 e e e
+    e4 r r2 %110
+    e1~\p
+    e~
+    e
+    e2 r
+    R1*3 %117
+    r2 e\f
+    e4 r r e
+    e r r2 %120
+    R1*13 %133
+    r8 e\fE e e e4 r
+    R1*5 %139
+    c4\fE r r2 %140
+    c4 r r2
+    c4 r r2
+    r r4 e
+    c r r2
+    R1 %145
+    c2\p c
+    c r
+    c c4 c
+    c r r2
+    r g'4\f g8 g %150
+    c,4 r r8 g' g g
+    c,4 r r8 c c c
+    g'4 r r8 d' d d
+    c c, c c c4 r
+    r d' g, g %155
+    c, c8 c c4 r
+    g2 g4 g
+    g8 c c c c4 r
+    R1*18 %176
+    d'4\f r r2
+    d4 r r2
+    R1*11 %189
+    c,4\fE r r2 %190
+    R1*11 %201
+    r8 g'\pE g g g4 r
+    R1*4 %206
+    r4 r8 g\f c c g g
+    e2\p g
+    c4 c,2 c4
+    g1 %210
+    c4 r r2
+    R1*2
+    g4 r g r
+    g1 %215
+    c4 r r2
+    R1
+    r8 e\f g e c c c c
+    e2 g
+    c4 c,2 c4 %220
+    g2 g4 g
+    c r8 c c'4 g
+    c, r8 c c' c g g
+    c,4 r r2
+    r r4 g' %225
+    e r c\p r
+    c r r2\fermata \bar "|." %227 finis
   }
 }

@@ -128,6 +128,155 @@ PanisOboeII = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoPanis
-    
+    d'4\fE d8 d d4 r
+    c c8 c c4 r
+    b2 b
+    g f
+    f r %5
+    R1
+    r4 d2 b'4
+    c c2 f,4
+    d d'2 c4
+    b b2 f4 %10
+    g r es' r
+    c r g2
+    f8 a a a a4 r
+    R1*3 %16
+    d4\fE d2 es4
+    f d2 es4
+    d r8 d es4 r8 a,
+    b4 r8 b g g a a %20
+    b4 b2\p b4~
+    b r r2
+    R1*6 %28
+    r8 d,\p d d d4 r
+    R1*5 %34
+    r2 r8 c f a %35
+    a1
+    a4\f r a r
+    R1
+    b4 r g r
+    R1 %40
+    r4 e\pE e r
+    R1*7 %48
+    a2\fE g
+    f4 a2 g4 %50
+    f8 f a2 g4
+    f r8 a b4 r8 e,
+    f4 r8 f g4 \appoggiatura f8 e4
+    f4 r8 a d d e e
+    f4 r r2 %55
+    R1*3
+    r2 a,\f
+    g4 r r2 %60
+    R1*6 %66
+    b2\pE c4 b
+    b a r2
+    d1\p
+    d4\f r d r %70
+    c1\pE
+    c4\f r c r
+    b\p r e( f)
+    r2 e4( f)
+    R1*2 %76
+    r4 d,!2\f b'4
+    c c2\p es,4
+    d d'2\f c4
+    b b2 f4 %80
+    g r r2
+    a!4\p r r2
+    R1
+    \appoggiatura es'8 d4 c8 b \appoggiatura d c4 b8 a
+    b4 b2 r4 %85
+    r8 a a a a4 r
+    R1*8 %94
+    c8([ a)] f r c'[( a)] f r %95
+    a1
+    b4 r r2
+    R1*2
+    b2\f a %100
+    b4 d2 es4
+    f d2 es4
+    f8 r d r es r a, r
+    b r b b g g a a
+    b4-\critnote r d,2\ffE %105
+    fis a
+    b4 r r a
+    g r r g
+    g r r fis
+    g8 b d b g g b g %110
+    d4 r r2
+    R1*3
+    g'1~\p %115
+    g
+    R
+    r2 fis,\f
+    g b4 g
+    fis r r2 %120
+    R1*4
+    r8 c\f g' es c c' es c %125
+    as4 r as r
+    as r r2
+    as4 r r2
+    r es\f
+    d4 r r2 %130
+    R1*2
+    r4 g\f fis g
+    fis8 fis fis fis fis4 r
+    R1*5 %139
+    r2 g4\fE r %140
+    r2 g4 r
+    r b c a
+    d8 r g r es r a, r
+    g4 r es2\p
+    d f! %145
+    es4 r r2
+    es2 es
+    es d
+    es4 r g2\f
+    f c' %150
+    b4 r c2
+    b b
+    b a
+    b4 b2 b4
+    g2 f %155
+    f r
+    R1
+    r8 d d d d4 r
+    R1*18 %176
+    es'4\f es2 f4
+    g es2 f4
+    g c, c h
+    c r r2 %180
+    R1*8 %188
+    r4 r8 e,\f f es' d c
+    b4 b2\p b4~ %190
+    b r r2
+    R1*7 %198
+    es1\p
+    a, %200
+    b4 r r2
+    r8 a a a a4 r
+    R1*4 %206
+    r4 d,2\f es4
+    f2\p c'
+    b b
+    d a %210
+    b4 r r2
+    R1*2
+    c8([ a]) f r c'[( a)] f r
+    a1 %215
+    b4 r r2
+    R1
+    r4 d,\f d8 d' f d
+    b2 c
+    b b %220
+    d a
+    b4 d2 es4
+    f d2 es4
+    f8 r d r es r a, r
+    b r b b g g a a %225
+    b4 d,\p es c
+    d r r2\fermata \bar "|." %227 finis
   }
 }

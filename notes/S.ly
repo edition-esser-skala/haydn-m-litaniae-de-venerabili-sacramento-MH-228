@@ -186,10 +186,230 @@ PanisSoprano = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \autoBeamOff \tempoPanis
-    
+    \mvTr b'2\fE^\tuttiE d
+    f4 f f f
+    f es2 d4
+    g8([ c,)] c4 f8([ a,)] a4
+    b8([ f)] f4 d'4. c8 %5
+    b([ a)] g([ f)] f4( es)
+    d r r2
+    R1*13 %20
+    \mvTr b'1~\pE^\solo
+    b4 f2 g4
+    \appoggiatura f8 es4. es8 es4 r
+    c'2( f8[ es)] d([ c)]
+    \appoggiatura cis d4 d r2 %25
+    g,2 es'
+    a, f'
+    \appoggiatura g8 f4 es8([ d)] \appoggiatura f es4 d8([ c)]
+    \tuplet 3/2 4 { d([ c b)] } b4 r b
+    \appoggiatura g'8 f4 f f f %30
+    \appoggiatura g16 f8([ es16 d)] d4 r2
+    r4 b2 b4
+    b( g'4. d8) es([ h)]
+    c4. es8 \appoggiatura d c4 d8([ b)]
+    b4 a r2 %35
+    c8([ a)] c([ a)] f'([ c)] f c
+    a'8. e16 f4 r2
+    b,2. g8 f
+    f8. e16 e4 r c'8 b
+    a4( f'2) h,4 %40
+    c c r g~
+    g8[ b] b4.( a8) a4~
+    a8[ d] d4.( c8) c4~
+    c8[ a d b] a4 g
+    f r c' c %45
+    f16[ e f c] a4~ a16[ c b a] b[ c d e]
+    f[ e f c] a[ c b a] d[ e f e] \appoggiatura g f8[ e16 d]
+    c8[ a' g f] e[ f e d]
+    c4 \appoggiatura b16 a8[( g16 f]) g2\trill
+    f4 r r2 %50
+    R1*4
+    f'1~ %55
+    f4 a,2 d4
+    \appoggiatura c b2 b4 b8 b
+    b4( g'2) b,8 b
+    \appoggiatura b a4 a r2
+    \once \tieDashed g'1~ %60
+    g4 b,2 es4
+    \appoggiatura d c2 c
+    es d4( c)
+    h8. h16 h4 r h8 h
+    c4( g'2) f4 %65
+    f es r a,8 a
+    b4( f' es) d
+    d c r2
+    f4 f2 f8 f
+    \appoggiatura g f4.( \grace es16 d8) \appoggiatura c8 b4 r %70
+    es es2 c8 b
+    \appoggiatura b a4 a r2
+    b4( e2) f4
+    b,( e2) f4
+    a,( ges'2) ges4 %75
+    f8([ des)] es([ c)] b4( \grace des8 c4)
+    b r r2
+    r4 f2 f'4
+    \appoggiatura g16 f8([ es16 d!)] d4 r2
+    R1 %80
+    es,2 es'
+    a,! f'
+    \appoggiatura g8 f4 es8([ d)] \appoggiatura f es4 d8([ c)]
+    \appoggiatura g' f4 es8([ d)] \appoggiatura f es4 d8([ c)]
+    f4( fis g) b, %85
+    \appoggiatura b16 a8([ g16 f)] f4 r c'~
+    c8[ es] es4.( d8) d4~
+    d8[ g] g4.( f8) f4~
+    f8[ d g es] d4 c
+    b r f' f %90
+    f1~
+    f16[ es f d] b8 r f'16[ es d c] b[ a g f]
+    g[ b a b] g8 r g'16[ f es d] c[ b a g]
+    a[ c b c] a8 r a16[ c b d] c[ es d f]
+    es[ d es c] a8 r es'16[ d es c] a8 r %95
+    es'16[ f g f] es[ f g f] es[ d c b] a[ g f es]
+    d4 f' g, g'
+    d2 c
+    d8([ g)] f([ es)] d([ b')] a([ g)]
+    f4 \appoggiatura es16 d8[ c16 b] c2 %100
+    b4 r r2
+    R1*5 %106
+    \mvTr g2\fE^\tutti a
+    b es
+    d2.( c8.) c16
+    b4 r r2 %110
+    R1*35 %145
+    \mvTr es,2\p^\tutti f
+    g c
+    b2.( as4)
+    g r r2
+    R1 %150
+    b2\f c
+    d g
+    f2.( es4)
+    d r r2
+    g8([ c,)] c4 f8([ a,)] a4 %155
+    b8([ f)] f4 d'4. c8
+    b([ a)] g([ f)] f4( es)
+    d r r2
+    R1*60 %218
+    \mvTr b'2\fE^\tutti c
+    d g %220
+    f2.( es4)
+    d r r2
+    R1*4 %226
+    R1\fermata \bar "|." %227 finis
   }
 }
 
 PanisSopranoLyrics = \lyricmode {
+  Pa -- nis
+  vi -- vus, qui de
+  coe -- lo, de
+  coe -- lo de -- scen --
+  di -- sti, mi -- se -- %5
+  re -- re no --
+  bis.
 
+  De -- %21
+  us ab --
+  scon -- di -- tus
+  et __ sal --
+  va -- tor, %25
+  mi -- se --
+  re -- re,
+  mi -- se -- re -- re
+  no -- bis, fru --
+  men -- tum e -- le -- %30
+  cto -- rum,
+  mi -- se --
+  re -- re,
+  mi -- se -- re -- re
+  no -- bis, %35
+  vi -- num ger -- mi -- nans
+  vir -- gi -- nes,
+  ger -- mi -- nans
+  vir -- gi -- nes, mi -- se --
+  re -- re %40
+  no -- bis, mi --
+  se -- re --
+  re __ no --
+  _ _
+  bis, mi -- se -- %45
+  re -- _ _
+  _ _ _ _
+  _ _
+  _ re __ no --
+  bis. %50
+
+  Pa -- %55
+  _ nis
+  pin -- guis et de --
+  li -- ci -- ae
+  re -- gum,
+  iu -- %60
+  _ ge,
+  iu -- ge
+  sa -- cri --
+  fi -- ci -- um, mi -- se --
+  re -- re %65
+  no -- bis, mi -- se --
+  re -- re
+  no -- bis,
+  ob -- la -- ti -- o
+  mun -- da, %70
+  ob -- la -- ti -- o
+  mun -- da,
+  mi -- se --
+  re -- re,
+  mi -- se -- %75
+  re -- re no --
+  bis,
+  mi -- se --
+  re -- re,
+  %80
+  mi -- se --
+  re -- re,
+  mi -- se -- re -- re
+  no -- bis, mi -- se --
+  re -- re %85
+  no -- bis, mi --
+  se -- re --
+  re __ no --
+  _ _
+  bis, mi -- se -- %90
+  re --
+  _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _ %95
+  _ _ _ _
+  _ _ _ re
+  no -- bis,
+  mi -- se -- re -- re
+  no -- _ _ %100
+  bis.
+
+  A -- gnus %107
+  abs -- que
+  ma -- cu --
+  la. %110
+
+  Ver -- bum %146
+  ca -- ro
+  fa --
+  ctum,
+  %150
+  ver -- bum
+  ca -- ro
+  fa --
+  ctum,
+  ha -- bi -- tans in %155
+  no -- bis, mi -- se --
+  re -- re no --
+  bis.
+
+  Mi -- se -- %219
+  re -- re %220
+  no --
+  bis. %222 finis
 }

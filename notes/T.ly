@@ -187,10 +187,188 @@ PanisTenore = {
   \relative c' {
     \clef "treble_8"
     \key b \major \time 4/4 \autoBeamOff \tempoPanis
-    
+    \mvTr d2\fE^\tuttiE b
+    c4 c c c
+    b b2 b4
+    c c c c
+    b b b4. b8 %5
+    b4 f f2
+    f4 r r2
+    R1*99 %106
+    \mvTr b2\fE^\tutti a
+    d c
+    b( a4) a
+    g r r2 %110
+    R1*35 %145
+    \mvTr g2\p^\tutti f
+    es2. as4
+    g2( f)
+    es4 r r2
+    R1 %150
+    d'2\f c
+    f es
+    d( c)
+    b4 r r2
+    c4. c8 c4 c %155
+    b b b4. b8
+    b4 f f2
+    f4 r r2
+    r4 \mvTr f'2\pE^\solo f8 f
+    \appoggiatura g16 f8([ es16 d)] d4 r2 %160
+    r4 b2 b4
+    b( g'4. d8) es([ h)]
+    c4. es8 \appoggiatura d c4 d8([ b)]
+    b4 a r2
+    c c %165
+    des2. des4
+    f( des2) c4
+    h h r2
+    c4.( es8) d4.( f8)
+    es4 d g4. h,8 %170
+    c( es4 c8 d f4) d8
+    es4 d r d~
+    d8[ f] f4.( es8) es4~
+    es8[ as] as4.( g8) g4~
+    g8[ es] c([ g)] as([ f)] f'([ d)] %175
+    c2( d)\trill
+    c4 r r2
+    R1*2
+    r4 g' \appoggiatura f8 es4 \appoggiatura d8 c4 %180
+    \appoggiatura b8 as4 as as as
+    as( f'2) as,4
+    as g r b
+    es2. es8 es
+    g8. d16 es4 r es8 g %185
+    f2 a,!
+    r4 b2 f'4
+    f( es2) d4
+    d c r f,
+    b1~ %190
+    b4 d2 g4
+    \appoggiatura f es2 es4 r
+    c2 f8([ es)] d([ c)]
+    cis4. d8 d4 r
+    g,2 es' %195
+    a, \once \tieDashed f'~
+    f4 es8 d \appoggiatura f es4 d8([ c)]
+    \tuplet 3/2 4 { d([ c b)] } b4 r2
+    g es'
+    a, \once \tieDashed f'~ %200
+    f4 fis g  b,
+    \appoggiatura b16 a8([ g16 f)] f4 r c'~
+    c8[ es] es4.( d8) d4~
+    d8[ g] g4.( f8) f4~
+    f8[ d] d([ b)] g'([ es)] es([ c)] %205
+    b2( c)
+    b4 r r2
+    b c
+    d g
+    f2.( es4) %210
+    d r d d
+    g16[ f g es] c4. d8[ es e]
+    f16[ e? f d] b4. d8[ f d]
+    es16[ d es c] a8 r es'16[ d es c] a8 r
+    es'16[ f g f] es[ f g f] es[ d c b] a[ g f es] %215
+    d4 f' g, g'
+    b,2( c)\trill
+    b4 r r2
+    \mvTr d\fE^\tutti c
+    f es %220
+    d( c)
+    b4 r r2
+    R1*4 %226
+    R1\fermata \bar "|." %227 finis
   }
 }
 
 PanisTenoreLyrics = \lyricmode {
+  Pa -- nis
+  vi -- vus, qui de
+  coe -- lo, de
+  coe -- lo de -- scen --
+  di -- sti, mi -- se -- %5
+  re -- re no --
+  bis.
 
+  A -- gnus %107
+  abs -- que
+  ma -- cu --
+  la. %110
+
+  Ver -- bum %146
+  ca -- ro
+  fa --
+  ctum,
+  %150
+  ver -- bum
+  ca -- ro
+  fa --
+  ctum,
+  ha -- bi -- tans in %155
+  no -- bis, mi -- se --
+  re -- re no --
+  bis.
+  Ho -- sti -- a
+  san -- cta, %160
+  mi -- se --
+  re -- re,
+  mi -- se -- re -- re
+  no -- bis,
+  ca -- lix %165
+  be -- ne --
+  di -- cti --
+  o -- nis,
+  mi -- se --
+  re -- re, mi -- se -- %170
+  re -- re
+  no -- bis, mi --
+  se -- re --
+  re, __ mi --
+  se -- re -- re %175
+  no --
+  bis,
+
+  my -- steri -- um_fi -- %180
+  de -- i, mi -- se --
+  re -- re
+  no -- bis, my --
+  ste -- ri -- um
+  fi -- de -- i, mi -- se -- %185
+  re -- re,
+  mi -- se --
+  re -- re
+  no -- bis, prae --
+  cel -- %190
+  sum, prae --
+  cel -- sum
+  et ve -- ne --
+  ra -- bi -- le,
+  ve -- ne -- %195
+  ra -- _
+  bi -- le Sa -- cra --
+  men -- tum,
+  mi -- se --
+  re -- _ %200
+  _ _ re
+  no -- bis, mi --
+  se -- re --
+  re, __ mi --
+  se -- re -- re %205
+  no --
+  bis,
+  mi -- se --
+  re -- re
+  no -- %210
+  bis, mi -- se --
+  re -- _ _
+  _ _ _
+  _ _ _ _
+  _ _ _ _ %215
+  _ _ _ re
+  no --
+  bis,
+  mi -- se --
+  re -- re %220
+  no --
+  bis. %222 finis
 }

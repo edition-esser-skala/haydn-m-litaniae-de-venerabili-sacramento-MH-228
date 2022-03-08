@@ -106,6 +106,130 @@ PanisCornoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoPanis
-    
+    g'4\fE c8 c c4 r
+    \pa g g8 g g4 \pd r
+    c r c r
+    r \pao d d d
+    c c8 c c4 r %5
+    g2 g4 g
+    g r r2
+    r4 r8 \pa g g g g g \pd
+    g4 r r2
+    r4 r8 \pa c, c c c c %10
+    c4 \pd r r2
+    R1
+    r8 d' d d d4 r
+    R1*3 %16
+    c4\fE r8 g e'4 d
+    c r8 g e'4 d
+    c r r2
+    r r4 d %20
+    c r r2
+    R1*7 %28
+    r8 g\p g g g4 r
+    R1*5 %34
+    r4 g g r %35
+    g1
+    g4 r \pao g r
+    R1
+    d'4 r d r
+    R1 %40
+    r4 \pa d d \pd r
+    R1*7 %48
+    \pao d4\f r \pao d r
+    d r r2 %50
+    d4 r r2
+    d4 r r2
+    R1
+    g4 r8 g \pa e4 d \pd
+    d r r2 %55
+    R1*13 %68
+    c1\p
+    c4\f r c r %70
+    R1
+    \pao g4\f r \pao g r
+    R1*4 %76
+    \pa c4\f c,8. c16 c4 \pd r
+    r r8 \pa g'\p g g g g \pd
+    g4\f \pa c,8. c16 c4 \pd r
+    r r8 \pa c c c c c %80
+    c4 \pd r r2
+    \pao g'4\p r r2
+    R1*3 %85
+    r8 d' d d d4 r
+    R1*8 %94
+    g,4 r g r %95
+    g1
+    g4 r r2
+    R1*2
+    \pao g4\f r \pao g r %100
+    c r8 g e'4 d
+    c r8 g e' e d d
+    c4 r r2
+    r r4 d
+    c r r2 %105
+    r e,8\ffE e e e
+    e4 r r e
+    e r r2
+    r4 e e8 e e e
+    e4 r r2 %110
+    e1~\p
+    e~
+    e
+    e2 r
+    R1*3 %117
+    r2 e\f
+    e4 r r c'
+    e r r2 %120
+    R1*13 %133
+    r8 \pa e,\fE e e e4 \pd r
+    R1*5 %139
+    e4\fE r r2 %140
+    e4 r r2
+    e4 r r2
+    r r4 \pao e
+    e r r2
+    R1 %145
+    c2\p c
+    c r
+    c c4 c
+    c r r2
+    r g'4\f g8 g %150
+    g4 r r8 \pa g g g \pd
+    g4 r r8 c c c
+    \pao g4 r r8 f' f f
+    e c c c c4 r
+    r \pao d d d %155
+    c c8 c c4 r
+    g2 g4 g
+    g8 g g g g4 r
+    R1*18 %176
+    \pao d'4\f r r2
+    \pao d4 r r2
+    R1*11 %189
+    c4\fE r r2 %190
+    R1*11 %201
+    r8 d\pE d d d4 r
+    R1*4 %206
+    r4 r8 \pao g,\f e' e d d
+    c2\p d
+    e4 c2 c4
+    g1 %210
+    \pao c,4 r r2
+    R1*2
+    g'4 r g r
+    g1 %215
+    g4 r r2
+    R1
+    r8 \pa e\f g e c c' c c \pd
+    c2 d
+    e4 c2 c4 %220
+    g2 g4 g
+    g r8 g e'4 d
+    c r8 g e' e d d
+    c4 r r2
+    r r4 d %225
+    c r \pao c,\p r
+    \pao c r r2\fermata \bar "|." %227 finis
   }
 }

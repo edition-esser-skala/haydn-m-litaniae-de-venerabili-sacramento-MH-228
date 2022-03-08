@@ -185,10 +185,132 @@ PanisAlto = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \autoBeamOff \tempoPanis
-    
+    \mvTr f2\fE^\tuttiE f
+    f4 f f f
+    g2 b4 b
+    g g a8([ f)] f4
+    f8([ b,)] b4 f'4. es8 %5
+    d([ f)] es([ d)] d4( c)
+    b4 r r2
+    R1*99 %106
+    \mvTr d2\fE^\tutti d
+    g g
+    g( fis4.) fis8
+    g4 r r2 %110
+    \mvTr a2\pE^\solo \appoggiatura g8 fis4 \appoggiatura e8 d4
+    d'4. b8 g4 r
+    c b8([ a)] \appoggiatura b a4 g8([ fis)]
+    d'4.( b8) g4 r
+    es2 d4 g8([ d)] %115
+    es4. es8 d2
+    c4. c'8 c4 b
+    b a r2
+    R1
+    r4 d, \once \tieDashed f!2~ %120
+    f8[ as] as g \once \tieDashed f2~
+    f8[ as] as([ g)] \appoggiatura g f4 as8 f
+    es8.([ f16)] g4 c4. g8
+    g([ as g as] g[ as)] g([ f)]
+    \appoggiatura f es8([ d16 c)] c4 r2 %125
+    as' as
+    as8([ c es d]) c[( b)] as([ g)]
+    as([ c es d] c[ b)] as([ g)]
+    \appoggiatura g fis4 fis r2
+    g a! %130
+    b d
+    b8[ g c a] g4 \appoggiatura b8 a4
+    g4 r r2
+    r r4 a~
+    a8[ c] c4.( b8) b4~ %135
+    b8[ es] es4.( d8) d4~
+    d8[ f,!] f([ as)] g[ f es d]
+    es4 es'2 \appoggiatura d16 c8([ b16 a)]
+    g2( a)\trill
+    g4 r r2 %140
+    R1*5 %145
+    \mvTr b,2\p^\tutti b
+    b4( es2) es4
+    es2( d)
+    es4 r r2
+    R1 %150
+    f2\f f
+    b b
+    b( a)
+    b4 r r2
+    g4. g8 a([ f)] f4 %155
+    f8([ b,)] b4 f'4. es8
+    d([ f)] es([ d)] d4( c)
+    b r r2
+    R1*60 %218
+    \mvTr f'2\fE^\tutti f
+    b b %220
+    b( a)
+    b4 r r2
+    R1*4 %226
+    R1\fermata \bar "|." %227 finis
   }
 }
 
 PanisAltoLyrics = \lyricmode {
+  Pa -- nis
+  vi -- vus, qui de
+  coe -- lo, de
+  coe -- lo de -- scen --
+  di -- sti, mi -- se -- %5
+  re -- re no --
+  bis.
 
+  A -- gnus %107
+  abs -- que
+  ma -- cu --
+  la. %110
+  Men -- sa pu --
+  ris -- si -- ma,
+  an -- ge -- lo -- rum
+  e -- sca,
+  man -- na ab -- %115
+  scon -- di -- tum,
+  mi -- se -- re -- re
+  no -- bis,
+
+  me -- mo -- %120
+  ri -- a mi --
+  ra -- bi -- li -- um
+  De -- i, mi -- se --
+  re -- re
+  no -- bis, %125
+  pa -- nis
+  su -- per -- sub --
+  stan -- ti --
+  a -- lis,
+  mi -- se -- %130
+  re -- re
+  no -- _ _
+  bis,
+  mi --
+  se -- re -- %135
+  re, __ mi --
+  se -- re --
+  _ _ re __
+  no --
+  bis. %140
+
+  Ver -- bum %146
+  ca -- ro
+  fa --
+  ctum,
+  %150
+  ver -- bum
+  ca -- ro
+  fa --
+  ctum,
+  ha -- bi -- tans in %155
+  no -- bis, mi -- se --
+  re -- re no --
+  bis.
+
+  Mi -- se -- %219
+  re -- re %220
+  no --
+  bis. %222 finis
 }
