@@ -85,9 +85,89 @@
   %     \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Panis vivus"
+  %   \addTocLabel "panis"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \PanisOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \PanisOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
+  %           % \transpose c b,
+  %           \partCombine \PanisCornoI \PanisCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \PanisViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \PanisViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \PanisViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \PanisSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \PanisSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \PanisAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \PanisAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \PanisTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \PanisTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \PanisBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \PanisBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \PanisOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \PanisBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Panis vivus"
-    \addTocLabel "Panis"
+    \section "3" "Sacrificium"
+    \addTocLabel "sacrificium"
     \score {
       <<
         \new StaffGroup <<
@@ -95,19 +175,19 @@
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \PanisOboeI
+              \SacrificiumOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \PanisOboeII
+              \SacrificiumOboeII
             }
           >>
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
-            % \transpose c b,
-            \partCombine \PanisCornoI \PanisCornoII
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
+            % \transpose c es
+            \partCombine \SacrificiumCornoI \SacrificiumCornoII
           >>
         >>
         \new StaffGroup <<
@@ -115,54 +195,54 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "2"
-              \PanisViolinoI
+              \SacrificiumViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "1"
-              \PanisViolinoII
+              \SacrificiumViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \PanisViola
+            \SacrificiumViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \PanisSoprano }
+            \new Voice = "Soprano" { \dynamicUp \SacrificiumSoprano }
           }
-          \new Lyrics \lyricsto Soprano \PanisSopranoLyrics
+          \new Lyrics \lyricsto Soprano \SacrificiumSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \PanisAlto }
+            \new Voice = "Alto" { \dynamicUp \SacrificiumAlto }
           }
-          \new Lyrics \lyricsto Alto \PanisAltoLyrics
+          \new Lyrics \lyricsto Alto \SacrificiumAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \PanisTenore }
+            \new Voice = "Tenore" { \dynamicUp \SacrificiumTenore }
           }
-          \new Lyrics \lyricsto Tenore \PanisTenoreLyrics
+          \new Lyrics \lyricsto Tenore \SacrificiumTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \PanisBasso }
+            \new Voice = "Basso" { \dynamicUp \SacrificiumBasso }
           }
-          \new Lyrics \lyricsto Basso \PanisBassoLyrics
+          \new Lyrics \lyricsto Basso \SacrificiumBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \PanisOrgano
+            \SacrificiumOrgano
           }
         >>
-        \new FiguredBass { \PanisBassFigures }
+        \new FiguredBass { \SacrificiumBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 110 }
+      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) } }
+      \midi { \tempo 4 = 45 }
     }
   }
 }

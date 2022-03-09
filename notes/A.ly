@@ -314,3 +314,52 @@ PanisAltoLyrics = \lyricmode {
   no --
   bis. %222 finis
 }
+
+SacrificiumAlto = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoSacrificium
+    r2 r8 \mvTr as'4\f^\tutti f8
+    f8. f16 f4 r8 d4 d8
+    es8. es16 es4 es8. es16 es8 es
+    es8. d16 d4 f8. f16 f8 f
+    f8. e16 e4 e4. e8 %5
+    f4. f8 f4( e)
+    f r r2
+    r4 f8 c r4 as'8 as
+    r as as as16 as ges8. ges16 ges8 ges
+    ges f r as as as r4 %10
+    r2 as4\p ges
+    f des8 r des4 c!8([ h)]
+    c4 c8 r r2
+    c'4\f des c as
+    r8 as([\p g!)] fis g4 g %15
+    r g8\f g a g r4
+    a8 d, r4 d4.\p g,8
+    es'4 f es2
+    d8[ es d c] d2
+    R1\fermata \bar "||" %20 finis
+  }
+}
+
+SacrificiumAltoLyrics = \lyricmode {
+  Sa -- cri --
+  fi -- ci -- um, sa -- cri --
+  fi -- ci -- um o -- mni -- um san --
+  ctis -- si -- mum, o -- mni -- um san --
+  ctis -- si -- mum, mi -- se -- %5
+  re -- re no --
+  bis.
+  Ve -- re, ve -- re
+  pro -- pi -- ti -- a -- to -- ri -- um pro
+  vi -- vis, pro vi -- vis %10
+  et de --
+  fun -- ctis, et de --
+  fun -- ctis,
+  et de -- fun -- ctis,
+  et __ de -- fun -- ctis, %15
+  mi -- se -- re -- re
+  no -- bis, mi -- se --
+  re -- re no --
+  _ bis. %19 finis
+}

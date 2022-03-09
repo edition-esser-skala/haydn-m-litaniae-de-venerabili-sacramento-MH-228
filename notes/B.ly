@@ -255,3 +255,52 @@ PanisBassoLyrics = \lyricmode {
   no --
   bis. %222 finis
 }
+
+SacrificiumBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoSacrificium
+    \mvTr h4\f^\tutti h h8. h16 h4
+    r b8 b b8. b16 b4
+    b8. b16 b4 a8. a16 a8 a
+    b8. b16 b4 b8. b16 h8 h
+    c8. c16 c4 b4. b8 %5
+    as4 b c2
+    f,4 r r2
+    r4 f'8 f r4 f8 f
+    r f f f16 f ges8. ges16 ges8 ges
+    es! f r f c des r4 %10
+    des8.([\p c16)] des8.([ c16)] des2~
+    des1
+    c2 as8.([\f g16)] as8.([ g16)]
+    as1~
+    as2\p g! %15
+    r4 g'8\f g fis g r4
+    fis8 g r4 g,\p h
+    c h c2
+    g1
+    R\fermata \bar "||" %20 finis
+  }
+}
+
+SacrificiumBassoLyrics = \lyricmode {
+  Sa -- cri -- fi -- ci -- um,
+  sa -- cri -- fi -- ci -- um
+  o -- mni -- um, o -- mni -- um san --
+  ctis -- si -- mum, o -- mni -- um san --
+  ctis -- si -- mum, mi -- se -- %5
+  re -- re no --
+  bis.
+  Ve -- re, ve -- re
+  pro -- pi -- ti -- a -- to -- ri -- um pro
+  vi -- vis, pro vi -- vis %10
+  et __ de -- fun --
+
+  ctis, et __ de --
+  fun --
+  ctis, %15
+  mi -- se -- re -- re
+  no -- bis, mi -- se --
+  re -- re no --
+  bis. %19 finis
+}

@@ -233,3 +233,16 @@ PanisCornoI = {
     \pao c r r2\fermata \bar "|." %227 finis
   }
 }
+
+SacrificiumCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSacrificium
+    R1*15 %15
+    \pao e'4\fE r r e
+    r e8 e e4 r
+    R1
+    r2 \pao e,8\p r \pao e r
+    \pao e2 r\fermata \bar "||" %20 finis
+  }
+}

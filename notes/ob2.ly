@@ -280,3 +280,19 @@ PanisOboeII = {
     d r r2\fermata \bar "|." %227 finis
   }
 }
+
+SacrificiumOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoSacrificium
+    R1*6 %6
+    r4 as'\fE g e
+    f r r2
+    R1*7 %15
+    h4\fE r r h
+    r h8 h h4 r
+    r2 g8(\p as g fis)
+    g2 g8 r h r
+    h2 r\fermata \bar "||" %20 finis
+  }
+}

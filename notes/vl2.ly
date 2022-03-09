@@ -359,3 +359,29 @@ PanisViolinoII = {
     d4 r r2\fermata \bar "|." %227 finins
   }
 }
+
+SacrificiumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoSacrificium
+    r2 r8 as'4\f f8
+    f4 f r8 d4 d8
+    es es es es es es es es
+    es es d d f f f f
+    f f e e e e e e %5
+    f f f f f f e e
+    as32( f) c-! c-! as([ c) f-! f]-! c'( as) f-! f-! as,([ c) f-! f]-! des'( b) g-! g-! b,([ des) g-! g]-! b( g) e-! e-! g,([ b) e-! e]-!
+    as( f) c-! c-! as([ c) f-! f]-! c'( as) f-! f-! c([ f) as-! as]-! f'( des) as-! as-! f([ as) des-! des]-! f( des) as-! as-! f([ as) des-! des]-!
+    as8 as as as ges ges ges ges
+    ges f as32( f) des des des([ f) as as] es'8 des r4 %10
+    des32([\p as) f f] des( f) as as des([ as) f f] des( f) as as as8 as ges ges
+    f f des des des des c! h
+    c8. as16 g8 r as''32[(\f es!) c c] as( c) es es as([ es) c c] as( c) es es
+    c8 c des des c c as as
+    as,\p as' g! fis g4 g %15
+    h32(\f g) d d d([ g) h h] h( g) d d d([ g) h h] c8 h h32([ g) d d] d( g) h h
+    c8 h \slurDashed g'32([ d) h h] h( d) g g \slurSolid g,,4 r
+    R1*2
+    R1\fermata \bar "||" %20 finis
+  }
+}

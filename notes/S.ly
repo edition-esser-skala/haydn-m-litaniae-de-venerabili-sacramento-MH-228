@@ -413,3 +413,52 @@ PanisSopranoLyrics = \lyricmode {
   no --
   bis. %222 finis
 }
+
+SacrificiumSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoSacrificium
+    r2 r8 \mvTr f'4\f^\tutti as,8
+    as8. as16 as4 r8 f'4 as,8
+    ges8. ges16 ges4 ges8. ges16 ges8 ges
+    ges8. f16 f4 b8. as16 as8 as
+    as8. g16 g4 des'4. des8 %5
+    c4. b8 as4( g)
+    f r r2
+    c'8 f, r4 f'8 des r des
+    ces4. ces16 ces ces8. b16 b8 b
+    c des r as ges' f r4 %10
+    r2 ces4\p b
+    as( ges) f f8 f
+    f4 e8 r r2
+    ges'?4\f f es( des)
+    c8 c4\p c8 c4 h %15
+    r h8\f h c h r4
+    es8 d r4 g,\p g
+    g8( as4) g8 g([ as g fis)]
+    g1
+    R\fermata \bar "||" %20 finis
+  }
+}
+
+SacrificiumSopranoLyrics = \lyricmode {
+  Sa -- cri --
+  fi -- ci -- um, sa -- cri --
+  fi -- ci -- um o -- mni -- um san --
+  ctis -- si -- mum, o -- mni -- um san --
+  ctis -- si -- mum, mi -- se -- %5
+  re -- re no --
+  bis.
+  Ve -- re, ve -- re pro --
+  pi -- ti -- a -- to -- ri -- um pro
+  vi -- vis, pro vi -- vis %10
+  et de --
+  fun -- ctis, et de --
+  fun -- ctis,
+  et de -- fun --
+  ctis, et de -- fun -- ctis, %15
+  mi -- se -- re -- re
+  no -- bis, mi -- se --
+  re -- re no --
+  bis. %19 finis
+}

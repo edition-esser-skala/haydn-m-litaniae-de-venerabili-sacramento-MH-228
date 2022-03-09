@@ -127,7 +127,7 @@ PanisOboeI = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoPanis
-    \pa b''4\fE f8 f f4 r
+    b''4\fE f8 f f4 r
     f f8 f f4 f
     f es2 d4
     g8 c, c4 f8 a, a4
@@ -277,5 +277,21 @@ PanisOboeI = {
     f r d d es es c c %225
     b4 f\p g a
     b r r2\fermata \bar "|." %227 finis
+  }
+}
+
+SacrificiumOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoSacrificium
+    R1*6 %6
+    r4 c'\fE b g
+    f r r2
+    R1*7 %15
+    d'4\fE r r d
+    r d8 d d4 r
+    r2 g8(\p as g fis)
+    g2 g8 r d r
+    d2 r\fermata \bar "||" %20 finis
   }
 }

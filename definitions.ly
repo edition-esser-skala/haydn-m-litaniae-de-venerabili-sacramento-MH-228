@@ -8,6 +8,7 @@
 
 tempoKyrie = \tempoMarkup "Adagio con sordino"
 tempoPanis = \tempoMarkup "Allegro spirituoso"
+tempoSacrificium = \tempoMarkup "Largo"
 
 
 \include "notes/ob1.ly"

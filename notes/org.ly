@@ -716,3 +716,53 @@ PanisBassFigures = \figuremode {
   r <6 4>4 <7 \t>
   <8 [3]>1 %227 finis
 }
+
+SacrificiumOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoSacrificium
+    \mvTr h4\f-\tuttiE-! h-! h h
+    r b8-! b-! b4 b
+    b8 b b b a a a a
+    b b b b b b h h
+    c c c c b b b b %5
+    as as b b c c c c
+    f, f' as, f' b, b' c, c'
+    f, f f f f f f f
+    f f f f ges ges ges ges
+    es! f r f c des r4 %10
+    des8.(\p c16) des8.( c16) des8 des des des
+    des des des des des des des des
+    c4 c8 r as8.(\f g!16) as8.( g16)
+    as8 as as as as as as as
+    as\p as as as g!2 %15
+    r4 g'8\f g fis g r4
+    fis8( g) r4 g,\p h
+    c h c2
+    g g8 r g r
+    g2 r\fermata \bar "||" %20 finis
+  }
+}
+
+SacrificiumBassFigures = \figuremode {
+  r2 <7>
+  r <7>
+  <6- 4> <7->
+  <6- 4>4 <[5] _!>2 <7>4
+  <6 4>4 <[5!] _!> <4! _->2 %5
+  <6>4 <9 _->8 <8 \t> <6 4>4 <[5] _!>
+  r <6> <6 _-> <[7 _!]>
+  r2 <6->
+  <7-- 5-> <6-- 4->4 <5- 3>
+  <6! _->8 <6-> r <\t> <6 5-> <3>4. %10
+  r2 <7->4 <[6 4-]>
+  <7-> <6 4-> <3> <7!>8 <6!>
+  <6 4>4 <[5] _!>2.
+  <7->4 <6- 4> <7-> <6- 4>
+  <3> <7!>8 <6\\> <6 4>4 <[5!] _!> %15
+  r <[_!]> <7- [_!]>8 <_!>4.
+  <7 [_!]>8 <_!>4. \bo <[_!]>4 \bc <[6]>
+  <5>8 <6> <7> <6> <5 3>8 \bassFigureExtendersOn <6 3> <5 3> <[4+] 3> \bassFigureExtendersOff
+  <5 _!> <6 4> <5 _!> <4 2!> <_!>2
+  <\t>1 %20 finis
+}

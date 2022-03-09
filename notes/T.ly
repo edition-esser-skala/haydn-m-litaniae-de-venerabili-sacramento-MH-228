@@ -372,3 +372,52 @@ PanisTenoreLyrics = \lyricmode {
   no --
   bis. %222 finis
 }
+
+SacrificiumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 4/4 \autoBeamOff \tempoSacrificium
+    r2 r8 \mvTr d4\f^\tutti d8
+    d8. d16 d4 r8 f,4 b8
+    b8. b16 b4 c8. c16 c8 c
+    b8. b16 b4 d8. d16 d8 d
+    c8. c16 c4 g4. g8 %5
+    as4 des c2
+    c4 r r2
+    r4 as8 as r4 des8 des
+    r eses eses eses16 eses eses8. des16 des8 des
+    as as r des es des r4 %10
+    r2 f,4\p ges
+    ces( b) as as8 as
+    as4 g8 r r2
+    es'!4\f des ges( f)
+    es8 es4\p es8 es4 d %15
+    r d8\f d es d r4
+    c8 h r4 h\p d
+    c d c2
+    h8[ c h a] h2
+    R1\fermata \bar "||" %20 finis
+  }
+}
+
+SacrificiumTenoreLyrics = \lyricmode {
+  Sa -- cri --
+  fi -- ci -- um, sa -- cri --
+  fi -- ci -- um o -- mni -- um san --
+  ctis -- si -- mum, o -- mni -- um san --
+  ctis -- si -- mum, mi -- se -- %5
+  re -- re no --
+  bis.
+  Ve -- re, ve -- re
+  pro -- pi -- ti -- a -- to -- ri -- um pro
+  vi -- vis, pro vi -- vis %10
+  et de --
+  fun -- ctis, et de --
+  fun -- ctis,
+  et de -- fun --
+  ctis, et de -- fun -- ctis, %15
+  mi -- se -- re -- re
+  no -- bis, mi -- se --
+  re -- re no --
+  _ bis. %19 finis
+}
