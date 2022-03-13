@@ -384,3 +384,166 @@ SacrificiumViola = {
     g,2 r\fermata \bar "||" %20 finis
   }
 }
+
+CoelesteViolaIII = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 3/4 \tempoCoeleste
+    \partial 4 r4 es\fE r8 as g f
+    es4 r8 as g f
+    es4 r8 g, f es
+    d4 g g
+    g r8 g g g %5
+    g4 r8 g g g
+    g4 r8 c d es
+    f( d) es4 r8 c
+    f( d) es4 r8 c
+    as as g g g g %10
+    g4 r r
+    r8 f\p es( as) g( h)
+    c4 r r
+    c r8 es, d c
+    f4 g g %15
+    g r8 g g g
+    g4 r8 h h d
+    g,4 r r
+    g g g
+    g r r %20
+    r8 c16-!\f c-! c8\p c c c
+    r f16\f f f8 f f f
+    r b,16-! b-! b8\p b b b
+    r es16\f es es8 es es es
+    r c16 c c8 c c c %25
+    r b16 b b8 b b b
+    ces ces ces ces ces ces
+    b4 b b
+    b r r
+    r r8 es\p es es %30
+    e e e e e e
+    f4 f, as
+    b r r
+    R2.
+    r4 r8 es es es %35
+    es4 r8 c' c c
+    c4( b) r
+    R2.*4 %41
+    r8 as\f as as as as
+    f f f f b,\p b
+    b4 r r
+    R2. %45
+    g4\f r8 as g f
+    es4 r8 as g f
+    es4 r8 g f es
+    es c' d f f, b
+    b4 r8 b as g %50
+    f4 r8 d' b d
+    es4 r8 g es g
+    as as b b b, b
+    es4 g\p d
+    es r r %55
+    b r r
+    R2.
+    b4 b8 g'(\f b des)
+    f,4( e) r
+    f\p as e %60
+    f r r
+    c r r
+    c2 c4
+    c r8 g'(\f e c)
+    b g\p g g g g %65
+    g4 as8 c'\f as g
+    fis( a,)\p a a a a
+    d4 r g,
+    c as! fis
+    g\f r r %70
+    g r r
+    g c as
+    g'8 g, g' f es d
+    c g'\p g g g g
+    g4 r r %75
+    c,\f r8 es,\pE d c
+    f4 g g
+    g r8 g g g
+    g4 r8 h h d
+    g,4 r r %80
+    g g g
+    g r8 g' g g
+    g2.
+    g4. h,8 h d
+    g,2 r4 %85
+    r g g
+    g r r
+    c,8\fE c' c\p c c c
+    r f16\f f f8 f f f
+    r b,16 b b8\p b b b %90
+    r es16\f es es8 es es es
+    as as as as es es
+    es2 c8 c
+    as as f' f es es
+    es4 es r %95
+    as,\pE r r
+    as r es
+    es r r
+    R2.
+    r4 r8 as\f as as %100
+    g g g4 r
+    R2.
+    es'4\p r g,
+    es8 as16\f g as8 as as4
+    r8 c'16 as des8 des, des des' %105
+    r b16 g! c8 c, c c'
+    r a16 f b8 b, b b'
+    r g16 es as8 as d,! d
+    es4 es, r
+    R2. %110
+    es8\pE es' es es f f
+    g2 e4
+    c c8 c16\f c c8 c
+    c4 c r
+    r8 f,\p f f es! es %115
+    d!2 r4
+    R2.
+    r8 g'16\f g g8 g, g g'
+    r8. c,16 c'4 h
+    r8. c,16 c'4 h %120
+    r8. g16 g4 a
+    g g, r
+    R2.*4 %126
+    r8 d'\f d d d d
+    d4 d2\p
+    g,4 r r
+    R2. %130
+    r4 r8 c\f d es
+    f( d) es4 r8 c
+    f( d) es4 r
+    des8\fp des des des des des
+    c\fp c c c c c %135
+    es!\fp es es es es es
+    a,\fp a a a a a
+    h4\f r r
+    r r h\pp
+    c as' g %140
+    fis( g) r
+    r8 h,\f h d f d
+    as'4 r r
+    R2.
+    r8 d, d d d\ff d %145
+    d2 r4\fermata
+    R2.*5 %151
+    r8 as\pE as(\crescE g) as( g)
+    as4 r fis\mfE
+    g r r
+    es\fE r8 as' g f %155
+    es4 r8 as g f
+    es4 r8 g, f es
+    d4 g g
+    g r8 g g g
+    g4 r8 g g g %160
+    g4 r8 c d es
+    f( d) es4 r8 c
+    f( d) es4 r8 c
+    as as g g g g
+    c,4 r r %165
+    c r r\fermata \bar "|." %166 finis
+  }
+}

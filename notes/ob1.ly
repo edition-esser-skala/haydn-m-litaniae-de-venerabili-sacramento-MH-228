@@ -295,3 +295,126 @@ SacrificiumOboeI = {
     d2 r\fermata \bar "||" %20 finis
   }
 }
+
+CoelesteOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoCoeleste
+    \partial 4 r4 R2.
+    c'4\fE r r
+    c r r
+    R2.
+    es %5
+    f
+    es4. es8 f g
+    as( h,) c4 r8 g'
+    as( h,) c4 r8 es
+    d8.( es32 f) es4 d %10
+    c r r
+    R2.
+    c4\p r r
+    c r r
+    R2. %15
+    es
+    f
+    es2 r4
+    R2.*2 %20
+    g2.\f
+    g8 c, c2
+    f2.
+    f8 b, b2
+    es2 a,4 %25
+    b b b
+    ges'2 a,4
+    b b b
+    b r r
+    R2.*17 %46
+    es4\fE r r
+    es r r
+    R2.
+    b'2.~ %50
+    b~
+    b2 es,4
+    c8 as g4 f
+    es r r
+    R2.*3 %57
+    r4 r8 g(\f b des)
+    f,4( e) r
+    R2.*10 %69
+    d'2.\f %70
+    es
+    f8. d16 es4 c
+    h r r
+    r8 c,\p c c c c
+    c4 r r %75
+    c'\f r r
+    R2.
+    es\pE
+    f
+    es2 r4 %80
+    R2.
+    r4 r8 d g f
+    es4 r r
+    f r r
+    es r r %85
+    f2 es4
+    es d r
+    g8\f g16 g g8\p g g g
+    g\f c, c[ c c c]
+    f f16 f f8\p f f f %90
+    f\f b, b4 es
+    des2 des4
+    des c es
+    des2 des4
+    des c r %95
+    R2.*4
+    r4 r r8. des16\f %100
+    des2 r4
+    R2.*2
+    r4 r8 as'16\fE as as8 as
+    ges4 f8 f16 f f8 f %105
+    f4 es8 es16 es es8 es
+    es4 des8 des16 des des8 des
+    des4 c8 c16 c c4
+    c b8 b b b
+    b4 r r %110
+    R2.*2
+    r4 r8 c,16\f c c8 c
+    c4 c r
+    R2.*3 %117
+    r4 r8 d'16\fE d d8 d
+    g4 fis r8. g16
+    g4 fis r8. g16 %120
+    f4 es es
+    es d r
+    R2.*8 %130
+    r4 r8 c\f c c
+    as'( h,) c4 r8 g'
+    as( h,) c4 r
+    R2.*4 %137
+    f,2.~\p
+    f
+    es\ppE %140
+    es'4( d) r
+    as'2.~\f
+    as\p
+    as~
+    as4 as as\ff %145
+    as2 r4\fermata
+    R2.*6 %152
+    r4 r es~\f
+    es d2\trill
+    c4 r r %155
+    c r r
+    c r r
+    R2.
+    es
+    f %160
+    es4. es8 f g
+    as( h,) c4 r8 g'
+    as( h,) c4 r8 es
+    d8.( es32 f) es4 d
+    c c, c %165
+    c r r\fermata \bar "|." %166 finis
+  }
+}

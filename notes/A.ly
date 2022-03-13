@@ -363,3 +363,86 @@ SacrificiumAltoLyrics = \lyricmode {
   re -- re no --
   _ bis. %19 finis
 }
+
+CoelesteAlto = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \autoBeamOff \tempoCoeleste
+    \partial 4 r4 R2.*20 %20
+    r4 r r8 \mvTr g'\fE^\tutti
+    f4 f r
+    r r r8 f
+    es4 es g8 g
+    es4. es8 es c %25
+    f8. f16 f4 f8 f
+    es2 ges8([ es)]
+    f4 f r
+    R2.*59 %87
+    r4 r r8 \mvTr es\fE^\tutti
+    f4 f r
+    r r r8 as %90
+    g([ es)] es4 g8 g
+    f4 f8 f es b'
+    b4 as g8 g
+    as2 b4
+    b as r %95
+    R2.*4
+    r4 r r8. \mvTr b16\fE^\tuttiE %100
+    b4 b, r
+    R2.*3
+    r8. \mvTr as'16\fE^\tutti as4 as %105
+    r8 g! g8. g16 g4
+    f8 f f4 f
+    r8. es16 es4 as8 as
+    as8. g16 g4 r
+    R2.*3
+    r4 r r8. \mvTr e16\fE^\tutti
+    f4 e r
+    R2.*4
+    r8. \mvTr c'16\fE^\tutti a4 g
+    r8. c16 a4 g
+    r8. g16 g4 a8 a
+    g8. g16 g4 r
+    R2.*23 %145
+    r2 r4\fermata
+    R2.*19 %165
+    R2.\fermata \bar "|." %166 finis
+  }
+}
+
+CoelesteAltoLyrics = \lyricmode {
+  Stu -- %21
+  pen -- dum,
+  stu --
+  pen -- dum su -- pra
+  o -- mni -- a mi -- %25
+  ra -- cu -- la, mi -- se --
+  re -- re
+  no -- bis.
+
+  Tre -- %88
+  men -- dum,
+  tre -- %90
+  men -- dum ac vi --
+  vi -- fi -- cum Sa -- cra --
+  men -- tum, mi -- se --
+  re -- re
+  no -- bis. %95
+
+  Stu -- %100
+  pen -- dum,
+
+  tre -- men -- dum, %105
+  vi -- vi -- fi -- cum
+  Sa -- cra -- men -- tum,
+  tre -- men -- dum mi --
+  ra -- cu -- lum.
+
+  Stu -- %113
+  pen -- dum,
+
+  tre -- men -- dum, %119
+  stu -- pen -- dum, %120
+  tre -- men -- dum mi --
+  ra -- cu -- lum. %122 finis
+}

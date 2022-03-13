@@ -304,3 +304,288 @@ SacrificiumBassoLyrics = \lyricmode {
   re -- re no --
   bis. %19 finis
 }
+
+CoelesteBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/4 \autoBeamOff \tempoCoeleste
+    \partial 4 r4 R2.*10 %10
+    r4 r \mvTr g'\pE^\solo
+    c c c
+    es8. h16 c8 c c c
+    es8.([ h16)] c4 c,8 c
+    as'4. as8 g f %15
+    es8.([ d16)] c4 r
+    g'2.
+    g
+    h,4( f') es
+    es d r8 g %20
+    es4 c r8 \mvTr c\fE^\tutti
+    f4 f r8 \mvTr as\pE^\solo
+    as4 b,! r8 \mvTr d\fE^\tutti
+    es4 es es8 es
+    c4. c8 c c %25
+    b8. b16 b4 b8 b
+    ces2 ces4
+    b b r
+    \mvTr b'4.(\pE^\solo c!8) b([ as!)]
+    \appoggiatura b16 as8. g16 g4 g %30
+    c c8 des c b
+    \appoggiatura b as4 as8 g f es!
+    d8. c16 b4 r
+    es es es
+    a a es'~ %35
+    es8 c es([ c)] b([ a)]
+    a8. b16 b4 r
+    R2.
+    f2 as8([ f)]
+    \appoggiatura es d4 d r %40
+    f2 as8([ f)]
+    \appoggiatura es d4 d r
+    c'2 b8([ as)]
+    g2 es'4~
+    es f,2 %45
+    es4 r r
+    R2.*7 %53
+    b'4 b b
+    b8([ g)] g4. b8 %55
+    b8. f16 f4. g8
+    as8([ b)] c([ as)] f([ es)]
+    d8.([ es32 f)] es4 r
+    R2.
+    c'4 c c %60
+    c8([ as] as4.) c8
+    c8. g16 g2
+    c,4( b') as
+    as g r
+    b,( des') des %65
+    e, f r
+    fis( es') es
+    d( h) f
+    f( es2)\trill
+    d4 r r %70
+    R2.*3
+    c'2 c4
+    es8 h c4 c8 c %75
+    es8. h16 c4 c,8 c
+    as'4. as8 g f
+    es8. d16 c4 r
+    g'2.
+    g %80
+    h,4( f') es
+    es d r
+    g2~ g8 g
+    g4 g g
+    g c es %85
+    d f, es
+    es d r8 g
+    es4 c r8 \mvTr c\fE^\tutti
+    f4 f r8 \mvTr as\pE^\solo
+    as4 b,! r8 \mvTr d\fE^\tutti %90
+    es4 es es8 es
+    f4 f8 f g g
+    as4 as es8 es
+    f2 g4
+    as as, r %95
+    \mvTr as2.~\pE^\solo
+    as4 as as
+    as( c') c
+    c2 \appoggiatura b16 as8 \appoggiatura g16 f8
+    \appoggiatura es des?4 des r8. \mvTr as16\fE^\tutti %100
+    g4 g r
+    \mvTr b'2.~\pE^\solo
+    b4 c des
+    des c r
+    r8. \mvTr c16\fE^\tuttiE des4 des, %105
+    r8 b' c8. c,16 c4
+    a'8 a b4 b,
+    r8. g'16 as4 d,!8 d
+    es8. es16 es4 r
+    \mvTr b'2\pE^\solo b4 %110
+    b g f
+    e8([ g b des)] c b
+    as4 g r8. \mvTr c,16\fE^\tutti
+    f4 c r
+    \mvTr c'2\pE^\solo c4 %115
+    c fis, es'~
+    es d c
+    c h r
+    r8. \mvTr c,16\fE^\tutti c'4 h
+    r8. c,16 c'4 h %120
+    r8. h16 c4 fis,8 fis
+    g8. g,16 g4 r
+    R2.
+    \mvTr f'!2\pE^\solo f'8([ d)]
+    \appoggiatura c h4 h r %125
+    f2 f'8([ d)]
+    \appoggiatura c h4 h r
+    as2 as4
+    g8[( es' d h c g)]
+    as([ f)] g2 %130
+    c,4 r r
+    R2.*2
+    e2.
+    f %135
+    fis
+    es'
+    d4( f,) as
+    d,( f) h,
+    c as' g %140
+    fis g r
+    R2.
+    f!2 f'8([ d)]
+    \appoggiatura c h4 h r
+    f2 f'8([ d)] %145
+    \appoggiatura c h2 h4\fermata
+    c2 c4
+    es8([ h)] c2
+    es8([ h)] c4 r
+    c,2. %150
+    c
+    c~
+    c4 c' fis,
+    g( d'2)
+    c4 r r %155
+    R2.*10 %165
+    R2.\fermata \bar "|." %166 finis
+  }
+}
+
+CoelesteBassoLyrics = \lyricmode {
+  Coe -- %11
+  le -- ste an --
+  ti -- do -- tum, quo a pec --
+  ca -- tis, a pec --
+  ca -- tis prae -- ser -- %15
+  va -- mur,
+  mi --
+  se --
+  re -- re
+  no -- bis. Stu -- %20
+  pen -- dum, stu --
+  pen -- dum, stu --
+  pen -- dum, stu --
+  pen -- dum su -- pra
+  o -- mni -- a mi -- %25
+  ra -- cu -- la, mi -- se --
+  re -- re
+  no -- bis.
+  Sa -- cra --
+  tis -- si -- ma do -- %30
+  mi -- ni -- cae pas -- si --
+  o -- nis com -- me -- mo --
+  ra -- ti -- o,
+  do -- num trans --
+  cen -- dens o -- %35
+  mnem ple -- ni --
+  tu -- di -- nem,
+
+  mi -- se --
+  re -- re, %40
+  mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re __
+  no -- %45
+  bis.
+
+  Me -- mo -- ri -- %54
+  a -- le prae -- %55
+  ci -- pu -- um di --
+  vi -- ni a --
+  mo -- ris,
+
+  di -- vi -- nae %60
+  af -- flu --
+  en -- ti -- a
+  lar -- gi --
+  ta -- tis,
+  mi -- se -- %65
+  re -- re,
+  mi -- se --
+  re -- re
+  no --
+  bis. %70
+
+  Sa -- cro -- %74
+  san -- ctum et au -- gu -- %75
+  stis -- si -- mum, au -- gu --
+  stis -- si -- mum my --
+  ste -- ri -- um,
+  mi --
+  se -- %80
+  re -- re
+  no -- bis,
+  phar -- ma --
+  cum im -- mor --
+  ta -- _ _ %85
+  _ _ li --
+  ta -- tis, tre --
+  men -- dum, tre --
+  men -- dum, tre --
+  men -- dum, tre -- %90
+  men -- dum ac vi --
+  vi -- fi -- cum Sa -- cra --
+  men -- tum, mi -- se --
+  re -- re
+  no -- bis. %95
+  Pa --
+  nis o --
+  mni -- po --
+  ten -- ti -- a
+  ver -- bi, stu -- %100
+  pen -- dum,
+  ca --
+  _ ro
+  fac -- tus,
+  tre -- men -- dum, %105
+  vi -- vi -- fi -- cum
+  Sa -- cra -- men -- tum,
+  tre -- men -- dum mi --
+  ra -- cu -- lum,
+  pa -- nis %110
+  o -- mni -- po --
+  ten -- ti -- a
+  ver -- bi, stu --
+  pen -- dum,
+  pa -- nis %115
+  ca -- ro, ca --
+  _ ro
+  fac -- tus,
+  tre -- men -- dum,
+  stu -- pen -- dum, %120
+  tre -- men -- dum mi --
+  ra -- cu -- lum,
+
+  mi -- se --
+  re -- re, %125
+  mi -- se --
+  re -- re,
+  mi -- se --
+  re --
+  re no -- %130
+  bis,
+
+  mi -- %134
+  se -- %135
+  re --
+  re,
+  mi -- se --
+  re -- re
+  no -- _ _ %140
+  _ bis,
+
+  mi -- se --
+  re -- re,
+  mi -- se -- %145
+  re -- re,
+  mi -- se --
+  re -- re
+  no -- bis,
+  mi -- %150
+  se --
+  re --
+  _ re
+  no --
+  bis. %155 finis
+}

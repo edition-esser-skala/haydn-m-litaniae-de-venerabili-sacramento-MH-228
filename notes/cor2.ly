@@ -246,3 +246,102 @@ SacrificiumCornoII = {
     e2 r\fermata \bar "||" %20 finis
   }
 }
+
+CoelesteCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCoeleste
+    \partial 4 r4 R2.
+    c'4\fE r r
+    c r r
+    R2.
+    r4 e, e %5
+    e2.~
+    e2 r4
+    R2.*2
+    r4 e e %10
+    e r r
+    R2.
+    c'4\p r r
+    c r r
+    R2. %15
+    r4 e, e
+    e2.~
+    e2 r4
+    R2.*3 %21
+    r8 d'16\f d d8 d d d
+    r g,16 g g8\p g g g
+    r c,16\f c c8 c c c
+    r c16 c c8 c c c %25
+    g' g16 g g8 g g g
+    r c,16 c c8 c c c
+    g'4 g g
+    g r r
+    R2.*17 %46
+    c4\fE r r
+    c r r
+    R2.
+    c, %50
+    g'
+    c
+    r4 c8 c g g
+    e4 r r
+    R2.*15 %69
+    e2.~\f %70
+    e~
+    e4 r r
+    e r r
+    r e'\p e
+    c r r %75
+    c\f r r
+    R2.
+    r4 e, e
+    e2.~
+    e2 r4 %80
+    R2.
+    r4 r8 e e e
+    e4 r r
+    e r r
+    e r r %85
+    e2.~
+    e8 e16 e e4 r
+    r8 c'16\f c c8\p c c c
+    r d16\fE d d8 d d d
+    r g,16 g g8\p g g g %90
+    r c,16\f c c8 c c c
+    r4 r c'
+    c2 r4
+    r r c8. c16
+    c2 r4 %95
+    R2.*5 %100
+    c,8.\f c16 c4 r
+    R2.*2
+    r4 r8 c'16\fE c c8 c
+    c4 r r %105
+    R2.*2
+    r4 r d
+    c8. c,16 c8 c c c
+    c4 r r %110
+    R2.*7 %117
+    r8 e16\fE e e8 e e4
+    r8. c'16 c4 e
+    r8. c16 c4 e %120
+    R2.
+    e,8. e16 e4 r
+    R2.*17 %139
+    e4\ppE r r %140
+    R2.*5 %145
+    r2 r4\fermata
+    R2.*9 %155
+    c'4\fE r r
+    c r r
+    R2.
+    r4 e, e
+    e2.~ %160
+    e2 r4
+    R2.*2
+    r4 e e
+    r c c %165
+    c r r\fermata \bar "|." %166 finis
+  }
+}

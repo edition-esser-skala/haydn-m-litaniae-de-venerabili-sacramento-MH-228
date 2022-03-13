@@ -384,3 +384,176 @@ SacrificiumViolinoI = {
     R1\fermata \bar "||" %20 finis
   }
 }
+
+CoelesteViolaI = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 3/4 \tempoCoeleste
+    \partial 4 g'4\fE c8.(\trill h32 c)] c8 c c c
+    es8. g,16 c8 c c c
+    es16( g,) \once \slurDashed es'( h) c8 c, c c
+    as'16 g f es d c h as g f es d
+    es c' g es c8 es' es8.(\trill d32 c) %5
+    d16 g d h g8 f' f8.(\trill es32 d)
+    es16 g es c g8 g' \appoggiatura f16 es8 d16 c
+    h d f as g es' d c h( c) es,( g)
+    h, d f as g es' d c h( c) es,( g)
+    as f es d g es d c d,8 h' %10
+    c16\p g' es c g es' c g es c' g es
+    c4 r r
+    es''8. g,16 c8 c c c
+    es16( g,) es'( h) c8 c c c
+    d,2 f4 %15
+    es16 c g es c8 es' es8.(\trill d32 c)
+    d16 g d h g8 f' f8.(\trill es32 d)
+    es16 g es c g8 g' \appoggiatura f16 es8 d16 c
+    h8 d f4 es
+    es d8 h' c d %20
+    r es16-!\f es-! es8\p es es es
+    as,,16\f c f as c b as g f g as f
+    b,8 as'16-! as-! as8\p as as as
+    g,16\f b es g b as g f es f g es
+    a, b c d es a c a es' a, c a %25
+    b c d c b a g f es d c b
+    a es' es es es ges ges ges ges a a a
+    b b f d b f' d b f d' b f
+    d4 r f'8\p d
+    es4 r8 b' b( h) %30
+    c4.( des8) c b
+    \appoggiatura b as4 as c
+    b r8 d, f b
+    a! a es\fp a a a
+    a a c,\fp c' c c %35
+    c c a,\fp es'' es es
+    es4( d) r
+    f,,2\f c''4
+    \appoggiatura es, d2 r4
+    f,2\p as'8 f %40
+    \appoggiatura es4 d2 r4
+    f,2\f c''4
+    c2 b8\p as
+    g16( as) f( g) es( f) d( es) c( es) b( es)
+    c es g es b8 es' b, d' %45
+    es,8.(\trill\f d32 es) es8 es es es
+    g8. b,16 es8 es es es
+    \slurDashed g16( b,) g'( d) \slurSolid es8 b' b b
+    c16 b as g f es d c b as g f
+    g es' b g es8 es' es8.(\trill d32 es) %50
+    f16 as f b, d,8 f' f8.(\trill es32 f)
+    g16 b g es g,8 b' b8.(\trill as32 b)
+    c16 es c as g es d es f,8 d'
+    es, b'\p es( g) f( as)
+    g4 r8 b b b %55
+    b4 r8 b f g
+    as4 c2
+    d,4 es8 g(\f b des)
+    f,4( e) r
+    as,8(\p c) f( as) g( b) %60
+    as4 r8 c c c
+    c4 r8 c c( h)
+    b2 as4
+    as g8 g(\f e c)
+    b des'\p des des des des %65
+    des4 c8 c\f as g
+    fis( es'!)\p es es es es
+    d( f,) f f f f
+    f( d) es es es es
+    d8.(\f g,16) d'8 g g g %70
+    es8.( g,16) es'8 g g g
+    d'16 h g f es d c h c d es f
+    g4 r g\p
+    c8.(\trill h32 c) c8 c c c
+    es8.(\f h16) c8 c c c %75
+    es16( g,) es'( h) c8 c\pE c c
+    d,2 f4
+    es16 c g es c8 es' es8.(\trill d32 c)
+    d16 g d h g8 f' f8.(\trill es32 d)
+    es16 g es c g8 g' \appoggiatura f16 es8 d16 c %80
+    h8 d f4 es
+    es d8 h' c d
+    es16 c g es c8 es' es8.(\trill d32 es)
+    f16 d h g g,8 f' f8.(\trill es32 d)
+    es16 g es c c,8 g'' \appoggiatura f16 es8 d16 c %85
+    h8 g'16( f) f4 es
+    es d8 h'16 g c g d' g,
+    es'8^\critnote es16\f es es8\p es es es
+    as,,16\f c f as c c c c c c c c
+    d,8^\critnote f'16 f f8\p f f f %90
+    g,,16\f b es g b^\critnote es es es es es es es
+    f, as des des des des des des es, b' des des
+    des b des b c as es c c' es es es
+    f, as des des f, as des des es, b' des des
+    des b des b c as es c as c as es %95
+    c8(\p es) as( c) es( ges)
+    f( des) des'( b) g( b)
+    as( c) c c c c
+    c8( es,) es4. f8
+    \appoggiatura es des4 des8\f es16 f g as b c %100
+    des b des b des b g es des c b as
+    g8 b'\p b b b b
+    b( des) c( es) es,( des')
+    des4(\f c16) as g f es des c b
+    as as' as as as f' f f f f f f %105
+    g, f' f f g, es' es es es es es es
+    f, es' es es f, des' des des des des des des
+    es, des' des des es, c' c c c c c c
+    c4 b16 es, d! c b as g f
+    es8 g'\p g g g g %110
+    g b b b b b
+    b4.( des8) c b
+    as4 g8 c16\f c c8 g
+    as4 g16 h, c des c b as g
+    f8 c''\p c c c c %115
+    c es! es es es4~\f
+    es\p d! c
+    c h16\f g fis g h g fis g
+    \kneeBeam g,8. g''16 fis4 g
+    r8. g16 fis4 g %120
+    r8. f16 es4 es
+    es d r
+    f,,2 as'4
+    \appoggiatura c, h2 r4
+    f2\p as'4 %125
+    \appoggiatura c, h2 r4
+    f2\f as'4
+    as2.\p
+    g4 h c~
+    c8 f es4( d) %130
+    c8 g\f \appoggiatura as16 g8 f16 es \appoggiatura f es8 d16 c
+    h d f as g es' d c h( c) es,( g)
+    h, d f as g es' d c h( c) es,( g)
+    g,8 b'\p b b b b
+    as\fp as as as as as %135
+    a\fp a a a a a
+    es'\fp es es es es es
+    d\f d f,!\p f as! as
+    d, d f f h, h
+    c c(\pp as') as( g) g( %140
+    fis) fis( g4) r
+    f,!2\f as'4
+    \appoggiatura c, h2 r4
+    f2\pE as'4
+    \appoggiatura c, h2 h8\ff as' %145
+    as2 r4\fermata
+    c,,8\p c' b!16( c) as( b) g( as) f( g)
+    es4 r8 as' g16( as) f( g)
+    es4 r8 as, g16( as) f( g)
+    es8( g) c16(\pp d) h( d)^\critnote c( d) h( d) %150
+    c( es) d( f) es( f) d( f) es( f) d( f)
+    es( c) es( c) as(\cresc b!) g( b) as( b) g( b)
+    as4 as'-!\mf c-!
+    g, r g'\f
+    c8.(\trill h32 c) c8 c c c %155
+    es8. g,16 c8 c c c
+    es16( g,) es'( h) c8 c, c c
+    as'16 g f es d c h as g f es d
+    es c' g es c8 es' es8.(\trill d32 c)
+    d16 g d h g8 f' f8.(\trill es32 d) %160
+    es16 g es c g8 g' \appoggiatura f16 es8 d16 c
+    h16 d f as g es' d c h( c) es,( g)
+    h, d f as g es' d c h c es, g
+    as f es d g es d c d,8 h'
+    c16 g' es c g es' c g es c' g es %165
+    c4 r r\fermata \bar "|." %166 finis
+  }
+}

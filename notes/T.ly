@@ -421,3 +421,86 @@ SacrificiumTenoreLyrics = \lyricmode {
   re -- re no --
   _ bis. %19 finis
 }
+
+CoelesteTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 3/4 \autoBeamOff \tempoCoeleste
+    \partial 4 r4 R2.*20 %20
+    r4 r r8 \mvTr c\fE^\tutti
+    c4 c r
+    r r r8 b
+    b4 b b8 b
+    a4. es'8 es es %25
+    d8. d16 d4 d8 d
+    a2 es'4
+    d d r
+    R2.*59 %87
+    r4 r r8 \mvTr c\fE^\tutti
+    c4 c r
+    r r r8 b %90
+    b4 b b8 b
+    as4 as8 as es' es
+    es4 es c8 c
+    as4( f') es
+    es es r %95
+    R2.*4
+    r4 r r8. \mvTr f,16\fE^\tutti %100
+    es4 es r
+    R2.*3
+    r8. \mvTr es'16\fE^\tutti des4 des %105
+    r8 des c8. c16 c4
+    c8 c b4 b
+    r8. b16 as4 f'8 f
+    es8. es16 es4 r
+    R2.*3 %112
+    r4 r r8. \mvTr c16\fE^\tutti
+    c4 c r
+    R2.*4 %118
+    r8. \mvTr es16\fE^\tutti es4 d
+    r8. es16 es4 d %120
+    r8. d16 c4 c8 c
+    c8. h16 h4 r
+    R2.*23 %145
+    r2 r4\fermata
+    R2.*19 %165
+    R2.\fermata \bar "|." %166 finis
+  }
+}
+
+CoelesteTenoreLyrics = \lyricmode {
+  Stu -- %21
+  pen -- dum,
+  stu --
+  pen -- dum su -- pra
+  o -- mni -- a mi -- %25
+  ra -- cu -- la, mi -- se --
+  re -- re
+  no -- bis.
+
+  Tre -- %88
+  men -- dum,
+  tre -- %90
+  men -- dum ac vi --
+  vi -- fi -- cum Sa -- cra --
+  men -- tum, mi -- se --
+  re -- re
+  no -- bis. %95
+
+  Stu -- %100
+  pen -- dum,
+
+  tre -- men -- dum, %105
+  vi -- vi -- fi -- cum
+  Sa -- cra -- men -- tum,
+  tre -- men -- dum mi --
+  ra -- cu -- lum.
+
+  Stu -- %113
+  pen -- dum,
+
+  tre -- men -- dum, %119
+  stu -- pen -- dum, %120
+  tre -- men -- dum mi --
+  ra -- cu -- lum. %122 finis
+}

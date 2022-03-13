@@ -462,3 +462,90 @@ SacrificiumSopranoLyrics = \lyricmode {
   re -- re no --
   bis. %19 finis
 }
+
+CoelesteSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \autoBeamOff \tempoCoeleste
+    \partial 4 r4 R2.*20 %20
+    r4 r r8 \mvTr g''\fE^\tutti
+    g([ as,)] as4 r
+    r r r8 f'
+    f([ g,)] g4 b8 b
+    es4. a,8 a a %25
+    b8. b16 b4 b8 b
+    ges'2 a,4
+    b b r
+    R2.*59 %87
+    r4 r r8 \mvTr g'\fE^\tutti
+    g([ as,)] as4 r
+    r r r8 f' %90
+    f([ g,)] g4 es'8 es
+    des4 des8 des des des
+    des4 c es8 es
+    des2 des4
+    des c r %95
+    R2.*4
+    r4 r r8. \mvTr des16\fE^\tutti %100
+    des4 des, r
+    R2.*2
+    r4 r r8. \mvTr as'16\fE^\tutti
+    ges'4 f r8 f %105
+    f8. f16 es4 es8 es
+    es4 des r8. des16
+    des4 c c
+    c8. b16 b4 r
+    R2.*3 %112
+    r4 r r8. \mvTr g16\fE^\tutti
+    as4 g r
+    R2.*3 %117
+    r4 r r8. \mvTr g16\fE^\tutti
+    g'4 fis r8. d16
+    g4 fis r8. d16 %120
+    f4 es es
+    es8. d16 d4 r
+    R2.*23 %145
+    r2 r4\fermata
+    R2.*19 %165
+    R2.\fermata \bar "|." %166 finis
+  }
+}
+
+CoelesteSopranoLyrics = \lyricmode {
+  Stu -- %21
+  pen -- dum,
+  stu --
+  pen -- dum su -- pra
+  o -- mni -- a mi -- %25
+  ra -- cu -- la, mi -- se --
+  re -- re
+  no -- bis.
+
+  Tre -- %88
+  men -- dum,
+  tre -- %90
+  men -- dum ac vi --
+  vi -- fi -- cum Sa -- cra --
+  men -- tum, mi -- se --
+  re -- re
+  no -- bis. %95
+
+  Stu -- %100
+  pen -- dum,
+
+  tre -- %104
+  men -- dum, vi -- %105
+  vi -- fi -- cum Sa -- cra --
+  men -- tum, tre --
+  men -- dum mi --
+  ra -- cu -- lum.
+
+  Stu -- %113
+  pen -- dum,
+
+  tre -- %118
+  men -- dum, stu --
+  pen -- dum, tre -- %120
+  men -- dum mi --
+  ra -- cu -- lum. %122 finis
+}
