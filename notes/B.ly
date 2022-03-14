@@ -772,3 +772,34 @@ IncruentumBassoLyrics = \lyricmode {
   no --
   bis. %128 finis
 }
+
+ViaticumBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoViaticum
+    r4 \mvTr es\fE^\tutti h8. h16 c8 r
+    R1
+    r2 r4 c'\pE
+    fis,8. fis16 g8 r r2
+    R1 %5
+    g2 fis8. fis16 f4
+    e8 e es8. es16 d2
+    r4 cis8\fE cis d d r4
+    es4. es8 d4 d
+    cis2\pE d %10
+    R1\fermata \bar "||" %11 finis
+  }
+}
+
+ViaticumBassoLyrics = \lyricmode {
+  Vi -- a -- ti -- cum,
+
+  vi --
+  a -- ti -- cum
+
+  in Do -- mi -- no %6
+  mo -- ri -- en -- ti -- um,
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis. %10 finis
+}

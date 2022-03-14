@@ -691,3 +691,21 @@ IncruentumViola = {
     b4 r\fermata \bar "|." %135 finis
   }
 }
+
+ViaticumViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 4/4 \tempoViaticum
+    r2 r4 c8\p r
+    f r f r es r es r
+    d r d r c( g') g4
+    R1
+    r2 r4 d %5
+    d8( es8.) es16( d cis) cis8( d8.) d16( f! h,)
+    h8( c4) g8 a2
+    cis8\f r e r d r d r
+    es r es r d r d r
+    cis\p r cis r d d,4 d8~ %10
+    d fis16( a) a( g) d'( g) g4( fis8) r\fermata \bar "||" %11 finis
+  }
+}

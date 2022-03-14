@@ -511,3 +511,21 @@ IncruentumOboeI = {
     es4 r\fermata \bar "|." %135 finis
   }
 }
+
+ViaticumOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoViaticum
+    \pa es'4.\fE g,8 as4 g
+    R1
+    r2 r4 es'\p
+    es d r8 es4 es8
+    r d4 d8 r c4 c8 %5
+    c4 b r2
+    r r4 a'\f
+    a8( b) r b, b( a) a'4~
+    a8( b) r cis, cis( d) r4
+    a2\p a %10
+    r4 r8 g' g4( fis8) r\fermata \bar "||" %11 finis
+  }
+}

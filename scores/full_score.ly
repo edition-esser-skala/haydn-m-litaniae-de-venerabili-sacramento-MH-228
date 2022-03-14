@@ -324,9 +324,89 @@
   %     \midi { \tempo 4 = 85 }
   %   }
   % }
+  % \bookpart {
+  %   \section "5" "Incruentum"
+  %   \addTocLabel "incruentum"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IncruentumOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IncruentumOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
+  %           % \transpose c es
+  %           \partCombine \IncruentumCornoI \IncruentumCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IncruentumViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IncruentumViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \IncruentumViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \IncruentumSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \IncruentumSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \IncruentumAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \IncruentumAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \IncruentumTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \IncruentumTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \IncruentumBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \IncruentumBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \IncruentumOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \IncruentumBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "5" "Incruentum"
-    \addTocLabel "incruentum"
+    \section "5" "Viaticum"
+    \addTocLabel "viaticum"
     \score {
       <<
         \new StaffGroup <<
@@ -334,19 +414,19 @@
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \IncruentumOboeI
+              \ViaticumOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \IncruentumOboeII
+              \ViaticumOboeII
             }
           >>
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
-            % \transpose c es
-            \partCombine \IncruentumCornoI \IncruentumCornoII
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }
+            \transpose c b,
+            \partCombine \ViaticumCornoI \ViaticumCornoII
           >>
         >>
         \new StaffGroup <<
@@ -354,54 +434,54 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \IncruentumViolinoI
+              \ViaticumViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \IncruentumViolinoII
+              \ViaticumViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \IncruentumViola
+            \ViaticumViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \IncruentumSoprano }
+            \new Voice = "Soprano" { \dynamicUp \ViaticumSoprano }
           }
-          \new Lyrics \lyricsto Soprano \IncruentumSopranoLyrics
+          \new Lyrics \lyricsto Soprano \ViaticumSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \IncruentumAlto }
+            \new Voice = "Alto" { \dynamicUp \ViaticumAlto }
           }
-          \new Lyrics \lyricsto Alto \IncruentumAltoLyrics
+          \new Lyrics \lyricsto Alto \ViaticumAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \IncruentumTenore }
+            \new Voice = "Tenore" { \dynamicUp \ViaticumTenore }
           }
-          \new Lyrics \lyricsto Tenore \IncruentumTenoreLyrics
+          \new Lyrics \lyricsto Tenore \ViaticumTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \IncruentumBasso }
+            \new Voice = "Basso" { \dynamicUp \ViaticumBasso }
           }
-          \new Lyrics \lyricsto Basso \IncruentumBassoLyrics
+          \new Lyrics \lyricsto Basso \ViaticumBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \IncruentumOrgano
+            \ViaticumOrgano
           }
         >>
-        \new FiguredBass { \IncruentumBassFigures }
+        \new FiguredBass { \ViaticumBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 65 }
+      \midi { \tempo 4 = 45 }
     }
   }
 }

@@ -660,3 +660,34 @@ IncruentumAltoLyrics = \lyricmode {
   _
   bis. %128 finis
 }
+
+ViaticumAlto = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoViaticum
+    r4 \mvTr es\fE^\tutti f8. f16 es8 r
+    R1
+    r2 r4 g\pE
+    a!8. a16 b!8 r r c16([ g)] b8[ \once \tieDashed a]~
+    a b16 fis fis8( g4) b16([ a)] g8[ fis]~ %5
+    fis g g4 r d~
+    d8[ c] c([ cis)] d8. d16 d4
+    r e8\fE e d d r4
+    r g8 g g( fis4) fis8
+    g2\pE fis %10
+    R1\fermata \bar "||" %11 finis
+  }
+}
+
+ViaticumAltoLyrics = \lyricmode {
+  Vi -- a -- ti -- cum,
+
+  vi --
+  a -- ti -- cum in Do --
+  mi -- no mo -- ri -- en -- %5
+  ti -- um, mo --
+  ri -- en -- ti -- um,
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis. %10 finis
+}

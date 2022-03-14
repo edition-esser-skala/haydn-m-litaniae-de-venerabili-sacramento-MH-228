@@ -11,6 +11,7 @@ tempoPanis = \tempoMarkup "Allegro spirituoso"
 tempoSacrificium = \tempoMarkup "Largo"
 tempoCoeleste = \tempoMarkup "Allegretto"
 tempoIncruentum = \tempoMarkup "Andante"
+tempoViaticum = \tempoMarkup "Grave"
 
 
 \include "notes/ob1.ly"

@@ -422,3 +422,15 @@ IncruentumCornoII = {
     c,4 r\fermata \bar "|." %135 finis
   }
 }
+
+ViaticumCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoViaticum
+    R1*7 %7
+    r2 e4\fE r
+    r2 e4 r
+    r2 e\p %10
+    e e\fermata \bar "||" %11 finis
+  }
+}

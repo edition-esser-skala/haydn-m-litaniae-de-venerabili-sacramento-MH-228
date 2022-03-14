@@ -1388,3 +1388,35 @@ IncruentumBassFigures = \figuremode {
   r2
   r %135 finis
 }
+
+ViaticumOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoViaticum
+    r4 \mvTr es\fE-\tuttiE h c8 r
+    \mvTr f\p-\senzaOrg r b, r es r as? r
+    d, r g r c, r c'4-\colOrg
+    fis, g c,8-\senzaOrg r f r
+    b, r es r a,! r d r %5
+    g, r g' r fis r f r
+    e r es r d r d r
+    cis\f r cis r d r \parOn d-\parenthesize-! r
+    \parOff es!-\parenthesize-! r es r d r d r
+    cis\pE r cis r d r d-\tastoE r %10
+    d r d r d2\fermata \bar "||" %11 finis
+  }
+}
+
+ViaticumBassFigures = \figuremode {
+  r2 <7->
+  r1
+  r
+  <7 [_!]>4 <_->2.
+  r1 %5
+  r
+  r
+  r4 <7 [_!]> <6 4>8 <[5] _+>4.
+  r4 <6\\> <[7+] 6 4>8 <[8 5] _+>4.
+  <6 5 [_!]>2 <_+> %10
+  r1 %11 finis
+}
