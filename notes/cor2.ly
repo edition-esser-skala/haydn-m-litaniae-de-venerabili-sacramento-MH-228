@@ -345,3 +345,80 @@ CoelesteCornoII = {
     c r r\fermata \bar "|." %166 finis
   }
 }
+
+IncruentumCornoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoIncruentum
+    R2*4 %4
+    g'2~\p %5
+    g~
+    g4 r
+    r8 c\f g c,
+    \once \tieDashed g2~\p
+    g~ %10
+    g4 r
+    e'\f r8 g
+    c,4 g'
+    c, r8 c
+    g'4 r %15
+    R2*3
+    r8 g,\p g g
+    g2~ %20
+    g~
+    g4 r
+    R2*16 %38
+    g''4\fz d
+    g, r8 d'\p %40
+    c4 r
+    R2
+    g8\fE r g' d
+    g, r g' d
+    g, g, r4 %45
+    R2
+    d''2\p
+    g,4 r
+    R2*11 %59
+    r8 c\p c c %60
+    c2
+    R2*7 %68
+    c,2~\p
+    c4 r %70
+    R2*4
+    g2~ %75
+    g
+    R2*3
+    r4 g' %80
+    r g
+    R2*8
+    r8 g\f e c %90
+    g2~\p
+    g~
+    g4 r
+    r8 c\f c c
+    c4 r %95
+    R2*3
+    c2~\pE
+    c~ %100
+    c4 r
+    R2*16 %117
+    c'4\sf g'
+    c, r
+    R2 %120
+    c4\f g
+    c, r
+    r8 g\p c e
+    g2
+    g4 r %125
+    g r
+    R2
+    r8 c,\f c c
+    c r c' g
+    c, r c' g %130
+    c, c r4
+    R2
+    g'\p
+    c4 r8 g\f
+    c,4 r\fermata \bar "|." %135 finis
+  }
+}

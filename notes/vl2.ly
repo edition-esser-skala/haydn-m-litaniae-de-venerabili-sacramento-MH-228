@@ -558,3 +558,135 @@ CoelesteViolaII = {
     c4 r r\fermata \bar "|." %166 finis
   }
 }
+
+IncruentumViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key es \major \time 2/4 \tempoIncruentum
+    R2*11 %11
+    es16(\f b') g( es) b( g') as( f)
+    f( es) b( es) d( b) d( f)
+    \tuplet 3/2 8 { es[ f g] b as g f[ as g] f c' es, }
+    es8\trill d d'4~\p %15
+    d16 d32( es) f16 f f8 b,,
+    d( cis) c4~
+    c16 c32( b) a16 a a8 c
+    a16( b) b8 r4
+    b'8.( d16) a( c) f,( a) %20
+    b8.( d16) a( c) f,( a)
+    b8 d, d f
+    f es r g
+    as( f) r d'
+    h c r h %25
+    c g g g
+    f\f \tuplet 3/2 8 { f16 a f } a,8 r
+    r f'\p f f
+    r g g g
+    d4. c8 %30
+    b4 r
+    b'8 b c c
+    f, f f f
+    g4 r8 a
+    f b b a %35
+    b4 r8 b,
+    c b r b
+    c b r16 g'\fz b g
+    b4 c
+    b8( f) r f\p %40
+    g4. a8
+    \tuplet 3/2 8 { b'16[\f b b] b d, b es[ es es] es c a }
+    b8 \tuplet 3/2 8 { f'16 f f f[ d b] es c a' }
+    \tuplet 3/2 8 { b f d b'[ b b] f d b es[ c a'] }
+    \tuplet 3/2 8 { b f d } b'8 r \tuplet 3/2 8 { d,,16\p d d } %45
+    d4(-\critnote es8) \tuplet 3/2 8 { c16 c c }
+    c4 c16.( a32) c16.( a32)
+    b8 b'-!\f g-! des'-!
+    e,-! c'-! r4
+    r8 as\p f g %50
+    \appoggiatura g f4 e8 e
+    f as r g
+    \appoggiatura f e4 f8 as16 f
+    e8 c' c c
+    r c c c %55
+    r c c c
+    c16( b a b) c( es des c)
+    b2~
+    b16 as g as b( des c b)
+    as4. es'8 %60
+    \appoggiatura des c4 b
+    as4. f'8
+    \appoggiatura as, g4 as8( ges)
+    f4. es8
+    \appoggiatura des c4 b8( as'!) %65
+    g! g'4 f8
+    \appoggiatura es d!4 c8\f g16( h,)
+    c8\p g'4 g8~
+    g b(\f des) b\p
+    b4 as8 as~ %70
+    as g(\f b) g\p
+    g4 f8 f~
+    f f(\f as) f\p
+    es16( g) b( es) d( c) b( as)
+    g4 f %75
+    es8 es d16( c) b( as)
+    g8( es') f( d)
+    es g16(\fz b) a( g) f( es)
+    d8( c) d( es)
+    d(\p f) as!( g) %80
+    g( f) as( g)
+    f-!\f as-! g-! f-!
+    es16(\p b') g( es) b( g') as( f)
+    f( es) b( es) d( b) d( f)
+    es( b') b4 as8 %85
+    \appoggiatura g f4 es8 es
+    d4. es8
+    f d4 es8
+    f8. g16 as8 f
+    f es r16 \once \slurDashed b'(\f es g) %90
+    f4~\p f16 d es g,
+    f[ d f'8.]( d16) es( g,)
+    f8 f16 g as8 f
+    g16(\f d es g) b4~
+    b8\p g es g %95
+    b2
+    as8 c f as,
+    as4. as8
+    g8.( b,16) f'( as) d,( f)
+    g8.( b16) \slurDashed f( as) d,( f) \slurSolid %100
+    es8 es g, b
+    b as r c
+    des b r g'
+    e( f) r e
+    f c c f %105
+    f\f \tuplet 3/2 8 { b16 d b } d,8 r
+    r es\p es es
+    r es es es
+    g4. f8
+    es4 r %110
+    es8 es f f
+    b, b b b
+    c4 r8 d
+    b es es d
+    es4 r8 es %115
+    d es r es
+    f es r16 c'(\fz es c)
+    es4 b
+    b~ b16 des c b
+    as(\p g as g) as( b c as) %120
+    \tuplet 3/2 8 { g[\f es' es] es b g as[ as as] as f d' }
+    es8 g,4\p g8~
+    g g4 g8~
+    g es'4 es8~
+    es16 g, g g g g g g %125
+    b, g'8 g16 b, g'8 g16
+    d\f f'8 f16 b,, d8 d16
+    es8 es' g b
+    \tuplet 3/2 8 { es16[ b g] es' es es b[ g es] as f d' }
+    \tuplet 3/2 8 { es[ b g] es' es es b[ g es] as f d' } %130
+    \tuplet 3/2 8 { es b g } es'8 r \tuplet 3/2 8 { g,,16\p g g }
+    g4( as8) \tuplet 3/2 8 { f16 f f }
+    f4 f16.( d32) f16.( d32)
+    es8-!\f es-! as-! as,-!
+    g4 r\fermata \bar "|." %135 finis
+  }
+}

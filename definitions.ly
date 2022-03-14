@@ -10,6 +10,7 @@ tempoKyrie = \tempoMarkup "Adagio con sordino"
 tempoPanis = \tempoMarkup "Allegro spirituoso"
 tempoSacrificium = \tempoMarkup "Largo"
 tempoCoeleste = \tempoMarkup "Allegretto"
+tempoIncruentum = \tempoMarkup "Andante"
 
 
 \include "notes/ob1.ly"

@@ -1108,3 +1108,283 @@ CoelesteBassFigures = \figuremode {
   r2. %165
   r %166 finis
 }
+
+IncruentumOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key es \major \time 2/4 \tempoIncruentum
+    r8 \mvTr es\p-\soloE g d
+    r es b as
+    g g' as f
+    b as g es
+    b4 r %5
+    b r
+    b r8 b
+    es b' g es
+    b4 r
+    b r %10
+    b r8 b
+    es\f es g d
+    r es b as
+    g g' as a
+    b b, r16 b\p d f %15
+    b4 r16 b b, b'
+    f4 r16 f c' a
+    f4 r16 f a, f'
+    b,8 b b b
+    b b b b %20
+    b b' b b
+    b b, r d
+    es es es es
+    d d g, g
+    c c c d %25
+    es es es e
+    f\f f, f' es
+    r d\p d d
+    r es es es
+    r f f fis %30
+    r g\fE g g
+    g,\pE g a a
+    b b b' b
+    es,4 r8 es
+    d g es f %35
+    b b, r g'
+    fis g r g
+    fis g g, r
+    g'\f g a a
+    b b b, b %40
+    es4\p r8 es
+    d\fE g es f
+    b, r b' f
+    b, r b' f
+    b,4 r %45
+    r8 es\p es es
+    r f f f
+    b, b'-!\f g-! des'-!
+    e,-! c'-! r4
+    r8 f,\p as e %50
+    r f c b
+    as f b g
+    c b as f
+    c'4 r
+    c r %55
+    c8 c c c
+    f f f f
+    b, b b b
+    es es es es
+    as, as' c g %60
+    r as es des
+    c as des b
+    es des c c
+    des b es c
+    f es des d %65
+    es c f d
+    g f es\f d
+    c\p c' c c
+    g, g' g g
+    as, as' as as %70
+    es, es' es e
+    f, f' f f
+    d,! d' d d
+    es4 r8 es
+    b' b, r b %75
+    es es, r es'
+    b' b, r b
+    es2\fz
+    f
+    b,4\p r %80
+    b r
+    b'8\f as! g f
+    r es\p g d
+    r es b as
+    g g' as f %85
+    b as g es
+    b4 r
+    b r
+    b r8 b
+    es b'\f g es %90
+    b4\pE r
+    b r
+    b r8 b
+    es\f es es es
+    es\p es es es %95
+    e e e e
+    f f f f
+    d! d d d
+    es!4 r
+    es r %100
+    es r8 g,
+    as as as' as
+    g g c, c
+    f f f, g
+    as as as a %105
+    b\f b b' as!
+    r g\p g g
+    r as as as
+    r b b h
+    r c c c %110
+    c, c d d
+    es es es es
+    as,4 r8 as
+    g c as b
+    es es, r c' %115
+    h c r c'
+    h c c, r
+    c'\sf c d d
+    es es es, es
+    as4\p r8 as %120
+    b\f b b, b
+    es4 r
+    es\p r
+    es r
+    r es8 g %125
+    b b b b
+    b,\f b b b
+    es4 r
+    es8 r es' b
+    es, r es' b %130
+    es, r r4
+    r8 as,\p as as
+    r b-! b-! b-!
+    es-!\f c-! as-! b-!
+    es,4 r\fermata \bar "|." %135 finis
+  }
+}
+
+IncruentumBassFigures = \figuremode {
+  r4 \bo <[6]>8 <6>
+  r4. <2>8
+  \bc <[6]>2
+  <6 4>8 q <6>4
+  r2 %5
+  <7>
+  r
+  <9 4>8 <6 4>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <[7]>2
+  r %10
+  r
+  r4 \bo <[6 \l]>8 <6>
+  r4. <2>8
+  <6>4 q8 <6 5>
+  <5 4> \bc <[\t 3]>4. %15
+  r2
+  <8 6>8 <7! 5+> <7- 5!>4
+  \bo <[7 _!]>4. <6 5>8
+  <7! 2+> \bc <[8 3]>4.
+  r4 <7! 4> %20
+  <8 [3]> \bo <[7! 4]>
+  \bc <[8 3]>4. <5->8
+  <9 4->8 <[8] 3> <6>4
+  <7>8 <[6!]> <7 _!>4
+  <9 4>8 <8 [3]>4 <6!>8 %25
+  <6>4. <7>8
+  <6 4> <[5] _!>4.
+  r8 <[6]>4.
+  r2
+  r8 <8 6 [_!]>4 <7 [5 \t]>8 %30
+  r2
+  <6>4 <6 5>
+  r2
+  <6>4. <4! 2>8
+  \bo <[6 \l]>4 <6 5>8 \bc <[_! \l]> %35
+  r2
+  <7 _!>
+  <7 [_!]>
+  <6>4 <[6 5]>
+  r2 %40
+  <6>4. <4! 2>8
+  \bo <[6 \l]>4 <6 5>8 \bc <[_! \l]>
+  r4. <7 _!>8
+  r4. <7 _!>8
+  r2 %45
+  r8 <9 7>8 <8> <6>
+  r8 <[7] _!>4.
+  r2
+  r
+  r4 \bo <[6]>8 \bc q %50
+  r4 <_!>8 <\t>
+  <[6]>4 <9 _->8 <[5-]>
+  <6 4> <4!> <6>4
+  <_!>2
+  <\t> %55
+  <7 [_!]>
+  <7- _!>
+  <7->
+  q
+  r4 \bo <[6]>8 <6> %60
+  r4. <2>8
+  \bc <[6]>4 <9>8 <[_-]>
+  <6 4> q <6> <6! [5-]>
+  <6> <[_-]> <9 _-> <[5-]>
+  <6- 4> <6 4!> <6> <6! [5-]> %65
+  <6>4 <9>8 <[5]>
+  <6 4> <6 4!> <6> <6!>
+  r2
+  <6 4>8 <5- _->4.
+  <9 4->4 <[8] 3> %70
+  <6 4>8 <5 3>4 <\t \t>8
+  <9 4>4 <[8] 3>
+  <6 5>2
+  r
+  <8 6>4 <7 [5]> %75
+  r2
+  <8 6>4 <7 [5]>
+  r2
+  <6 4>8 <[7] _!> <6 4> <[7] _!>
+  r2 %80
+  <6 4>8 <[5] 3>4.
+  r2
+  r4 \bo <[6]>8 <6>
+  r4. <2>8
+  \bc <[6]>4 <9>8 <[5]> %85
+  <6 4> q <6>4
+  r2
+  <7>
+  <\t>
+  <9 4>8 <6 4>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff %90
+  <7>2
+  r
+  r
+  r4 <7->
+  <\t>2 %95
+  \bo <[7-]>4 \bc <[6]>
+  r2
+  <7>4 <6 5>
+  r <7 4>
+  <8 [3]> \bo <[7 4]> %100
+  \bc <[8 3]>4. <5->8
+  <9- 4>8 <8 [3]> <6>4
+  <7 [5-]>8 <6!> <[7 _!]>4
+  <9 4>8 <[8] 3>4 <6!>8
+  <6>4. <5->8 %105
+  \bo <[4]> \bc <[3]>4.
+  r8 <[6]>4.
+  r2
+  r8 <[8] 6>4 <7>8
+  r2 %110
+  <6>4 <6 5>
+  r2
+  <6>4. <2>8
+  \bo <[6 \l]>4 \bc <[6 5]>
+  r2 %115
+  <7>
+  q
+  <6>4 <6 5>
+  <7->2
+  r4. <6>8 %120
+  <6 4>4 <[5] 3>
+  r2
+  r
+  r
+  r %125
+  \bo <[6 4]>
+  \bc <[5 3]>
+  r2
+  r
+  r %130
+  r
+  r8 <9 7> <8> <6>
+  r8 <[7]>4.
+  r2
+  r %135 finis
+}

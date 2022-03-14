@@ -589,3 +589,186 @@ CoelesteBassoLyrics = \lyricmode {
   no --
   bis. %155 finis
 }
+
+IncruentumBasso = {
+  \relative c {
+    \clef bass
+    \twofourtime \key es \major \time 2/4 \autoBeamOff \tempoIncruentum
+    R2*8 %8
+    \mvTr b2\pE^\solo
+    b %10
+    b4. d8
+    es es r4
+    R2*4 %16
+    r4 f~
+    f8 c'16([ d)] es8 c
+    a16([ b)] b8 r b
+    b4. b8 %20
+    b b b8. b,16
+    b4 r
+    R2
+    d4 g8 g
+    c, c r4 %25
+    es8 es16 es es8 e
+    f f r4
+    d4. d8
+    es4. es8
+    f4.( fis8) %30
+    g4 r
+    R2*4 %35
+    r4 b8. b16
+    c8 b b8. b16
+    c8 b r4
+    g a
+    b b, %40
+    es4. es8
+    d g es([ f)]
+    b,4 r
+    R2*6 %49
+    f'4. c'8 %50
+    \appoggiatura b as4 g
+    f des'
+    \appoggiatura f,8 e4 f
+    e4. f8
+    g( e4) f8 %55
+    g16([ f e f)] g([ b as g)]
+    f2~
+    f16[ es! d es] f[ as g f]
+    es4 r
+    R2*8 %67
+    c'4. c8
+    g g4 g8
+    as8. as16 as4 %70
+    es8 es es e
+    f4 f
+    R2*2
+    r4 d8 d %75
+    es16([ g b es] d[ c]) b([ as)]
+    g4( f)
+    es r
+    R2
+    b'4. es,8 %80
+    b'4. es,8
+    b' b, r4
+    R2*8 %90
+    b4 b8 b16 b
+    b4 b
+    b4. d8
+    es es r4
+    R2*2 %96
+    as8 f as, f'
+    as4 d,!8 d
+    es es16 es es8 es
+    es4 es8 es %100
+    es es r4
+    R2*5 %106
+    g4. g8
+    as4. as8
+    b4.( h8)
+    c4 r %110
+    R2*4
+    r4 c,8. c16 %115
+    h8 c c'8. c16
+    h8 c r4
+    c d
+    es8 es, r4
+    as8 as as as %120
+    b2
+    es,4 r
+    R2*2
+    r8 b([ es)] g %125
+    b4. g16([ es)]
+    b2
+    es4 r
+    R2*6 %134
+    R2\fermata \bar "|." %135 finis
+  }
+}
+
+IncruentumBassoLyrics = \lyricmode {
+  Mi -- %9
+  se -- %10
+  re -- re
+  no -- bis,
+
+  ci -- %17
+  bus et con --
+  vi -- va, dul --
+  cis -- si -- %20
+  mum con -- vi -- vi --
+  um,
+
+  cu -- i as --
+  si -- stunt %25
+  An -- ge -- li mi -- ni --
+  stran -- tes,
+  mi -- se --
+  re -- re,
+  no -- %30
+  bis,
+
+  mi -- se -- %36
+  re -- re, mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re, %40
+  mi -- se --
+  re -- re no --
+  bis.
+
+  Sa -- cra -- %50
+  men -- tum
+  pi -- e --
+  ta -- tis,
+  mi -- se --
+  re -- re, %55
+  mi -- se --
+  re --
+  _
+  re,
+
+  of -- fe -- %68
+  rens et ob --
+  la -- ti -- o, %70
+  mi -- se -- re -- re
+  no -- bis,
+
+  mi -- se -- %75
+  re -- re
+  no --
+  bis,
+
+  mi -- se -- %80
+  re -- re
+  no -- bis.
+
+  In pro -- pri -- o %91
+  fon -- te
+  de -- gu --
+  sta -- ta,
+
+  mi -- se -- re -- re %97
+  no -- bis, re --
+  fe -- cti -- o a -- ni --
+  ma -- rum san -- %100
+  cta -- rum,
+
+  mi -- se -- %107
+  re -- re
+  no --
+  bis,
+
+  mi -- se -- %115
+  re -- re, mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re,
+  mi -- se -- re -- re %120
+  no --
+  bis,
+
+  mi -- se -- %125
+  re -- re
+  no --
+  bis. %128 finis
+}

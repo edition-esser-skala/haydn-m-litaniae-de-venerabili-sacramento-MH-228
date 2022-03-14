@@ -504,3 +504,199 @@ CoelesteTenoreLyrics = \lyricmode {
   tre -- men -- dum mi --
   ra -- cu -- lum. %122 finis
 }
+
+IncruentumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twofourtime \key es \major \time 2/4 \autoBeamOff \tempoIncruentum
+    R2*8 %8
+    \mvTr f4.\pE^\solo es8
+    d4. es8 %10
+    f16([ es)] d([ c)] b8 b
+    b16([ as)] g8 r4
+    R2*2
+    r4 d'~ %15
+    d8 b f b
+    d([ cis)] c r
+    R2
+    r4 r8 d
+    d8. d16 es8 es %20
+    d8. d16 es8 es
+    d16 d d8 r4
+    R2
+    d4 d8 d
+    d c r4 %25
+    c8 c16 d es8 d
+    d c r4
+    r b~
+    b8 b b16([ g')] f([ es)]
+    d4.( c8) %30
+    b4 r
+    R2*4 %35
+    r4 d8. d16
+    es8 d g8. d16
+    es8 d r4
+    b c
+    b~ b16[ d] c([ b)] %40
+    g8( c4) c8
+    f, b b([ a)]
+    b4 r
+    R2*10 %53
+    g4. as!8
+    b( g4) as8 %55
+    b16([ as g as)] b([ des c b)]
+    a2
+    as16[ g f g] as[ c b as]
+    g4 r
+    as4. es'16 des %60
+    \appoggiatura des c8. c16 b4
+    as f'
+    \appoggiatura as,8 g4 as8([ ges)]
+    f( f'4) es8
+    \appoggiatura des c4 b8 r %65
+    R2*2
+    es4. es8
+    es es4 es8
+    es8. es16 es4 %70
+    es8^\critnote es es c
+    c4 c
+    R2*2
+    r4 f,8 f %75
+    g16([ b es g] f[ es)] d([ c)]
+    b4( as)
+    g r
+    r8 es'([ d)] c
+    b([ d)] f([ es)] %80
+    es([ d f es)]
+    d4 r
+    R2*8 %90
+    f8 f4 es16 es
+    f8( d4)^\critnote es8
+    f16([ es d c] b8) b
+    b16([ as)] g8 r4
+    R2 %95
+    r4 r8 c~
+    c as f as
+    c8.([ b16)] b8 as
+    g g16 g as8 as
+    g4 as8 as %100
+    g g r4
+    R2*5 %106
+    b4. b8
+    c4. c8
+    d2
+    es4 r %110
+    R2*4
+    r4 es,8. es16 %115
+    f8 es es'8. es16
+    f8 es r4
+    es f
+    es8 b b b
+    c4 c %120
+    b2
+    b4 r
+    r8 es,([ g)] b
+    \once \tieDashed es2~
+    es4 b %125
+    \once \tieDashed b2~
+    b4 as
+    g r
+    R2*6 %134
+    R2\fermata \bar "|." %135 finis
+  }
+}
+
+IncruentumTenoreLyrics = \lyricmode {
+  Mi -- se -- %9
+  re -- re, %10
+  mi -- se -- re -- re
+  no -- bis,
+
+  ci -- %15
+  bus et con --
+  vi -- va,
+
+  dul -- %19
+  cis -- si -- mum con -- %20
+  vi -- vi -- um, con --
+  vi -- vi -- um,
+
+  cu -- i as --
+  si -- stunt %25
+  An -- ge -- li mi -- ni --
+  stran -- tes,
+  mi --
+  se -- re -- re,
+  no -- %35
+  bis,
+
+  mi -- se -- %36
+  re -- re,
+  mi -- se --
+  re -- re,
+  mi -- se -- %40
+  re -- re,
+  mi -- se --
+  re -- re no --
+  bis.
+
+  Mi -- se -- %54
+  re -- re, %55
+  mi -- se --
+  re --
+  _ _
+  re,
+  vin -- cu -- lum, %60
+  vin -- cu -- lum
+  cha -- ri --
+  ta -- tis, __
+  mi -- se --
+  re -- re, %65
+
+  of -- fe -- %68
+  rens et ob --
+  la -- ti -- o, %70
+  mi -- se -- re -- re
+  no -- bis,
+
+  mi -- se -- %75
+  re -- re
+  no --
+  bis,
+  mi -- se --
+  re -- re __ %80
+  no --
+  bis.
+
+  In pro -- pri -- o %91
+  fon -- te
+  de -- gu --
+  sta -- ta,
+  %95
+  mi --
+  se -- re -- re
+  no -- bis, re --
+  fe -- cti -- o a -- ni --
+  ma -- rum san -- %100
+  cta -- rum,
+
+  mi -- se -- %107
+  re -- re
+  no --
+  bis, %110
+
+  mi -- se -- %115
+  re -- re, mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re, mi -- se --
+  re -- re %120
+  no --
+  bis,
+  mi -- se --
+  re --
+  re %125
+  no --
+  _
+  bis. %128 finis
+}

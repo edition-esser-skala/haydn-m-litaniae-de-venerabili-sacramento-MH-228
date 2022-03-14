@@ -547,3 +547,147 @@ CoelesteViolaIII = {
     c r r\fermata \bar "|." %166 finis
   }
 }
+
+IncruentumViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key es \major \time 2/4 \tempoIncruentum
+    r8 << {
+      g' es f
+      \appoggiatura f es4 d
+      es4. as8
+      \appoggiatura g f4 es
+    } \\ {
+      b8\p b b
+      b2
+      b4 as8 c
+      b4 b
+    } >>
+    r8 b b b %5
+    b4. <g' b>8
+    <f as>16 <es g> <d f> <c es> <b d>8 q
+    b4 es,8 g
+    b4 r
+    b r %10
+    b r
+    r8 es\f g d
+    r es b as
+    g g as a
+    b4 r %15
+    b\p r8 b
+    f4 r
+    f r8 f
+    f4 r
+    d'8.( f16) c( es) a,( c) %20
+    d8.( f16) c( es) a,( c)
+    b4 r8 b
+    b4 r
+    r r8 g'
+    g4 r %25
+    R2
+    r8 c,\f c c
+    r b\p b b
+    r es es es
+    r a, a a %30
+    r b\f d d
+    g\p g f f
+    f b, b b
+    es4 r
+    r8 b g' f %35
+    f4 r8 b,
+    a d, r b'
+    a d, r4
+    g'\fz f
+    f r %40
+    R2
+    r8 g\f es f
+    d b'4 f8
+    f b,4 f'8
+    f4 r8 b,\p %45
+    b4 r8 g
+    f4 r8 f
+    b b'-!\f g-! des'-!
+    e,-! c'-! r4
+    R2*3 %52
+    c,4\p c
+    c r
+    c r %55
+    c2
+    f
+    b,
+    es
+    as,4 r %60
+    R2*2
+    r4 r8 es'
+    des4 r
+    r r8 f %65
+    es4 r
+    r g8\f f
+    es\pE c c c
+    g es' es es
+    as, as' as as %70
+    es, es' es e
+    f, f' f f
+    d,! b' b b
+    b4 r8 es
+    b' b, r b %75
+    es es, r es'
+    b' b, r b
+    es2\fz
+    f
+    b,4\pE r %80
+    b r
+    b'8\f as! g f
+    r es\p g d
+    r es b as
+    g4 r8 c %85
+    b4 b
+    b2
+    b
+    b4 r
+    r8 b'\f g es %90
+    b4\pE r
+    b r
+    b r8 b
+    es\f es es es
+    es\p es es es %95
+    g,4 g'
+    f8 f f f
+    f4. f8
+    es( b) r as'16( f)
+    es8( b) r \once \slurDashed as'16( f) %100
+    g4 r8 es,
+    es4 r
+    r r8 c'
+    c4 r
+    c r %105
+    r8 f\f f f
+    r es\p b g
+    r as as as
+    r b b h
+    r c c c %110
+    c c b! b
+    b es, es es
+    as4 r
+    r8 es c' b
+    b4 r %115
+    r r8 es
+    d g, r4
+    R2*3 %120
+    b'8\f b b, b
+    es es,4\p es8~
+    es es4 es8~
+    es es4 es8~
+    es es4 es8 %125
+    b' b b b
+    b\f b b b
+    b4 r
+    es8 r g b
+    b r g b %130
+    b r r4
+    c,2\p
+    b
+    es,4 r8 b'\f
+    b4 r\fermata \bar "|." %135 finis
+  }
+}

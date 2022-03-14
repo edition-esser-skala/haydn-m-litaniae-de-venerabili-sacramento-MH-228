@@ -345,3 +345,80 @@ CoelesteCornoI = {
     e r r\fermata \bar "|." %166 finis
   }
 }
+
+IncruentumCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoIncruentum
+    R2*4 %4
+    g'2~\p %5
+    g~
+    g4 r
+    r8 g'\f e c
+    \once \tieDashed g2~\p
+    g~ %10
+    g4 r
+    c\f r8 d
+    c4 g'
+    c, r8 c
+    \pao g4 r %15
+    R2*3
+    r8 g\p g g
+    g2~ %20
+    g~
+    g4 r
+    R2*16 %38
+    \pa g'4\fz d
+    g, \pd r8 g'\p %40
+    e4 r
+    R2
+    \pao g,8\fE r \pa g' d
+    g, \pd r \pa g' d
+    g, g \pd r4 %45
+    R2
+    \pa d'\p
+    g,4 \pd r
+    R2*11 %59
+    r8 \pa c\p c c %60
+    c2 \pd
+    R2*7 %68
+    c2~\p
+    c4 r %70
+    R2*4
+    g2~ %75
+    g
+    R2*3
+    r4 \pao g %80
+    r \pao g
+    R2*8 %89
+    r8 g'\f e c %90
+    g2~\p
+    g~
+    g4 r
+    r8 c\f c c
+    c4 r %95
+    R2*3
+    c2~\pE
+    c~ %100
+    c4 r
+    R2*16 %117
+    \pa c4\sf g'
+    c, \pd r
+    R2 %120
+    e4\f d
+    c r
+    r8 g\p c e
+    g2
+    \pao g,4 r %125
+    \pao g r
+    R2
+    r8 e\f e e
+    g r \pa c g
+    c, \pd r \pa c' g \pd %130
+    c c r4
+    R2
+    \pa g\p
+    c4 \pd r8 \pa g\f
+    c,4 \pd r\fermata \bar "|." %135 finis
+  }
+}

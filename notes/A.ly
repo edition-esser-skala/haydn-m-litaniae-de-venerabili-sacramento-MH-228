@@ -446,3 +446,217 @@ CoelesteAltoLyrics = \lyricmode {
   tre -- men -- dum mi --
   ra -- cu -- lum. %122 finis
 }
+
+IncruentumAlto = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key es \major \time 2/4 \autoBeamOff \tempoIncruentum
+    \mvTr es4.\pE^\solo b'8
+    \appoggiatura as g4 f
+    es c'
+    \appoggiatura es,16 d8. d16 es4
+    f4. g8 %5
+    as( f4) g8
+    as16([ g)] f([ g)] as([ c)] b([ as)]
+    as8 g r4
+    as4. g8
+    as4. g8 %10
+    d16([ es)] f([ g)] as8 f
+    es16([ d)] es8 r4
+    R2*4 %16
+    r4 a~
+    a8 a16([ b)] c8 es,
+    cis16([ d)] d8 r f
+    b8. d16 a([ c)] f,([ a)] %20
+    b8. d16 a([ c)] f,([ a)]
+    b f f8 r4
+    R2
+    f4 f8 h
+    h c es, f16 f %25
+    g4. g8
+    f f r4
+    b~ b16[ d] c([ b)]
+    \appoggiatura a8 g4~ g16[ b] a([ g)]
+    f4.( es8) %30
+    d4 r
+    R2*7 %38
+    g4 f
+    f4. f8 %40
+    g4. a8
+    b d, g([ f)]
+    f4 r
+    R2*10 %53
+    c2
+    c %55
+    c'~
+    c16[ b a b] c[ es des c]
+    b2~
+    b16[ as g as] b[ des c b]
+    as4 r %60
+    R2*4
+    r4 b,8 h16 h %65
+    c4 as'
+    \appoggiatura c,8 h4 c8 r
+    g'2~
+    g8 b!16 b b8 b
+    b8. as16 as8 as~ %70
+    as g g g
+    g4 f
+    f4. f8
+    es16([ g b es] d[ c)] b([ as)]
+    g4( f) %75
+    es r
+    R2*2
+    r8 c([ d)] es
+    d([ f)] as!([ g)] %80
+    g([ f as g])
+    f4 r
+    es es8 b'
+    \appoggiatura as g4 f
+    r8 es[( c c')] %85
+    \appoggiatura es, d4 es
+    f8 f4 g16 g
+    as8( f4) g8
+    as16([ g f g] as[ c)] b([ as)]
+    as8 g r4 %90
+    as8 as4 g16 g
+    as4. g8
+    d16([ es f g] as8) f
+    es16([ d)] es8 r b'~
+    b g es g %95
+    b4 b
+    R2*2
+    b2
+    b~ %100
+    b8 \appoggiatura as16 g8 \appoggiatura f16 es8 des
+    des16 c c8 f4~
+    f8 e4 b'8
+    b[ as] \once \tieDashed c4~
+    c8[ \appoggiatura b16 as8] \appoggiatura g16 f8 es!8 %105
+    es d r4
+    R2*4 %110
+    as'4~ as16[ c] b([ as)]
+    g4~ g16[ b] as([ g)]
+    f([ c')] b([ as)] g([ f)] as([ f)]
+    es4( f)\trill
+    es r %115
+    R2*2
+    as4~ as16[ c] b([ as)]
+    g8 g g g
+    as16([ g as g] as[ b]) c([ as)] %120
+    g4( f)
+    es r
+    R2
+    r8 b([ es)] g
+    b4 g %125
+    es2
+    d\trill
+    es4 r
+    R2*6 %134
+    R2\fermata \bar "|." %135 finis
+  }
+}
+
+IncruentumAltoLyrics = \lyricmode {
+  In -- cru --
+  en -- tum
+  sa -- cri --
+  fi -- ci -- um,
+  mi -- se -- %5
+  re -- re,
+  mi -- se -- re -- re
+  no -- bis,
+  mi -- se --
+  re -- re, %10
+  mi -- se -- re -- re
+  no -- bis,
+
+  ci -- %17
+  bus et con --
+  vi -- va, dul --
+  cis -- si -- mum con -- %20
+  vi -- vi -- um, con --
+  vi -- vi -- um,
+
+  cu -- i as --
+  si -- stunt An -- ge -- li %25
+  mi -- ni --
+  stran -- tes,
+  mi -- se --
+  re -- re,
+  no -- %30
+  bis,
+
+  mi -- se -- %39
+  re -- re, %40
+  mi -- se --
+  re -- re no --
+  bis.
+
+  Mi -- %54
+  se -- %55
+  re --
+  _
+  _
+  _
+  re, %60
+
+  vin -- cu -- lum %65
+  cha -- ri --
+  ta -- tis,
+  of --
+  fe -- rens et ob --
+  la -- ti -- o, mi -- %70
+  se -- re -- re
+  no -- bis,
+  mi -- se --
+  re -- re
+  no -- %75
+  bis,
+
+  mi -- se -- %79
+  re -- re __ %80
+  no --
+  bis.
+  Spi -- ri -- tu --
+  a -- lis
+  dul -- %85
+  ce -- do
+  in pro -- pri -- o
+  fon -- te
+  de -- gu --
+  sta -- ta, %90
+  in pro -- pri -- o
+  fon -- te
+  de -- gu --
+  sta -- ta, mi --
+  se -- re -- re %95
+  no -- bis,
+
+  re -- %99
+  fe -- %100
+  cti -- o, re --
+  fe -- cti -- o a --
+  _ ni --
+  ma -- _
+  rum san -- %105
+  cta -- rum,
+
+  mi -- se -- %111
+  re -- re,
+  mi -- se -- re -- re
+  no --
+  bis, %115
+
+  mi -- se -- %118
+  re -- re, mi -- se --
+  re -- re %120
+  no --
+  bis,
+
+  mi -- se --
+  re -- re %125
+  no --
+  _
+  bis. %128 finis
+}

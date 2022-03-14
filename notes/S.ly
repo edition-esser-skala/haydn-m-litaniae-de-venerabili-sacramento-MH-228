@@ -549,3 +549,196 @@ CoelesteSopranoLyrics = \lyricmode {
   men -- dum mi --
   ra -- cu -- lum. %122 finis
 }
+
+IncruentumSoprano = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key es \major \time 2/4 \autoBeamOff \tempoIncruentum
+    R2*8 %8
+    \mvTr d'4.\pE^\solo es8
+    f4. g8 %10
+    as16([ g)] f([ es)] d([ c)] b([ as)]
+    g([ f)] es8 r4
+    R2*2
+    r4 f'~ %15
+    f8 d b d
+    f([ e)] es r
+    R2*2
+    f2~ %20
+    f
+    f8 \appoggiatura es16 d8 \appoggiatura c b8 as!
+    as16 g g8 c4~
+    c8 h4 f'8
+    f es g4~ %25
+    g8 es16 d c8 b!
+    b a r4
+    R2*4 %31
+    es'4~ es16[ g] f([ es)]
+    d4~ d16[ f] es([ d)]
+    c([ g')] f([ es)] d([ c]) es([ c)]
+    b!4( c)\trill %35
+    b r
+    R2*2
+    es4~ es16[ g] f[ es]
+    d4~ d16[ f] es[ d] %40
+    c([ g')] f([ es)] d([ c)] es([ c)]
+    b!4( c)\trill
+    b r
+    R2*10 %53
+    c2
+    c %55
+    e
+    es16[ des c des] es[ ges f es]
+    d2
+    des16[ c b c] des[ f es des]
+    c4 r %60
+    R2*2
+    r4 as8 a16 a
+    b4 ges'
+    \appoggiatura b,8 a4 b8([ as)] %65
+    g!( g'4) f8
+    \appoggiatura es d!4 c8 r
+    es2~
+    es8 des16 des des8 des
+    des8. c16 c8 c~ %70
+    c b b b
+    b4 as
+    as4. as8
+    g16([ b es g] f[ es)] d([ c)]
+    b4( as) %75
+    g r
+    r f8 f
+    g16[ b es g] f[ es d c]
+    b8[ a] f'([ a,)]
+    b2~ %80
+    b
+    b4 r
+    R2*8 %90
+    d8 d4 es16 es
+    d8( f4) g8
+    as16([ g f es] d[ c)] b([ as)]
+    g([ f)] es8 r des'~
+    des b g b %95
+    des8.[( c16)] c4
+    R2
+    r4 r8 b
+    es g16 es d([ f)] b,([ d)]
+    es8([ g16 es)] d([ f)] b,([ d)] %100
+    es8 b r4
+    R2*5 %106
+    es4~ es16[ g] f([ es)]
+    \appoggiatura d8 c4~ c16[ es] d([ c)]
+    b4.( as8)
+    g4 r %110
+    R2*4
+    r4 g8. g16 %115
+    as8 g c8. g16
+    as8 g r4
+    R2
+    des'4~ des16[ f] es([ des)]
+    c([ e f e] f[ g]) as([ f)] %120
+    es!4( d)
+    es8 es,([ g)] b
+    es([ g, b)] es
+    g4 g
+    g es %125
+    g,2
+    f\trill
+    es4 r
+    R2*6 %134
+    R2\fermata \bar "|." %135 finis
+  }
+}
+
+IncruentumSopranoLyrics = \lyricmode {
+  Mi -- se -- %9
+  re -- re, %10
+  mi -- se -- re -- re
+  no -- bis,
+
+  ci -- %15
+  bus et con --
+  vi -- va,
+
+  dul -- %20
+  cis --
+  si -- mum con --
+  vi -- vi -- um, cu --
+  i as --
+  si -- stunt An -- %25
+  ge -- li mi -- ni --
+  stran -- tes,
+
+  mi -- se -- %32
+  re -- re,
+  mi -- se -- re -- re
+  no -- %35
+  bis,
+
+  mi -- se -- %39
+  re -- re, %40
+  mi -- se -- re -- re
+  no --
+  bis.
+
+  Mi -- %54
+  se -- %55
+  re --
+  _ _
+  _
+  _ _
+  re, %60
+
+  vin -- cu -- lum %63
+  cha -- ri --
+  ta -- tis, %65
+  mi -- se --
+  re -- re,
+  of --
+  fe -- rens et ob --
+  la -- ti -- o, mi -- %70
+  se -- re -- re
+  no -- bis,
+  mi -- se --
+  re -- re
+  no -- %75
+  bis,
+  mi -- se --
+  re -- _
+  _ re __
+  no -- %80
+
+  bis.
+
+  In pro -- pri -- o %91
+  fon -- te
+  de -- gu --
+  sta -- ta, mi --
+  se -- re -- re %95
+  no -- bis,
+
+  re --
+  fe -- cti -- o a -- ni --
+  ma -- rum san -- %100
+  cta -- rum,
+
+  mi -- se -- %107
+  re -- re
+  no --
+  bis, %110
+
+  mi -- se -- %115
+  re -- re, mi -- se --
+  re -- re,
+
+  mi -- se --
+  re -- re %120
+  no --
+  bis, mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re %125
+  no --
+  _
+  bis. %128 finis
+}

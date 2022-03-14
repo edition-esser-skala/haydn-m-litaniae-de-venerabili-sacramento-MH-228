@@ -419,3 +419,96 @@ CoelesteOboeII = {
     c r r\fermata \bar "|." %166 finis
   }
 }
+
+IncruentumOboeII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key es \major \time 2/4 \tempoIncruentum
+    R2*4 %4
+    d4.\p es8 %5
+    f d4 es8
+    f8. g16 as8 f
+    f es r4
+    b'2~
+    b~ %10
+    b4 r
+    es,4.\f f8
+    \appoggiatura f es4 d8 f
+    es8.( f32 g) f8 es
+    es d r4 %15
+    f'2\p
+    f8 f, f f
+    f2~
+    f8 d d d
+    d4( es) %20
+    d( es)
+    d8 r r4
+    R2*13 %35
+    b'2\p
+    c8 b b4
+    c8 b r4
+    b\fzE c
+    f, b %40
+    g\p r8 a
+    b\f b c a
+    b d4 es8
+    d d4 es8
+    d4 r %45
+    R2
+    es,\p
+    d8 b'-!\f g-! des'-!
+    e,-! c'-! r4
+    R2*6 %55
+    g16(\pE f e f) g( b as g)
+    f2~
+    f16( es d es) f( as g f)
+    es2
+    R2*8 %67
+    r4 c'~\p
+    c8 b4 b8
+    b4 as~ %70
+    as8 g4 g8
+    g4 f8 r
+    b2~
+    b
+    R2*2 %76
+    b2~
+    b8 b\fzE a16 g f es
+    d8( c) d( es)
+    d\pE r b'4 %80
+    r b
+    r8 as!\f g f
+    es4 r
+    R2*6 %89
+    r8 b'\f es g %90
+    b,2~\p
+    b~
+    b4 r
+    R2*5 %98
+    g4( as)
+    g( as) %100
+    g r
+    R2*13 %114
+    es'2\p %115
+    f8 es es4
+    f8 es r4
+    R2
+    b\sf
+    as4\p r8 c16 as %120
+    g4\fE f
+    es8 r r4
+    r8 es\pE g b
+    es2~
+    es4 g, %125
+    es2\fE
+    d
+    es8 g g g
+    g g'4 f8
+    es g4 f8 %130
+    es r r4
+    R2
+    d,\p
+    es4 r8 d\f
+    es4 r\fermata \bar "|." %135 finis
+  }
+}
