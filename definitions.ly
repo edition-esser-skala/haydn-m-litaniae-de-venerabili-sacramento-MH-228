@@ -12,6 +12,7 @@ tempoSacrificium = \tempoMarkup "Largo"
 tempoCoeleste = \tempoMarkup "Allegretto"
 tempoIncruentum = \tempoMarkup "Andante"
 tempoViaticum = \tempoMarkup "Grave"
+tempoPignus = \tempoMarkup "Vivace"
 
 
 \include "notes/ob1.ly"

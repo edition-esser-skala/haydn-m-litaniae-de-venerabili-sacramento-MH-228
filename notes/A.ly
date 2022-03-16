@@ -691,3 +691,318 @@ ViaticumAltoLyrics = \lyricmode {
   mi -- se -- re -- re
   no -- bis. %10 finis
 }
+
+PignusAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoPignus
+    R1*4
+    \mvTr d1\fE^\tuttiE %5
+    g,2. g4
+    es'2 d
+    b'2. b4
+    cis,2 cis4 cis
+    d( c'! b a) %10
+    g2 b,4 b
+    b c d2~
+    d4 e8[ fis] g2
+    r c4 c
+    c2. c,4 %15
+    b c d2
+    r a'~
+    a4 g g8[ a b a]
+    b4 g e2
+    d1 %20
+    d2 r4 d
+    b2 g
+    g'4. g8 d2
+    R1
+    r2 a'4 a %25
+    d2.( f,!4)
+    es2 c'4 c
+    c2 c,
+    R1
+    r2 b'4 b %30
+    b2.( b,4)
+    b2 r
+    c c
+    b4( d) f2
+    es1 %35
+    g
+    f2 r
+    b2. b4
+    b2. b4
+    b2. b4 %40
+    b2 g
+    f1
+    f2 d~
+    d4 f d2~
+    d4 b d2~ %45
+    d4 f d2~
+    d4 f2 es4
+    d2( c)
+    b r
+    R1*11 %60
+    r2 b'~
+    b8[ a] b([ a)] b4 f
+    d b b' b
+    a2. e4
+    f2. g4 %65
+    f1
+    f2 b~
+    b8[ a] b([ a)] b4 g
+    d b b'8([ a)] b([ a)]
+    b4( a g f!) %70
+    e2 r
+    r e~
+    e8[ d] e([ d)] e4 cis
+    a' e e2~
+    e8[ d] e([ d)] e4 cis %75
+    a' g f2
+    e1
+    d2 r
+    R1*8 %86
+    r2 b~
+    b8[ a] b([ a)] b2
+    d es~
+    es8[ d] es([ d)] es4 c %90
+    a2 es'
+    d2. d4
+    es( g f es)
+    d2 r
+    r c'~ %95
+    c8[ h] c([ h)] c4 as
+    f( d g f)
+    es2 r
+    R1
+    es %100
+    b2. b4
+    g'2 es
+    c'2. c4
+    d,2 b'4 b
+    b2.( des,4) %105
+    c2 es~
+    es es
+    es2. es4
+    es2( d)
+    es r %110
+    R1*27 %137
+    \mvTr g1\pE^\solo
+    c2. c4
+    es,2 g %140
+    h,2. h4
+    as' as( g) f
+    es2 g
+    c1~
+    c2 c, %145
+    R1
+    r2 \mvTr b'~\fE^\tutti
+    b8[ a] b([ a)] b4 g
+    g d r2
+    a'1~ %150
+    a2 a
+    g d
+    d( c)
+    d r
+    R1*2 %156
+    d1
+    g,2. g'4
+    es2 c
+    a'2. a4 %160
+    b,2 g'~
+    g8[ f!] g([ f)] g4 es
+    es c d2~
+    d g4 f!
+    e2 a4 a %165
+    a2.( c,4)
+    b2 d(
+    e) e
+    d2. e4
+    d1 %170
+    d2 g~
+    g4 b g2~
+    g4 d g2~
+    g4 b g2~
+    g a4( g) %175
+    fis( g2 fis4)
+    g2 r
+    R1*6 %183
+    a1
+    a %185
+    a~
+    a4 c b( a)
+    a2( g)
+    fis r
+    g4 b g2~ %190
+    g4 d g2~
+    g4 b g2~
+    g a4 g
+    fis g2( fis4)
+    g2 r %195
+    R1*5 %200
+    d2 d
+    c1~
+    c
+    d~
+    d %205
+    c~
+    c
+    b2 r
+    R1*2 %210
+    R1\fermata \bar "|." %211 finis
+  }
+}
+
+PignusAltoLyrics = \lyricmode {
+  Pi -- %5
+  gnus fu --
+  tu -- rae
+  glo -- ri --
+  ae, mi -- se --
+  re -- %10
+  re, mi -- se --
+  re -- _ _
+  _ re,
+  mi -- se --
+  re -- _ %15
+  _ _ re,
+  mi --
+  se -- re --
+  _ _ _
+  _ %20
+  re, fu --
+  tu -- rae
+  glo -- ri -- ae,
+
+  mi -- se -- %25
+  re --
+  re, mi -- se --
+  re -- re,
+
+  mi -- se -- %30
+  re --
+  re,
+  mi -- se --
+  re -- re
+  no -- %35
+  _
+  bis,
+  mi -- se --
+  re -- re,
+  mi -- se -- %40
+  re -- re
+  no --
+  bis, mi --
+  se -- re --
+  re, mi -- %45
+  se -- re --
+  _ re
+  no --
+  bis,
+
+  mi -- %61
+  se -- re -- re
+  no -- bis, mi -- se --
+  re -- _
+  _ re %65
+  no --
+  bis, mi --
+  se -- re -- re
+  no -- bis, mi -- se --
+  re -- %70
+  re,
+  mi --
+  se -- re -- re
+  no -- bis, mi --
+  se -- re -- re %75
+  no -- _ _
+  _
+  bis.
+
+  Mi -- %87
+  se -- re --
+  re, mi --
+  se -- re -- _ %90
+  _ _
+  _ re
+  no --
+  bis,
+  mi -- %95
+  se -- re -- re
+  no --
+  bis,
+
+  pi -- %100
+  gnus fu --
+  tu -- rae
+  glo -- ri --
+  ae, mi -- se --
+  re -- %105
+  re, mi --
+  se --
+  re -- re
+  no --
+  bis. %110
+
+  Pi -- %138
+  gnus fu --
+  tu -- rae %140
+  glo -- ri --
+  ae, mi -- se --
+  re -- re
+  no --
+  bis. %145
+
+  Mi --
+  se -- re -- re
+  no -- bis,
+  mi -- %150
+  se --
+  re -- re
+  no --
+  bis,
+
+  pi -- %157
+  gnus fu --
+  tu -- rae
+  glo -- ri -- %160
+  ae, mi --
+  se -- re -- re
+  no -- _ _
+  _ _
+  bis, mi -- se -- %165
+  re --
+  re, mi --
+  se --
+  re -- re
+  no -- %170
+  bis, mi --
+  se -- re --
+  re, mi --
+  se -- re --
+  re __ %175
+  no --
+  bis,
+
+  mi -- %184
+  se -- %185
+  re --
+  _ re __
+  no --
+  bis,
+  mi -- se -- re -- %190
+  re, mi --
+  se -- re --
+  _ _
+  re no --
+  bis, %195
+
+  mi -- se -- %201
+  re --
+
+  re __
+  %205
+  no --
+
+  bis. %208 finis
+}

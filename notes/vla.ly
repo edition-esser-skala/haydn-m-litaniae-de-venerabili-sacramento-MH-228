@@ -709,3 +709,211 @@ ViaticumViola = {
     d fis16( a) a( g) d'( g) g4( fis8) r\fermata \bar "||" %11 finis
   }
 }
+
+PignusViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key g \minor \time 2/2 \tempoPignus
+    R1*10 %10
+    g1
+    d2. d4
+    b'2 g
+    es'2. es4
+    fis,2 fis4 fis %15
+    g a b2~
+    b4 c d2
+    r g4 g
+    g2. g,4
+    fis c'! b a %20
+    b2~ b8 c b c
+    d2 d,
+    r d'~
+    d4 c c8 d es d
+    es4 c a2~ %25
+    a4 g d'2~
+    d4 g, g2
+    R1
+    b
+    f!2. f4 %30
+    d'2 b
+    g'2. g4
+    a,2 a4 a
+    b1
+    b %35
+    b
+    a2 r
+    d2. f4
+    d2. d4
+    d2. f4 %40
+    d2 c4 b
+    a b2 a4
+    b2 b~
+    b4 d b2~
+    b4 f b2~ %45
+    b4 d b2~
+    b4 f g2
+    f1
+    f2 r4 b\p
+    b'2 r4 f %50
+    es2 r4 h
+    c2 r4 g'
+    f2 r8 e( f e)
+    f2 r4 c'
+    b2 r %55
+    r4 d,\f g es
+    d2 r
+    R1
+    r2 f~
+    f8 \once \slurDashed e( f e) f4 c %60
+    a f es' es
+    d2. a4
+    b2 d
+    c1
+    f,2 r %65
+    r b4 c
+    d2 r
+    r g2~
+    g8 fis( g fis) g4 d
+    g,2. gis4 %70
+    a2 cis~
+    cis8 h( cis h) cis4 a
+    e cis cis'2~
+    cis8 h( cis h) cis4 a
+    e cis r2 %75
+    r d'4 a
+    b b a2
+    a r4 d,\p
+    d'2 r4 a'
+    g2 r4 g, %80
+    g'2 r4 b
+    a2 r8 gis a gis
+    a2 r4 cis,\f
+    d a' b f
+    g d a' a, %85
+    d2 r
+    R1*2
+    r2 c~
+    c8 h( c h) c4 g %90
+    es c c' c
+    b!2 h
+    c4 es d c
+    h2 h4 h
+    c g r2 %95
+    c1^\critnote
+    g2. g4
+    es'2 c
+    as'2. as,4
+    g2 g4 as %100
+    b c b as
+    g2 g'~
+    g4 g f es
+    f es d f
+    es2 b %105
+    r c4 c
+    c2. c,4
+    es2 g
+    c b
+    b r4 b\p %110
+    b2 r4 es
+    d2 r8 c( d c)
+    d2 r4 d\f
+    es2 r4 es
+    c c c c %115
+    b g as b
+    es,2 r
+    es\p r
+    es' r
+    f r %120
+    b, r
+    es r
+    e r
+    f r
+    f r %125
+    f r
+    g r
+    c, r
+    f r
+    fis r %130
+    g r
+    g r
+    g r
+    a r
+    d, r %135
+    g r
+    g r
+    c, r
+    c r
+    c r %140
+    d r
+    g, r
+    c r
+    a! r
+    fis r %145
+    r4 a'8\f d, a'4 a
+    g g, g'2~
+    g8 fis( g fis) g4 d
+    d g, b g
+    c1~ %150
+    c2 d4 es
+    d2. a4
+    b2 g
+    a c~
+    c8 b( c b) c4 a %155
+    d b d2~
+    d8 c( d c) d4 b
+    g' d r2
+    a1
+    d,2. d4 %160
+    b'2 g
+    es'2. es4
+    fis,2 fis4 fis
+    g2 es'4 d
+    cis1 %165
+    d2 r
+    r g4 g
+    g2. g,4
+    fis2 b
+    a1 %170
+    g2 b~
+    b4 d b2~
+    b4 g b2~
+    b4 d b2~
+    b es %175
+    d1
+    d4 g d b
+    g2 g'~
+    g8 fis g fis g4 d
+    b g g'2~ %180
+    g8 fis g fis g4 d
+    b g g' e
+    d2 fis~
+    fis8 e fis e fis4 d
+    a fis fis'2~ %185
+    fis8 e fis e fis4 d
+    a fis r fis'
+    d1
+    d2 r
+    b4 d b2~ %190
+    b4 g b2~
+    b4 d b2~
+    b es
+    d1
+    d4 g d b %195
+    g2 g'~
+    g8 fis g fis g4 d
+    b g g'2~
+    g8 fis g fis g4 d
+    b g r2 %200
+    b4 b b b
+    g g g g
+    a a a a
+    b b b b
+    b b b b %205
+    g g g g
+    a a a a
+    g2 g'~
+    g8 fis g fis g4 d
+    b g g' d %210
+    b g r2\fermata \bar "|." %211 finis
+  }
+}

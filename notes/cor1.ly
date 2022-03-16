@@ -434,3 +434,123 @@ ViaticumCornoI = {
     e e\fermata \bar "||" %11 finis
   }
 }
+
+PignusCornoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoPignus
+    R1*14 %14
+    e'1~\fE %15
+    e
+    R1*4 %20
+    e2 r
+    e r
+    e r
+    R1*5 %28
+    \pa c1
+    g2. g4 %30
+    e'2 c
+    a'2. a4 \pd
+    d,2 r
+    c r
+    c r %35
+    r c
+    \pao g r
+    \pa c2. e4
+    c2. g4
+    c2. e4 %40
+    c2 \pd r
+    r d4 d
+    c2 r
+    \pa c,2. e4
+    c2. \pd g'4 %45
+    \pa c,2. e4
+    c2 \pd r
+    e'4 e8 e d4 d
+    c2 r
+    R1*7 %56
+    r4 c\fE c c
+    c2. \pao g4
+    c2 r
+    r \pa d4 d \pd %60
+    d2 \pa c4 c \pd
+    e2. d4
+    c2 r
+    R1
+    r2 c4 c %65
+    c2. d4
+    e2 e4 e
+    \pa e2. c4 \pd
+    e2 r
+    R1*8 %77
+    r4 e\p e e
+    e2 r
+    R1*13 %92
+    d1\fE
+    e4 e8 e e4 e
+    f2 r %95
+    R1*4
+    \pao c2 r %100
+    \pao c r
+    \pao c r
+    R1*6 %108
+    r2 \pa c
+    c \pd r %110
+    c1~\p
+    c~
+    c~
+    c2 r
+    R1*16 %130
+    e2\p r
+    e r
+    e r
+    R1
+    r2 \pa e %135
+    e \pd r
+    R1
+    d~
+    d~
+    d %140
+    R1*5 %145
+    e2\f r
+    e r
+    e r
+    e r
+    R1*4 %153
+    r4 e, e e
+    e1 %155
+    R1*14 %169
+    e'4 e e e %170
+    c2 r
+    R1*5 %176
+    r4 e e e
+    e2 r
+    e r
+    e r %180
+    e r
+    R1
+    r4 e e e
+    e1
+    r4 e e e %185
+    e1
+    r4 e e e
+    e1
+    e2 r
+    R1*5 %194
+    r4 e e e %195
+    e2 r
+    e r
+    e r
+    e e4 e
+    e2 r %200
+    R1*2
+    r2 e
+    e r
+    R1*2 %206
+    r2 e
+    c r
+    e r
+    e r %210
+    e r\fermata \bar "|." %211 finis
+  }
+}

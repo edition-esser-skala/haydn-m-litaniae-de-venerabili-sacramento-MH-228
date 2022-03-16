@@ -530,3 +530,174 @@ ViaticumOboeII = {
     r4 r8 g' g4( fis8) r\fermata \bar "||" %11 finis
   }
 }
+
+PignusOboeII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \minor \time 2/2 \tempoPignus
+    R1*20 %20
+    g'1\fE
+    d2. d4
+    b'2 g
+    es'2. es4
+    fis,2 fis~ %25
+    fis4 g g2
+    r c4 c
+    c2. a4
+    b2 r
+    R1*2 %31
+    g1
+    a
+    b2 as
+    g1 %35
+    b
+    a!2 r
+    d4 f d2~
+    d4 b d2~
+    d4 f d2~ %40
+    d c~
+    c4 b2 a4
+    b2 d,~
+    d4 f d2
+    r d~ %45
+    d4 f d2
+    r4 b' g c
+    b2 a
+    b r
+    d,1\p %50
+    es2 r
+    es2. g4
+    f1
+    c'
+    b4 d2\f \once \tieDashed c4~ %55
+    c b2 a4
+    b2 r
+    b r
+    b r
+    R1*2 %61
+    b4 d2 c4
+    b2 r
+    f'4 a2 g4
+    f2 r %65
+    R1*2
+    b,2 r
+    b r
+    R1 %70
+    r2 e8 d e d
+    e2 r
+    r e8 d e d
+    e2 r
+    r e4 cis %75
+    a cis d a
+    b2 e,
+    d r
+    R1*4 %82
+    cis'2.\pE e4
+    d1\fE
+    b8 a g f e2 %85
+    d r
+    b' r
+    b r
+    b g
+    es'1 %90
+    fis,2 r
+    R1*5 %96
+    r2 d
+    es1
+    f
+    g2 r %100
+    R1*4
+    b1 %105
+    c
+    es,~
+    es
+    es2 d
+    es r %110
+    es1\p
+    f2 r
+    d1
+    es2 r
+    R1 %115
+    r4 g\f f d
+    es2 r
+    R1*3 %120
+    d2\p r
+    es r
+    g1
+    f2 r
+    R1*3 %127
+    e2. g4
+    f2 r
+    a1 %130
+    g2 g~
+    g g~
+    g g
+    c1~
+    c2 fis, %135
+    g r
+    R1
+    g~
+    g~
+    g %140
+    f
+    f
+    es
+    R1*3 %146
+    r4 b'8\f g b4 b
+    r b8 g b4 b
+    r b8 g b4 b
+    r a8 fis a4 a %150
+    r c a a
+    d,2 d
+    d c
+    d1
+    R1*10 %164
+    e1 %165
+    d
+    g
+    g
+    fis2 g~
+    g fis %170
+    g b~
+    b4 d b2~
+    b4 g b2~
+    b4 d b2~
+    b a~ %175
+    a4 g2 fis4
+    g g g g
+    g2 r
+    g r
+    g r %180
+    g r
+    R1
+    r4 fis fis a
+    a1~
+    a4 c c a %185
+    a1~
+    a4 c b a
+    a2 g
+    fis r
+    b2. g4 %190
+    b2. d4
+    b2. g4
+    b2 a~
+    a4 g2 fis4
+    g2 g %195
+    g r
+    g r
+    g r
+    g g4 g
+    g2 r %200
+    R1
+    c~
+    c2 a
+    g1~
+    g2 b %205
+    c1~
+    c2 fis,
+    g r
+    g r
+    g r %210
+    g r\fermata \bar "|." %211 finis
+  }
+}

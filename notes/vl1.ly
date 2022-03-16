@@ -707,3 +707,218 @@ ViaticumViolinoI = {
     a( b) d( fis,) fis( g) b( cis,) cis4( d8) r\fermata \bar "||" %11 finis
   }
 }
+
+PignusViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \minor \time 2/2 \tempoPignus
+    g'1\fE
+    d2. d4
+    b'2 g
+    es'2. es4
+    fis,2 fis4 fis %5
+    g a b2~
+    b4 c d2
+    r g4 g
+    g2. g,4
+    fis es'! d c %10
+    b d g,2~
+    g fis
+    r d'~
+    d4 c c8 d es d
+    es4 c a2~ %15
+    a4 g g'2~
+    g fis
+    R1*3 %20
+    g,1
+    d2. d4
+    b'2 g
+    es'2. es4
+    fis,2 es'4 es %25
+    d b g2
+    r es'4 es
+    es2. es,4
+    d c d es
+    f2 r %30
+    R1*2
+    r2 f'4 f
+    f2. as,4
+    g2 es'4 d %35
+    c2 d4 c
+    c2 f~
+    f4 b f2~
+    f4 d f2~
+    f4 b f2~ %40
+    f es~
+    es4 d c2
+    b f~
+    f4 b f2~
+    f4 d f2~ %45
+    f4 b f2~
+    f4 b g c
+    b2 a
+    b f'~\p
+    f8 e( f e) f4-! d-! %50
+    b-! g-! g'2~
+    g8 fis( g fis) g4-! es-!
+    c a c'2~
+    c8 h( c h) c4-! es,!-!
+    d-! f-!\f g,-! g'-! %55
+    a, b c, a'
+    r b8 a b4 f
+    d b d' b
+    f d d'8 c d c %60
+    c4 c, c' g'\trill
+    a f, b8 c d es
+    f4 f, d' c
+    b d, f'2~
+    f8 e( f e) f4 c
+    a f d' es %65
+    d2. a4
+    b2 r
+    d1
+    d
+    g4 f! es! d %70
+    cis2 r
+    r g'~
+    g8 f( g f) g4 e
+    cis a g'2~
+    g8 f( g f) g4 e %75
+    f e d2~
+    d cis
+    d a'~\p
+    a8 g( a g) a4-! f-!
+    d-! b-! b'2~ %80
+    b8 \once \slurDashed a( b a) b4-! g-!
+    e-! cis-! g'2~
+    g8 f( g f) g b a g
+    f\f e d cis d c b a
+    b a g f e4 cis' %85
+    d8 es! d c d c b a
+    g1
+    d2. d4
+    b'2 g
+    es'2. es4 %90
+    fis,2 fis4 fis
+    g as g f
+    es2 g'~
+    g8 fis( g fis) g4 f
+    es c g2~ %95
+    g f
+    g g~
+    g4 g as2~
+    as4 f b2
+    R1 %100
+    es
+    b
+    R
+    b
+    es,2 es'4 es %105
+    es2. g,4
+    g1
+    g
+    f
+    es2 g'~\p %110
+    g8 \once \slurDashed f( g f) g4-\parenthesize-! b,-!
+    as-! f-! as'2~
+    as8 \once \slurDashed g( as g) as4 as,\f
+    g8 b c b es d c b
+    c b as g as g f es %115
+    d4 b'8 es, c'4 d,
+    es b'8\p g es'4 es
+    r b8 g es'4 es
+    r b8 g es'4 es
+    r as,8 f as4 as %120
+    r as8 f as4 as
+    r g8 es g4 g
+    r b8 g b4 b
+    r as8 f as4 as
+    r c8 as f'4 f %125
+    r c8 as f'4 f
+    r b,8 g b4 b
+    r b8 g b4 b
+    r a!8 f a4 a
+    r c8 a c4 c %130
+    r b8 g b4 b
+    r d8 b g'4 g
+    r d8 b g'4 g
+    r c,8 a c4 c
+    r c8 a c4 c %135
+    r h8 g h4 h
+    r d8 h d4 d
+    r es8 c es4 es
+    r es8 c es4 es
+    r g8 es g4 g %140
+    r f8 d f4 f
+    r f8 d f4 f
+    r es8 c es4 es
+    r es8 c es4 es
+    r d8 d, d'4 d %145
+    r d8\f d, d'4 d
+    d1
+    g2. g4
+    b,2 d
+    fis,2. fis4 %150
+    es' es d c
+    b2 a
+    g1
+    fis2 r
+    R1 %155
+    g
+    d2. d4
+    b'2 g
+    es'2. es4
+    fis,2 d'~ %160
+    d8 c( d c) d4 b~
+    b g c2~
+    c a
+    r g'4 g
+    g2. g,4 %165
+    fis fis g a
+    b1
+    a~
+    a2 g~
+    g fis %170
+    g d'~
+    d4 g d2~
+    d4 b d2~
+    d4 g d2~
+    d c~ %175
+    c4 b a2
+    g d''~
+    d8 cis d cis d4 b
+    g d d'2~
+    d8 cis d cis d4 b %180
+    g d b'8 a g fis
+    g d c b es c a g
+    fis2 r
+    c'1
+    c %185
+    c~
+    c4 es d c
+    c2 b
+    a d~
+    d4 g d2~ %190
+    d4 b d2~
+    d4 g d2~
+    d c~
+    c4 b a2
+    g d''~ %195
+    d8 cis d cis d4 b
+    g d d'2~
+    d8 cis d cis d4 b
+    g d r2
+    g,4 g g g %200
+    g g g g
+    es' es es es
+    es es fis fis
+    g g g g
+    g g d d %205
+    es es es es
+    fis, fis fis fis
+    g2 g~
+    g8 fis g fis g4 d
+    b g g' d %210
+    b g r2\fermata \bar "|." %211 finis
+  }
+}

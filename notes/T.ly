@@ -731,3 +731,336 @@ ViaticumTenoreLyrics = \lyricmode {
   mi -- se -- re -- re
   no -- bis. %10 finis
 }
+
+PignusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoPignus
+    R1*10 %10
+    \mvTr g1\fE^\tuttiE
+    d2. d4
+    b'2 g
+    es'2. es4
+    fis,2 fis4 fis %15
+    g a \once \tieDashed b2~
+    b4 c d2
+    r g4 g
+    g2. g,4
+    fis c'! b a %20
+    b2~ b8[ c b c]
+    d2 d,
+    r d'~
+    d4 c c8[ d es d]
+    es4 c a2~ %25
+    a4 g d'2~
+    d4 g, g2
+    R1
+    b
+    f!2. f4 %30
+    d'2 b
+    g'2. g4
+    a,2 a4 a
+    b1
+    b %35
+    b
+    a2 r
+    d2. f4
+    d2. d4
+    d2. f4 %40
+    d2( c4) b
+    a( b2 a4)
+    b2 b~
+    b4 d b2~
+    b4 f b2~ %45
+    b4 d b2~
+    b4 f g2
+    f1
+    f2 r
+    R1*9 %58
+    r2 f'~
+    f8[ e] f([ e)] f4 c %60
+    a f es' es
+    d2. a4
+    b2 d
+    c1
+    f,2 r %65
+    R1
+    r2 d'4 d
+    b2 d
+    r g,8([ fis)] g([ fis)]
+    g2.( gis4) %70
+    a2 cis~
+    cis8[ h] cis([ h)] cis4 a
+    e cis cis'2~
+    cis8[ h] cis([ h)] cis4 a
+    e cis r2 %75
+    r d'4 a
+    b b a2
+    a r
+    R1*10 %88
+    r2 c~
+    c8[ h] c([ h)] c4 g %90
+    es c c' c
+    b!2 h
+    c4 es d c
+    h2 h4 h
+    c g r2 %95
+    c1
+    g2. g4
+    es'2 c
+    as2. as4
+    g2 g4 as %100
+    b( c b as)
+    g2 g'~
+    g4 g( f es)
+    f es d f
+    es2 b %105
+    r c4 c
+    c2.( c,4)
+    b2 g'
+    c b
+    b r %110
+    R1*13 %123
+    \mvTr c1\pE^\solo
+    f2. f4 %125
+    as,2 c
+    e,2. e4
+    des' des( c) b
+    a!2 es'!~
+    es d4( c) %130
+    b( a) g2
+    r d'~
+    d b4( g)
+    c,2 c'~
+    c a4( fis) %135
+    g2 d'~
+    d h
+    c2. d4
+    es1
+    R1*2 %141
+    h2. g'4
+    g2 es~
+    es c
+    a! a %145
+    R1
+    r2 \mvTr g'~\fE^\tutti
+    g8[ fis] g([ fis)] g4 d
+    d g, r2
+    c1~ %150
+    c2 d4( es)
+    d2. a4
+    b2( g)
+    a c~
+    c8[ b] c([ b)] c4 a %155
+    d b d2~
+    d8[ c] d([ c)] d4 b
+    g' d r2
+    a1
+    d,2. d4 %160
+    b'2 g
+    es'2. es4
+    fis,2 fis4 fis
+    g2 es'4( d)
+    cis1 %165
+    d2 r
+    r g4 g
+    g2. g,4
+    fis2 b
+    a1 %170
+    g2 b~
+    b4 d b2~
+    b4 g b2~
+    b4 d b2~
+    b es %175
+    d1
+    d2 r
+    R1*5 %182
+    r2 fis~
+    fis8[ e] fis([ e)] fis4 d
+    a fis fis'2~ %185
+    fis8[ e] fis([ e)] fis4( d
+    a) fis r2
+    d'1
+    d2 r
+    b4 d b2~ %190
+    b4 g b2~
+    b4 d b2~
+    b es
+    d1
+    d2 r %195
+    R1*5 %200
+    b2 b
+    g1
+    a
+    b~
+    b %205
+    g
+    a
+    g2 r
+    R1*2 %210
+    R1\fermata \bar "|." %211 finis
+  }
+}
+
+PignusTenoreLyrics = \lyricmode {
+  Pi -- %11
+  gnus fu --
+  tu -- rae
+  glo -- ri --
+  ae, mi -- se -- %15
+  re -- _ _
+  _ re,
+  mi -- se --
+  re -- _
+  _ _ _ _ %20
+  _
+  _ re,
+  mi --
+  se -- re --
+  _ _ _ %25
+  re no --
+  _ bis,
+
+  pi --
+  gnus fu -- %30
+  tu -- rae
+  glo -- ri --
+  ae, mi -- se --
+  re --
+  re %35
+  no --
+  bis,
+  mi -- se --
+  re -- re,
+  mi -- se -- %40
+  re -- re
+  no --
+  bis, mi --
+  se -- re --
+  re, mi -- %45
+  se -- re --
+  _ re
+  no --
+  bis,
+
+  mi -- %59
+  se -- re -- re %60
+  no -- bis, mi -- se --
+  re -- _
+  _ re
+  no --
+  bis, %65
+
+  mi -- se --
+  re -- re,
+  mi -- se --
+  re -- %70
+  re, mi --
+  se -- re -- re
+  no -- bis, mi --
+  se -- re -- re
+  no -- bis, %75
+  mi -- se --
+  re -- re no --
+  bis.
+
+  Mi -- %89
+  se -- re -- re %90
+  no -- bis, mi -- se --
+  re -- _
+  _ _ _ _
+  re, mi -- se --
+  re -- re, %95
+  pi --
+  gnus fu --
+  tu -- rae
+  glo -- ri --
+  ae, mi -- se -- %100
+  re --
+  re, mi --
+  se --
+  re -- _ _ _
+  _ re, %105
+  mi -- se --
+  re --
+  re no --
+  _ _
+  bis. %110
+
+  Pi -- %124
+  gnus fu -- %125
+  tu -- rae
+  glo -- ri --
+  ae, mi -- se --
+  re -- _
+  re __ %130
+  no -- bis,
+  mi --
+  se --
+  re -- _
+  re __ %135
+  no -- _
+  _
+  _ _
+  bis,
+
+  mi -- se -- %142
+  re -- _
+  re
+  no -- bis. %145
+
+  Mi --
+  se -- re -- re
+  no -- bis,
+  mi -- %150
+  se --
+  re -- re
+  no --
+  bis, mi --
+  se -- re -- re %155
+  no -- bis, mi --
+  se -- re -- re
+  no -- bis,
+  pi --
+  gnus fu -- %160
+  tu -- rae
+  glo -- ri --
+  ae, mi -- se --
+  re -- re __
+  no -- %165
+  bis,
+  mi -- se --
+  re -- _
+  _ re
+  no -- %170
+  bis, mi --
+  se -- re --
+  re, mi --
+  se -- re --
+  re %175
+  no --
+  bis,
+
+  mi -- %183
+  se -- re -- re
+  no -- bis, mi -- %185
+  se -- re --
+  re
+  no --
+  bis,
+  mi -- se -- re -- %190
+  re, mi --
+  se -- re --
+  re
+  no --
+  bis, %195
+
+  mi -- se -- %201
+  re --
+  _
+  re __
+  %205
+  no --
+  _
+  bis. %208 finis
+}
