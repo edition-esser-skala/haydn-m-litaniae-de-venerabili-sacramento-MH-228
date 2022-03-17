@@ -554,3 +554,106 @@ PignusCornoII = {
     c r\fermata \bar "|." %211 finis
   }
 }
+
+AgnusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    R2.*4 %4
+    r4 r8 c'\f d d %5
+    c4 r r
+    R2.*3
+    r8 g\p g g g g %10
+    g4 g2~
+    g8 g g g g g
+    g2.
+    c
+    g2 r4 %15
+    R2.
+    c,8\fz r c r r4
+    R2.*3 %20
+    r4 r g'\f
+    g r g
+    c, r r
+    R2.*3 %26
+    g2.~\p
+    g~
+    g2 r4
+    r r8 g''\f e c %30
+    g2.\p
+    c,4 r r
+    R2.*6 %38
+    r4 r8 d'\pE d d
+    d2.~ %40
+    d4 r r
+    d2.
+    g,4 r r
+    R2.*2 %45
+    r8 g4\f g g8
+    g4 r r
+    g r r
+    R2.*2 %50
+    d'2.~\p
+    d~
+    d2 r4
+    R2.*3 %56
+    r4 d\f d
+    g, r r
+    R2.*5 %63
+    g,2.~\p
+    g~ %65
+    g
+    c2 r4
+    r r g'\f
+    c, r r
+    R2.*6 %75
+    r8 c\f c r r4
+    R2.*7 %83
+    r4 r8 g\pE g g
+    g2 r8 g' %85
+    e c g4 r
+    R2.*4 %90
+    r8 c4\fz c c8
+    c4 r r
+    c r r
+    r c\f c
+    g' r r %95
+    R2.
+    e4 r8 g'\p e c
+    g2.
+    c
+    g2 r4 %100
+    R2.
+    c,8 r c\fz r r4
+    R2.*3 %105
+    r4 r c\f
+    g' r r\fermata
+    r4 c c
+    c r r
+    R2.*5 %114
+    r8 c,4\fE c c8 %115
+    c4 r r8. d'16
+    d4 c r
+    e,2.~\p
+    e
+    R2.*9 %128
+    r4 r8 e\f e e
+    e4 r8 e e e %130
+    e4 r r
+    R2.*2
+    r8 e e e e e
+    c4 r r %135
+    e' e, r
+    R2.*2
+    r4 r16. c32\p c16. c32 c8 c
+    c2. %140
+    R
+    r4 r e'8\f e
+    e4 r e,8 e
+    e c r4 e8 e
+    e4 r r %145
+    R2.*8 %153
+    \tempoAgnusB d'2\fE f4
+    e2.\fermata \bar "|." %155 FINIS
+  }
+}

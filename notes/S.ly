@@ -1103,3 +1103,232 @@ PignusSopranoLyrics = \lyricmode {
   _
   bis. %208 finis
 }
+
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*22 %22
+    \mvTr b'2\pE^\markup \remark "S1 solo" d4
+    c16([ e g f)] f2
+    R2. %25
+    r4 r r8 d
+    c16[( b a b] c[ d es d]) es8 r16 es
+    d([ a b c] d[ es f es)] f8 r16 f
+    es([ d c d] es16.[ d32 f16. es32] g8.) es16
+    es4 d r %30
+    R2.
+    r4 d4. d8
+    es8.([ d16)] d4 r
+    r r8 d4( g,8)
+    \appoggiatura g fis4 fis r %35
+    r r d'~
+    d16[ c] c([ b)] d4~ d16[ b] d([ b)]
+    b8. a16 a8 f'4 a,8
+    a4 g r
+    R2. %40
+    c,4~ c16[ a' g f] e[ b' a g]
+    f8[ a] c4 r
+    R2.*3 %45
+    r4 a a
+    a4. b16[ c] d[ e f g]
+    a[ g f e] f[ e d c] f[ e] d([ c)] \appoggiatura e d8 c16([ b)]
+    a4( g8.) f16
+    f4 r r %50
+    R2.*9 %59
+    c'2 es!4 %60
+    \appoggiatura g,8 fis4 g r8 b
+    a( es'4) d c8
+    c4 b r8 d
+    c16([ b a b] c[ d es! d]) es8 r16 es
+    d([ a b c] d[ es f es]) f8 r16 f %65
+    es[ d c d] es16.[ d32 f16. es32] g8.[ es16]
+    d16.[ c32 es16. d32] f4 es8 d
+    d4 c r8 f,
+    b8.([\trill c16] d8.[\trill es16]) f8 f
+    f8. c16 c4 r %70
+    R2.
+    r4 r r8 d
+    d8([ es)] es4 r8 f
+    f([ g)] g g([ f es)]
+    d16[( f es g] d4 c8.) b16 %75
+    b4 r r
+    R2.*3
+    r4 c4. f8 %80
+    \appoggiatura es des4 des4 r
+    r r b8.([ f'16)]
+    \appoggiatura f8 e4 e r
+    r r r8 f,
+    f4~ f16[ d'! c b] a[ es' d c] %85
+    b8 d f4. f,8
+    f4~ f16[ d' c b] a[ es' d c]
+    b[ g' f es] d[ es f g] as[ g] g([ fis)]
+    fis4( g8) r r16 g([ f es)]
+    d([ es e f] d4 c8.) b16 %90
+    b4 r d
+    d~ d16[ b c d] es[ f g a]
+    b8[ b,] b4 r
+    r d2
+    d4 es4. e8~ %95
+    e[ f] d4 c8. b16
+    b4 r r
+    R2.*9 %106
+    R2.\fermata
+    R2.*2
+    \fC \mvTr g4\fE^\markup \remark "S tutti" fis fis8 fis %110
+    es'4 d \mvTr g\pE^\solo
+    g fis8 d es4~
+    es d8 b c4~
+    c8[ b a es'] d([ c)]
+    b8.([\trill a16)] g4 r %115
+    \mvTr g\fE^\tutti fis fis8 fis
+    es'4 d r
+    R2.*3 %120
+    r4 r \mvTr d8\fE^\tutti d
+    g([ cis, d a)] b([ fis)]
+    g([ b16 a)] a4 d8 d
+    g([ cis, d a)] b([ fis)]
+    g([ b16 a)] a4 a8\p a %125
+    a b b4.( a8)
+    a4 r r
+    R2.
+    r4 d\fE d
+    d2. %130
+    d4 d d
+    d8([ cis)] c2
+    c8([ h)] b4 g16([ b)] d([ g)]
+    g([ es)] es([ c)] b4( a)
+    g r r %135
+    r c c
+    es, d8 r  r4
+    R2.
+    r4 g\pE g
+    as g2 %140
+    as4 g c8 b
+    b4\fE a d8 d
+    d4 es16[ e f e] f[ fis g fis]
+    g8. g,16 a2\trill
+    g4 r r %145
+    r r as'~
+    as g8([ es)] f4~
+    f es8[ c] es4~
+    es d d8 f,
+    es4 d r %150
+    r g\p g
+    g( g') f
+    es2.\f~
+    \tempoAgnusB es
+    d\fermata \bar "|." %155 FINIS
+  }
+}
+
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus %23
+  De -- i,
+  %25
+  qui
+  tol -- lis pec --
+  ca -- ta, pec --
+  ca -- ta
+  mun -- di, %30
+
+  a -- gnus
+  De -- i,
+  pec --
+  ca -- ta: %35
+  Par --
+  ce no -- bis
+  Do -- mi -- ne, par -- ce,
+  par -- ce,
+  %40
+  par -- _
+  _ ce,
+
+  par -- ce, %46
+  par -- _ _
+  _ _ _ ce
+  no -- bis Do -- mi --
+  ne. %50
+
+  A -- gnus %60
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta, qui
+  tol -- lis pec --
+  ca -- ta, pec -- %65
+  ca -- _ _
+  _ _ _ ta
+  mun -- di: Ex --
+  au -- di nos
+  Do -- mi -- ne, %70
+
+  ex --
+  au -- di, ex --
+  au -- di nos __
+  Do -- mi -- %75
+  ne,
+
+  a -- gnus %80
+  De -- i,
+  pec --
+  ca -- ta:
+  Ex --
+  au -- _ %85
+  _ di nos, ex --
+  au -- _
+  _ _ _ di
+  nos, __ nos, __
+  Do -- mi -- %90
+  ne, ex --
+  au -- _
+  _ di
+  nos,
+  Do -- _ _ %95
+  _ _ mi --
+  ne.
+
+  A -- gnus, a -- gnus %110
+  De -- i, qui
+  tol -- lis pec -- ca --
+  ta, pec -- ca --
+  ta __
+  mun -- di, %115
+  a -- gnus, a -- gnus
+  De -- i:
+
+  Mi -- se -- %121
+  re -- re __
+  no -- bis, mi -- se --
+  re -- re __
+  no -- bis, mi -- se -- %125
+  re -- re no --
+  bis,
+
+  mi -- se --
+  re -- %130
+  re, mi -- se --
+  re -- re
+  no -- bis, mi -- se --
+  re -- re no --
+  bis, %135
+  mi -- se --
+  re -- re,
+
+  mi -- se --
+  re -- re %140
+  no -- bis, mi -- se --
+  re -- re, mi -- se --
+  re -- _ _
+  _ re no --
+  bis, %145
+  mi --
+  se -- re --
+  _ _
+  re, mi -- se --
+  re -- re, %150
+  mi -- se --
+  re -- re
+  no --
+
+  bis. %155 FINIS
+}

@@ -1148,3 +1148,102 @@ PignusBassoLyrics = \lyricmode {
 
   bis. %208 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*106 %106
+    R2.\fermata
+    R2.*2
+    \mvTr g'4\fE^\tutti a a8 a %110
+    fis4 g r
+    R2.*4 %115
+    \mvTr g4\fE^\tuttiE a a8 a
+    fis4 g r
+    r r \mvTr c\pE^\solo
+    c b8 g a4~
+    a16[ fis a g] g2 %120
+    g4 fis r
+    \mvTr es\fE^\tutti d2
+    es4 d r8 d
+    es4 d8 d d d
+    es4 d d8\pE d %125
+    cis4. cis8 cis4
+    d r r
+    R2.
+    r4 d4.\fE c!8
+    b2( c4) %130
+    b b b'
+    a4. g8 fis4
+    g2 g,4
+    c( d2)
+    g,4 r r %135
+    r d' d
+    fis fis8 r r4
+    R2.
+    r4 es\pE es
+    d es2 %140
+    f4 es es8 es
+    g4\fE fis r
+    r r c8 c
+    b es c4( d)
+    g, g' g %145
+    g g, r
+    r r h'~
+    h c fis,~
+    fis g h,8 h
+    c4 g r %150
+    r h'\pE h
+    c h2
+    c2.\fE
+    \tempoAgnusB c,
+    g\fermata \bar "|." %155 FINIS
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus, a -- gnus %110
+  De -- i,
+
+  a -- gnus, a -- gnus %116
+  De -- i,
+  qui
+  tol -- lis pec -- ca --
+  ta %120
+  mun -- di,
+  a -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se -- %125
+  re -- re no --
+  bis,
+
+  mi -- se --
+  re -- %130
+  re, mi -- se --
+  re -- _ _
+  _ re
+  no --
+  bis, %135
+  mi -- se --
+  re -- re,
+
+  mi -- se --
+  re -- re %140
+  no -- bis, mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re no --
+  bis, mi -- se -- %145
+  re -- re,
+  mi --
+  se -- re --
+  re, mi -- se --
+  re -- re, %150
+  mi -- se --
+  re -- re
+  no --
+  _
+  bis. %155 FINIS
+}

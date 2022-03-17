@@ -1064,3 +1064,102 @@ PignusTenoreLyrics = \lyricmode {
   _
   bis. %208 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*106 %106
+    R2.\fermata
+    R2.*2
+    \mvTr b4\fE^\tutti a c8 es %110
+    a,4 b r
+    R2.*4 %115
+    \mvTr b4\fE^\tutti a es'8 es
+    a,4 b \mvTr g'\pE^\solo
+    g fis8 d es4~
+    es d8 b c4~
+    c16[ a c b] b2 %120
+    b4 a r
+    r r \mvTr d8\fE^\tutti d
+    g([ cis, d a)] b([ fis)]
+    g([ b16 a)] a4 d8. d16
+    g8([ cis, d cis)] d4\pE %125
+    e2.
+    d4 r r
+    R2.
+    r4 a\fE a
+    g2( a4) %130
+    g g d'
+    e( es4.) d8
+    d4. d8 d([ b)]
+    g([ es')] d2
+    d4 r r %135
+    r fis, fis
+    a a8 r r4
+    R2.
+    r4 b\pE b
+    b b2 %140
+    h4 c c8 c
+    cis4\fE d r
+    r r a8 a
+    g g g4( fis)
+    g r g'~ %145
+    g f!8([ d)] \once \tieDashed f4~
+    f es8[ c] d4~
+    d c8[ es] c4~
+    c h? g8 g
+    g4 g r %150
+    r d'\pE d
+    c d2
+    c2.~\fE
+    \tempoAgnusB c
+    h\fermata \bar "|." %155 FINIS
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus, a -- gnus %110
+  De -- i,
+
+  a -- gnus, a -- gnus %116
+  De -- i, qui
+  tol -- lis pec -- ca --
+  ta, pec -- ca --
+  ta %120
+  mun -- di:
+  Mi -- se --
+  re -- re __
+  no -- bis, mi -- se --
+  re -- re %125
+  no --
+  bis,
+
+  mi -- se --
+  re -- %130
+  re, mi -- se --
+  re -- re,
+  mi -- se -- re --
+  re __ no --
+  bis, %135
+  mi -- se --
+  re -- re,
+
+  mi -- se --
+  re -- re %140
+  no -- bis, mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re no --
+  bis, mi -- %145
+  se -- re --
+  _ _
+  _ _
+  re, mi -- se --
+  re -- re, %150
+  mi -- se --
+  re -- re
+  no --
+
+  bis. %155 FINIS
+}

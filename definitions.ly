@@ -6,13 +6,18 @@
 \include "ees.ly"
 
 
-tempoKyrie = \tempoMarkup "Adagio con sordino"
+fC = \set Staff.forceClef = ##t
+
+
+tempoKyrie = \tempoMarkup "Adagio"
 tempoPanis = \tempoMarkup "Allegro spirituoso"
 tempoSacrificium = \tempoMarkup "Largo"
 tempoCoeleste = \tempoMarkup "Allegretto"
 tempoIncruentum = \tempoMarkup "Andante"
 tempoViaticum = \tempoMarkup "Grave"
 tempoPignus = \tempoMarkup "Vivace"
+tempoAgnus = \tempoMarkup "Adagio"
+  tempoAgnusB = \tempoMarkup "Largo"
 
 
 \include "notes/ob1.ly"

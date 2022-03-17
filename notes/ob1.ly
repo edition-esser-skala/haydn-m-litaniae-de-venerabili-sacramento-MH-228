@@ -700,3 +700,135 @@ PignusOboeI = {
     g r\fermata \bar "|." %211 finis
   }
 }
+
+AgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoAgnus
+    R2.*4-\markup \remark "fl 1" %4
+    r8 f'4\f b8 c es, %5
+    d4 r r
+    R2.*3
+    r8 f\fzE f16( a) c( b) a( g) f( es) %10
+    d4 r r
+    r8 f f16( a) c( b) a( g) f( es)
+    d2.
+    b'
+    c2 r4 %15
+    R2.
+    b8\fz r b r r4
+    R2.*2
+    r16 es,(\pE e f) d8 r c r %20
+    b4 f'\f es
+    d2 c4
+    b r r
+    R2.*3 %26
+    c2.\p
+    d
+    es2 r4
+    r r b' %30
+    f2 es4
+    \appoggiatura es8 d4 r r
+    R2.*6 %38
+    r4 c'\pE c
+    c r r %40
+    c2.~
+    c4 r r
+    R2.*3 %45
+    r8 f,4\f f f8
+    f4 r r
+    a r r
+    R2.*2 %50
+    r8 e\p e16( f) g( a) b( d) c( b)
+    a2.
+    b2 r4
+    R2.*3 %56
+    r8 c,\f a'4 g
+    f r r
+    R2.*5 %63
+    c2.\p
+    d %65
+    es
+    d4 r r
+    r r8 f4\f a8
+    b4 r r
+    f2\pE es4 %70
+    \appoggiatura es8 d4 r r
+    g2 f4
+    \appoggiatura f8 es4 r r
+    R2.*2 %75
+    r8 b'\f b r r4
+    R2.*2
+    r4 es,\p d
+    d c r %80
+    R2.*3
+    r4 f\pE f
+    f2.~ %85
+    f~
+    f2 r4
+    R2.*3 %90
+    r8 b4\fz b b8
+    b4 r r
+    d r r
+    r d\f d,
+    d r r %95
+    r d c
+    b r b'\p
+    f2 es4
+    d b'2
+    c r4 %100
+    R2.
+    b8 r b\fz r r4
+    R2.*2
+    r16 f(\p e es) d8 r c r %105
+    b4 r d'\f
+    d, r r\fermata
+    R2.
+    \fC r4^\markup \remark "ob 1" g\fE g
+    g8. g,16 fis4 r8. fis16 %110
+    es'4 d r
+    R2.
+    r4 r c~
+    c8 b a es' d c
+    b8 g'4\f g g8 %115
+    g8. g,16 fis4 r8. fis16
+    es'4 d g~\p
+    g fis8 d es4~
+    es d8 b c4
+    c8.( b16) b4 r8 e %120
+    b4 a r
+    g'\f fis r
+    cis d r
+    g fis r
+    cis d r %125
+    R2.
+    r4 a\f d
+    c8. b16 b4 e\p
+    b( a8) a\f a a
+    g( d') d4~ d16 fis, a fis %130
+    g( b) d d d4~ d16 fis,( g d')
+    d8( cis) c4~ c16 es,( d c')
+    c8( h) b4~ b16 d( fis g)
+    g( es) es( c) b4 a
+    g b' b16( a) a( c) %135
+    c,2.~
+    c4 r r
+    b4.\p c8( b a)
+    g4\fE g\p g
+    as g r %140
+    R2.
+    r4 r d'8\f d
+    d4 es16-! e( f e) f-! fis( g fis)
+    g4 a,2\trill
+    g4 r g~ %145
+    g f as'~
+    as g f~
+    f es es~
+    es d r
+    R2.*2 %151
+    r4 g\p f
+    es2.\f
+    \tempoAgnusB es
+    d\fermata \bar "|." %155 FINIS
+  }
+}

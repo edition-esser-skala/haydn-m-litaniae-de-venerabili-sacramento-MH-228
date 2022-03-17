@@ -484,84 +484,168 @@
   %     \midi { \tempo 4 = 40 }
   %   }
   % }
+  % \bookpart {
+  %   \section "6" "Pignus"
+  %   \addTocLabel "pignus"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \PignusOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \PignusOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }
+  %           % \transpose c b,
+  %           \partCombine \PignusCornoI \PignusCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \PignusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \PignusViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \PignusViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \PignusSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \PignusSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \PignusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \PignusAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \PignusTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \PignusTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \PignusBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \PignusBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \PignusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \PignusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 115 }
+  %   }
+  % }
   \bookpart {
-    \section "6" "Pignus"
-    \addTocLabel "pignus"
+    \section "7" "Agnus Dei"
+    \addTocLabel "agnus"
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
+            \set GrandStaff.instrumentName = \markup \center-column { "fl" "ob" }
             \new Staff {
               \set Staff.instrumentName = "1"
-              \PignusOboeI
+              \AgnusOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \PignusOboeII
+              \AgnusOboeII
             }
           >>
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "[alto]" "1, 2" }
             % \transpose c b,
-            \partCombine \PignusCornoI \PignusCornoII
+            \partCombine \AgnusCornoI \AgnusCornoII
           >>
         >>
         \new StaffGroup <<
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
+            \AgnusViolinoSolo
+          }
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \PignusViolinoI
+              \AgnusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \PignusViolinoII
+              \AgnusViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \PignusViola
+            \AgnusViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \PignusSoprano }
+            \set Staff.instrumentName = \markup \center-column { "S 1" "S" }
+            \new Voice = "Soprano" { \dynamicUp \AgnusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \PignusSopranoLyrics
+          \new Lyrics \lyricsto Soprano \AgnusSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \PignusAlto }
+            \set Staff.instrumentName = \markup \center-column { "S 2" "A" }
+            \new Voice = "Alto" { \dynamicUp \AgnusAlto }
           }
-          \new Lyrics \lyricsto Alto \PignusAltoLyrics
+          \new Lyrics \lyricsto Alto \AgnusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \PignusTenore }
+            \new Voice = "Tenore" { \dynamicUp \AgnusTenore }
           }
-          \new Lyrics \lyricsto Tenore \PignusTenoreLyrics
+          \new Lyrics \lyricsto Tenore \AgnusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \PignusBasso }
+            \new Voice = "Basso" { \dynamicUp \AgnusBasso }
           }
-          \new Lyrics \lyricsto Basso \PignusBassoLyrics
+          \new Lyrics \lyricsto Basso \AgnusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \PignusOrgano
+            \AgnusOrgano
           }
         >>
-        \new FiguredBass { \PignusBassFigures }
+        \new FiguredBass { \AgnusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 115 }
+      \midi { \tempo 4 = 65 }
     }
   }
 }

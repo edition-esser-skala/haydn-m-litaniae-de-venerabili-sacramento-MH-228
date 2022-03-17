@@ -4,7 +4,7 @@ KyrieViola = {
   \relative c' {
     \clef alto
     \key g \minor \time 3/4 \tempoKyrie
-    g4\f a r8. c16
+    \mvTr g4\f-\markup \remark "con sordino" a r8. c16
     a'4 d, r8 d
     d, d' d,4 r
     d8 d' d,4 r8 fis'
@@ -915,5 +915,165 @@ PignusViola = {
     g8 fis g fis g4 d
     b g g' d %210
     b g r2\fermata \bar "|." %211 finis
+  }
+}
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 3/4 \tempoAgnus
+    r8 \mvTr <d f>\p_\markup \remark "con sordino" q q q q
+    r <c f> q q <a f'> q
+    r <b f'> q q <d f> q
+    q2 <c a'>4
+    <b b'> r8 b\f a f' %5
+    f4 r8 d\p d d
+    es4 r r
+    r c8 c d d
+    es es es es g g
+    f4\fz r8 f,4 f8 %10
+    f2 r4
+    r8 f4 f f8
+    f2 r4
+    r8 g' g g g g
+    f f f f a, a %15
+    b4 r r
+    b8\fz r b r d, r
+    es r r4 r8 f'\p
+    f d es es e e
+    f g f f f, f %20
+    f4 r8 f'\f f f
+    f f f4 f,
+    b8 b\pE b b b b
+    r a a a f' f
+    r g g g g g %25
+    f f f f f f
+    f f, f f f f
+    r f f f f f
+    r f f f c' f
+    f2 r4 %30
+    r f, f
+    f r8 b a g
+    fis4 r r
+    g r r
+    r8 c c c c c %35
+    b4 b8\f a g f!
+    e4 r r
+    c'2\pE d4
+    c c, r
+    r r r8 c' %40
+    a f c4 r
+    r r c'
+    c r r
+    R2.*2 %45
+    r8 f,4\fz f f8
+    f f'\p f,4 r
+    f f' r8 f,
+    b b c\f c c c
+    c c\p c c c c %50
+    c4 c c
+    c2 r4
+    R2.*2
+    a8 a b b h h %55
+    c4 r r
+    r8 f,\f c'4 c
+    c8 f,\p f f f f
+    r e e e e e
+    r es es es c' c %60
+    c4 b r
+    r d, d'
+    d r8 g\f f! e
+    f f,\p f f f f
+    r f f f f f %65
+    r f f f c' f
+    f4 r8 f g g
+    f f f f es\f es
+    d b r b\p b b
+    a f r f f a %70
+    b4 r8 b as as
+    g4 r8 g g g
+    c c c c b! b
+    a! a a a f' f
+    b es, f f f, f %75
+    b\f b b b\p b b
+    es es es es f f
+    g g g g f f
+    es es es es g g
+    f f, f f f f %80
+    f f f f f f
+    ges ges ges ges ges ges
+    ges ges ges\cresc ges ges ges
+    f4\f f r
+    r r r8 f'\p %85
+    d! b f4 r
+    r r r8 f'
+    f4 r r8 b,
+    b2 b8 g'
+    f b, f'4 r %90
+    r8 b,4\fz f' f8
+    f4 f\p r
+    b, b' r8 b,\f
+    es es e e e e
+    f4 r r %95
+    r f8 f f f
+    f4 r r
+    R2.
+    r8 g\p g g g g
+    f f f f a, a %100
+    b4 r r
+    b8 r b\fz r d, r
+    es r r4 r8 f'\p
+    f d es es e e
+    f g f f f, f %105
+    f r b'16(\f c) cis( d) g,( a) b( e,)
+    f4 r r\fermata
+    b,4 r r
+    r16 fis'(-\markup \remark "senza sordino" g b) cis,( d g d) a( b d b)
+    g8 b a4 r8. es'16 %110
+    a,4 b r8 g\p
+    d'4 d, r8 d'
+    fis4 g r8 d
+    d,2 d'4
+    d r r %115
+    b\f c r8. c16
+    a'4 d, r8 g,\p
+    d'4 r r
+    d, r r8 d'
+    fis,8.( g16) g4. b8 %120
+    d4 d, r
+    r r d'8\f d
+    g( cis,) d( a) b( fis)
+    g( b16 a) a4 d8 d
+    g( cis,) d( cis) d4\p %125
+    e2.
+    d4 r r8 fis\f
+    fis8.( g16) g4.( b8)\p
+    d4 r8 d\f d, c!
+    b b b b c c %130
+    b b b b b' b
+    a a a g fis fis
+    g g g g d d
+    c es d d d c
+    b4 r8 d es es %135
+    d r d r d r
+    a4. r8 r4
+    r8 es'\p d c d d,
+    es[\f r16 es'] es8\p es es es
+    b b b b b b %140
+    h h c c c c
+    cis\f cis d4 r
+    r r c,!8 c'
+    b g es'4 d
+    d r g~ %145
+    g f!8 d f4
+    h c as~
+    as8 f g4 a
+    c, h g
+    g g r %150
+    r h\p h
+    c h r
+    r16 h'(\f c es) fis,( g c g) d( es g es)
+    \tempoAgnusB c4 g'2
+    g2.\fermata \bar "|." %155 FINIS
   }
 }

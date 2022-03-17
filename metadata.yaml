@@ -4,7 +4,7 @@ composer:
 title: Litaniæ de Venerabili Sacramento
 id: MH 228
 genre: litany
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor (\flat B basso/\flat E/\flat B), vl solo, 2 vl, 3 vla, b, org
+scoring: 2 S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor (\flat B basso/\flat E/\flat B), vl solo, 2 vl, 3 vla, b, org
 license: cc-by-sa-4.0
 sources:
   C1:
@@ -18,4 +18,8 @@ sources:
     notes: Breitkopf und Härtel, Leipzig (1823), plate number 3504
 imslp:
 parts:
-  cor12: Corno I, II
+  vl1: Violino solo\\Violino I\\Viola I
+  vl2: Violino II\\Viola II
+  ob1: Oboe I\\Flauto I
+  ob2: Oboe II\\Flauto II
+  cor12: Corno I, II in \flat B basso/\flat E/\flat B alto
