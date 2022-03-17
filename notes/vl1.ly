@@ -1067,7 +1067,7 @@ AgnusViolinoSolo = {
     b( a b a) b( a) es'( c) b8 a\trill
     r16. g32\f g16. g32 g8\p g g g
     as as g g g g %140
-    as as g g b b
+    as as g g c^\critnote b
     b\f b a d d d
     d16-! d( es d) es-! e( f e) f-! fis( g fis)
     g8 g, a2\trill
@@ -1226,7 +1226,7 @@ AgnusViolinoI = {
     b( a b a) b( a) es'( c) b8 a\trill
     r16. g32\f g16. g32 g8\p g g g
     as as g g g g %140
-    as as g g b b
+    as as g g c^\critnote b
     b\f b a d d d
     d16-! d( es d) es-! e( f e) f-! fis( g fis)
     g8 g, a2\trill
