@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,10 +12,9 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Violino II"
+          \KyrieViolinoII
         }
-        \new FiguredBass { \KyrieBassFigures }
       >>
     }
   }
@@ -24,19 +23,17 @@
     \addTocLabel "panis"
     \score {
       <<
-        \new Staff { \PanisOrgano }
-        \new FiguredBass { \PanisBassFigures }
+        \new Staff { \PanisViolinoII }
       >>
     }
   }
   \bookpart {
     \section "3" "Sacrificium omnium sanctissimum"
     \addTocLabel "sacrificium"
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \SacrificiumOrgano }
-        \new FiguredBass { \SacrificiumBassFigures }
+        \new Staff { \SacrificiumViolinoII }
       >>
     }
   }
@@ -45,8 +42,10 @@
     \addTocLabel "coeleste"
     \score {
       <<
-        \new Staff { \CoelesteOrgano }
-        \new FiguredBass { \CoelesteBassFigures }
+        \new Staff {
+          \set Staff.instrumentName = "vla 2"
+          \CoelesteViolaII
+        }
       >>
     }
   }
@@ -55,19 +54,17 @@
     \addTocLabel "incruentum"
     \score {
       <<
-        \new Staff { \IncruentumOrgano }
-        \new FiguredBass { \IncruentumBassFigures }
+        \new Staff { \IncruentumViolinoII }
       >>
     }
   }
   \bookpart {
     \section "6" "Viaticum in Domino morientium"
     \addTocLabel "viaticum"
-    \paper { systems-per-page = #3 }
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \ViaticumOrgano }
-        \new FiguredBass { \ViaticumBassFigures }
+        \new Staff { \ViaticumViolinoII }
       >>
     }
   }
@@ -76,8 +73,7 @@
     \addTocLabel "pignus"
     \score {
       <<
-        \new Staff { \PignusOrgano }
-        \new FiguredBass { \PignusBassFigures }
+        \new Staff { \PignusViolinoII }
       >>
     }
   }
@@ -86,8 +82,7 @@
     \addTocLabel "agnus"
     \score {
       <<
-        \new Staff { \AgnusOrgano }
-        \new FiguredBass { \AgnusBassFigures }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }
