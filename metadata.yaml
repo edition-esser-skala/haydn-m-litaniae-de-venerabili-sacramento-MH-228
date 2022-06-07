@@ -4,18 +4,24 @@ composer:
 title: Litaniæ de Venerabili Sacramento
 id: MH 228
 genre: litany
-scoring: 2 S, A, T, B (solo), S, A, T, B (coro),\\2 fl, 2 ob, 2 cor (\flat B\ basso/\flat E/\flat B), vl solo, 2 vl, 3 vla, b, org
+scoring: 2 S, A, T, B (solo), S, A, T, B (coro),\\2 fl, 2 ob, 2 cor (\flat B\ basso/\flat E/\flat B\ alto), vl solo, 2 vl, 3 vla, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: A-Wst
+    shelfmark: 9526 M. H.
+    date: 1776-03-26
+    url: https://resolver.obvsg.at/urn:nbn:at:AT-WBR-51424
+    license: public domain
+    principal: true
   C1:
     siglum: F-Pn
     shelfmark: D-5988
-    date: 1776-03-26
+    date: 1823
     rism: 990028943
     url: https://catalogue.bnf.fr/ark:/12148/cb44908088r
     license: public domain
-    principal: true
-    notes: Breitkopf und Härtel, Leipzig (1823), plate number 3504
+    notes: Breitkopf und Härtel, Leipzig, plate number 3504
 imslp: Litaniae_de_Venerabili_Sacramento,_MH_228_(Haydn,_Michael)
 parts:
   vl1: Violino solo\\Violino I\\Viola I

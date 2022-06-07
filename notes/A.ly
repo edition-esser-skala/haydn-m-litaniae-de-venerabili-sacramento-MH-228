@@ -8,13 +8,13 @@ KyrieAlto = {
     \mvTr d8.\fE^\tutti d16 c4 r8. c16
     c4 b r
     r r \mvTr c'~\pE^\solo
-    c b8[ g] \once \tieDashed a4~
+    c b8[ g] a4~
     a8[ g] fis c'([ b a)] %20
-    g8.([ fis16)] g4 r
+    g8.([\trill fis16)] g4 r
     \mvTr d\fE^\tutti c r8. c16
     c4 b r
     R2.*6 %29
-    \mvTr f'8.\fE^\tutti f16 es4 r8. a,16 %30
+    \mvTr f'8.\fE^\tuttiE f16 es4 r8. a,16 %30
     c4 b r
     R2.
     r4 r b'~
@@ -41,7 +41,7 @@ KyrieAlto = {
     g4.\p g8 g g
     f4 f r
     R2.
-    r4 r8 d'\fE c h
+    r4 r8 d'\f c h
     h4( c8) a b c %65
     c4 b r
     g4.\p g8 g g
@@ -71,7 +71,7 @@ KyrieAlto = {
     g r r
     r r h~
     h c as~
-    as8[ f] g4 a?~
+    as8[ f] g4 a~
     a d, f!8 f %95
     es2 es8([ e)]
     d4 d r
@@ -85,7 +85,7 @@ KyrieAlto = {
     g es\p es %105
     f es2
     d4 es g8 g
-    e4\fE a,! r
+    e4\f a,! r
     r r d8 d
     d b es4( d) %110
     d r r
@@ -127,19 +127,19 @@ KyrieAltoLyrics = \lyricmode {
 
   Pa -- ter de %58
   coe -- lis, __
-  De -- us, %60
+  DE -- us, %60
   mi -- se -- re -- re
   no -- bis.
 
   Fi -- li Re --
   dem -- ptor mun -- di, %65
-  De -- us,
+  DE -- us,
   mi -- se -- re -- re
   no -- bis.
   Spi -- ri -- tus
   San -- cte, %70
   Spi -- ri -- tus
-  San -- cte, De --
+  San -- cte, DE --
   us, mi -- se --
   re -- re
   no -- bis, %75
@@ -152,10 +152,10 @@ KyrieAltoLyrics = \lyricmode {
   San -- cta, san -- cta
   Tri -- ni -- tas,
   u --
-  nus, u -- %85
-  nus De --
+  nus, __ u -- %85
+  nus DE --
   us, u -- nus
-  De -- us, mi -- se --
+  DE -- us, mi -- se --
   re -- re, mi -- se --
   re -- re no -- %90
   bis,

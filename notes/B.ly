@@ -8,9 +8,9 @@ KyrieBasso = {
     \mvTr g'8.\fE^\tutti g16 a4 r8. a16
     fis4 g r
     R2.*4 %21
-    \mvTr g4\fE^\tutti a r8. a16
+    \mvTr g4\fE^\tuttiE a r8. a16
     fis4 g r
-    r r \mvTr c~\pE^\soloE
+    r r \mvTr c~\pE^\solo
     c b8[ g] a4~ %25
     a16[ fis a g] g4. g8
     g4 fis r
@@ -42,7 +42,7 @@ KyrieBasso = {
     fis4 g r %60
     es4.\p es8 es es
     es4 d r
-    b'\fE b,8 b d b
+    b'\f b,8 b d b
     f'2 f4
     f f2 %65
     fis4 g r
@@ -77,8 +77,8 @@ KyrieBasso = {
     c2 c8([ cis)]
     d4 d r
     R2.
-    r4 d c!
-    b2 c4 %100
+    r4 d4.^\critnote c!8
+    b2( c4) %100
     b b b'
     a4. g8 fis4
     g2 g,4
@@ -86,7 +86,7 @@ KyrieBasso = {
     es4 es\p es %105
     d es2
     f4 es es8 es
-    g4\fE fis r
+    g4\f fis r
     r r c8 c
     b es c4( d) %110
     g, r r
@@ -129,19 +129,19 @@ KyrieBassoLyrics = \lyricmode {
   Pa -- ter, Pa -- ter de %57
   coe --
   lis,
-  De -- us, %60
+  DE -- us, %60
   mi -- se -- re -- re
   no -- bis.
   Fi -- li, Fi -- li Re --
   dem -- ptor
   mun -- di, %65
-  De -- us,
+  DE -- us,
   mi -- se -- re -- re
   no -- bis.
   Spi -- ri -- tus, Spi -- ri -- tus
   San -- cte, Spi -- ri -- tus %70
   San -- cte,
-  De --
+  DE --
   us, mi -- se --
   re -- re
   no -- bis, %75
@@ -155,12 +155,12 @@ KyrieBassoLyrics = \lyricmode {
   Tri -- ni -- tas,
 
   u -- nus %86
-  De -- us, u -- nus
-  De -- us, mi -- se --
+  DE -- us, u -- nus
+  DE -- us, mi -- se --
   re -- re, mi -- se --
   re -- re no -- %90
   bis, u -- nus
-  De -- us,
+  DE -- us,
   mi --
   se -- re --
   re, mi -- se -- %95
@@ -168,10 +168,10 @@ KyrieBassoLyrics = \lyricmode {
   no -- bis,
 
   mi -- se --
-  re -- re %100
-  no -- bis, mi --
-  _ _ se --
-  re -- re
+  re -- %100
+  re, mi -- se --
+  re -- _ _
+  _ re
   no --
   bis, mi -- se -- %105
   re -- re

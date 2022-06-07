@@ -4,7 +4,7 @@ KyrieCornoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoKyrie
-    r4 r r8. f'16\f
+    r4 r r8. f'16\fE
     f4 e r
     \pa e,2.~
     e \pd
@@ -15,20 +15,20 @@ KyrieCornoI = {
     R2.*2 %10
     \pa e4 e, \pd r
     R2.*2
-    r4 r r16. \pa e32\f e16. e32 \pd
+    r4 r r16. \pa e32\fE e16. e32 \pd
     e8 e4 e e8 %15
     e4 r r8. f'16
     f4 e r
     R2.*3 %20
-    r8 e,4\f e e8
+    r8 e,4\fE e e8
     e4 r r8. f'16
     f4 e r
     \pa e,2.~\p
     e \pd %25
     R2.*2
-    r4 \pa g8\ff g g g \pd
+    r4 \pa g8\f g g g \pd
     c4 r r
-    c\fE \pao g r8. \pa g16 %30
+    c \pao g r8. \pa g16 %30
     g4 \pd e8 g g g
     \partCombineChords c e16 c d4 \pd r
     r r c8 c16 c
@@ -47,30 +47,30 @@ KyrieCornoI = {
     r8 f e4 d
     c r r
     R2. %50
-    g4\f r8 g c d
+    g4\fE r8 g c d
     e r r g, c d
     e r r c c c
     c4 r r
     R2. %55
-    c4\pE r r16. d32\f d16. d32
+    c4\fE r r16. d32 d16. d32
     c4 \pa c,8 c e c
     g'4 \pd g8 g g g
     g2.
     f'4 e r %60
     R2.
-    d4\pE c8[ r16 c]\f d8[ r16 d]
+    d4\p c8[ r16 c]\f d8[ r16 d]
     e8 c,  c16 c g c e e c e
     g8 g g g g g
     g g g g g g %65
     f'4 e r
     R2.
-    r4 r8 g,\f g g
+    r4 r8 g,\fE g g
     g2 r4
     r r8 \pa d' d d %70
     d2 \pd r4
     R2.*9 %80
-    r4 \pa e,8\p e e e
-    e4\f \pd r r8. f'16
+    r4 \pa \mvTr e,\fE^\critnote e
+    e4 \pd r r8. f'16
     f4 e r
     \pa e,2.~\p
     e2 \pd r4 %85
@@ -78,9 +78,9 @@ KyrieCornoI = {
     r4 \pa e8\fE e e e \pd %90
     e4 r r
     R2.*5 %96
-    \pa e4 e \pd r
+    \pao e2^\critnote r4
     R2.
-    r4 r8 e'\f e e
+    r4 r8 e'\fE e e
     e4 r8 e e e %100
     e4 r r
     R2.*2
@@ -94,11 +94,11 @@ KyrieCornoI = {
     e4 r r
     \pa e' e, \pd r
     R2.*2
-    r4 r r16. \pa e32\f e16. e32 \pd %115
+    r4 r r16. \pa e32\fE e16. e32 \pd %115
     e8 e'4 e e8
     e4 r r
     R2.
-    r8 g,\f g g g g \bar "||" %119 finis
+    r8 g,\ff g g g g \bar "|" %119 finis
   }
 }
 

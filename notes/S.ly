@@ -8,15 +8,15 @@ KyrieSoprano = {
     \mvTr g'8.\fE^\tutti g16 fis4 r8. fis16
     es'4 d \mvTr g~\pE^\solo
     g fis8[ d] es4~
-    es d8[ b] \once \tieDashed c4~
+    es d8[ b] c4~
     c8[ b] a es'([ d c)] %20
-    b8.([ a16)] g4 r
+    b8.([\trill a16)] g4 r
     \mvTr g\fE^\tutti fis r8. fis16
     es'4 d r
     R2.*4 %27
-    r4 \mvTr f2~\fE^\solo
+    r4 \mvTr f2~\fE^\tutti
     f16[ e f e] f[ e] f([ g)] f([ es d c)]
-    b8.^\tutti b16 a4 r8. es16 %30
+    b8. b16 a4 r8. es16 %30
     es4 d r
     R2.*2
     r4 r f'~
@@ -42,7 +42,7 @@ KyrieSoprano = {
     g([ d es h)] c16([ d es c)]
     a4 b r
     R2.
-    r4 r8 d\fE es f
+    r4 r8 d\f es f
     f4( es8) c d es %65
     es4 d d8\p d
     g([ d es h)] c([ b)]
@@ -57,7 +57,7 @@ KyrieSoprano = {
     g([ cis, d a)] b([ fis)]
     g([ b16 a)] a4 d8 d
     g([ cis, d a)] b([ fis)]
-    g([ b16 a)] a4 \once \tieDashed a~\p
+    g([ b16 a)] a4 a~\p
     a8 b b4.( a8) %80
     a4 r r
     g\f fis fis8 fis
@@ -74,7 +74,7 @@ KyrieSoprano = {
     as g8[( es]) f4~
     f es8[ c] es4~
     es d d8 d %95
-    d4( c4.) b8
+    d4( c4.) b!8
     b4 a! r
     R2.
     r4 d d
@@ -90,7 +90,7 @@ KyrieSoprano = {
     d4 es16[ e f e] f[ fis g fis]
     g8 g, a2\trill %110
     g4 r r
-    R2.*8 \bar "||" %119 finis
+    R2.*8 \bar "|" %119 finis
   }
 }
 
@@ -128,19 +128,19 @@ KyrieSopranoLyrics = \lyricmode {
 
   Pa -- ter de %58
   coe -- lis, __
-  De -- us, mi -- se -- %60
+  DE -- us, mi -- se -- %60
   re -- re __
   no -- bis.
 
   Fi -- li Re --
   dem -- ptor mun -- di, %65
-  De -- us, mi -- se --
+  DE -- us, mi -- se --
   re -- re __
   no -- bis.
   Spi -- ri -- tus
   San -- cte, %70
   Spi -- ri -- tus
-  San -- cte, De --
+  San -- cte, DE --
   us, mi -- se --
   re -- re
   no -- bis, mi -- se -- %75
@@ -152,11 +152,11 @@ KyrieSopranoLyrics = \lyricmode {
   bis.
   San -- cta, san -- cta
   Tri -- ni -- tas, u --
-  nus De --
-  us, u -- %85
-  nus De --
+  nus __ DE --
+  us, __ u -- %85
+  nus DE --
   us, u -- nus
-  De -- us, mi -- se --
+  DE -- us, mi -- se --
   re -- re, mi -- se --
   re -- re no -- %90
   bis,

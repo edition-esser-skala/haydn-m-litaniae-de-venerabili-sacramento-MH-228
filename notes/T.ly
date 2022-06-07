@@ -8,8 +8,8 @@ KyrieTenore = {
     \mvTr b8.\fE^\tutti b16 a4 r8. es'16
     a,4 b r
     R2.*4 %21
-    \mvTr b4\fE^\tutti a r8. es'16
-    a,4 b \mvTr g'~\pE^\soloE
+    \mvTr b4\fE^\tuttiE a r8. es'16
+    a,4 b \mvTr g'~\pE^\solo
     g fis8[ d] es4~
     es d8[ b] c4~ %25
     c16[ a c b] b4. b8
@@ -42,7 +42,7 @@ KyrieTenore = {
     g8\p g g'([ d)] es4
     c b r
     R2.
-    r4 r8 b\fE c d
+    r4 r8 b\f c d
     d4( c8) es d a %65
     a4 b r
     d8\p d g([ d)] es([ d)]
@@ -86,7 +86,7 @@ KyrieTenore = {
     b4 b\p b %105
     b b2
     h4 c c8 c
-    cis4\fE d r
+    cis4\f d r
     r r a8 a
     g g g4( fis) %110
     g r r
@@ -129,19 +129,19 @@ KyrieTenoreLyrics = \lyricmode {
 
   Pa -- ter de %58
   coe -- lis, __
-  De -- us, %60
+  DE -- us, %60
   mi -- se -- re -- re
   no -- bis.
 
   Fi -- li Re --
   dem -- ptor mun -- di, %65
-  De -- us,
+  DE -- us,
   mi -- se -- re -- re __
   no -- bis.
   Spi -- ri -- tus
   San -- cte, %70
   Spi -- ri -- tus
-  San -- cte, De --
+  San -- cte, DE --
   us, mi -- se --
   re -- re
   no -- bis, %75
@@ -155,9 +155,9 @@ KyrieTenoreLyrics = \lyricmode {
   Tri -- ni -- tas,
 
   u -- %85
-  nus De --
+  nus DE --
   us, u -- nus
-  De -- us, mi -- se --
+  DE -- us, mi -- se --
   re -- re, mi -- se --
   re -- re no -- %90
   bis, mi --
@@ -172,8 +172,8 @@ KyrieTenoreLyrics = \lyricmode {
   re -- %100
   re, mi -- se --
   re -- re, __
-  mi -- se --
-  re -- re no --
+  mi -- se -- re --
+  re __ no --
   bis, mi -- se -- %105
   re -- re
   no -- bis, mi -- se --
