@@ -195,12 +195,12 @@ PanisTenore = {
     b4 f f2
     f4 r r2
     R1*99 %106
-    \mvTr b2\fE^\tutti a
+    \mvTr b2\fE^\tuttiE a
     d c
-    b( a4) a
-    g r r2 %110
+    b( a4.)^\critnote a8
+    g4 r r2 %110
     R1*35 %145
-    \mvTr g2\p^\tutti f
+    \mvTr g2\p^\tuttiE f
     es2. as4
     g2( f)
     es4 r r2
@@ -223,7 +223,7 @@ PanisTenore = {
     des2. des4
     f( des2) c4
     h h r2
-    c4.( es8) d4.( f8)
+    c4.( es8) d!4.( f8)
     es4 d g4. h,8 %170
     c( es4 c8 d f4) d8
     es4 d r d~
@@ -234,7 +234,7 @@ PanisTenore = {
     c4 r r2
     R1*2
     r4 g' \appoggiatura f8 es4 \appoggiatura d8 c4 %180
-    \appoggiatura b8 as4 as as as
+    \appoggiatura b4 as as as as
     as( f'2) as,4
     as g r b
     es2. es8 es
@@ -249,24 +249,24 @@ PanisTenore = {
     c2 f8([ es)] d([ c)]
     cis4. d8 d4 r
     g,2 es' %195
-    a, \once \tieDashed f'~
-    f4 es8 d \appoggiatura f es4 d8([ c)]
+    a, f'
+    \appoggiatura g8 f4 es8 d \appoggiatura f es4 d8([ c)]
     \tuplet 3/2 4 { d([ c b)] } b4 r2
     g es'
-    a, \once \tieDashed f'~ %200
+    a, f'~ %200
     f4 fis g  b,
     \appoggiatura b16 a8([ g16 f)] f4 r c'~
     c8[ es] es4.( d8) d4~
     d8[ g] g4.( f8) f4~
     f8[ d] d([ b)] g'([ es)] es([ c)] %205
-    b2( c)
+    b2( c)\trill
     b4 r r2
     b c
     d g
     f2.( es4) %210
     d r d d
     g16[ f g es] c4. d8[ es e]
-    f16[ e? f d] b4. d8[ f d]
+    f16[ e f d] b4. d8[ f d]
     es16[ d es c] a8 r es'16[ d es c] a8 r
     es'16[ f g f] es[ f g f] es[ d c b] a[ g f es] %215
     d4 f' g, g'
@@ -328,8 +328,8 @@ PanisTenoreLyrics = \lyricmode {
   no --
   bis,
 
-  my -- steri -- um_fi -- %180
-  de -- i, mi -- se --
+  my -- ste -- rium %180
+  fi -- dei, mi -- se --
   re -- re
   no -- bis, my --
   ste -- ri -- um
@@ -345,7 +345,7 @@ PanisTenoreLyrics = \lyricmode {
   ra -- bi -- le,
   ve -- ne -- %195
   ra -- _
-  bi -- le Sa -- cra --
+  _ bi -- le Sa -- cra --
   men -- tum,
   mi -- se --
   re -- _ %200

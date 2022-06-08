@@ -120,8 +120,8 @@ PanisCornoI = {
     R1
     r8 d' d d d4 r
     R1*3 %16
-    c4\fE r8 g e'4 d
-    c r8 g e'4 d
+    c4\fE r8 g e'4-! d-!
+    c r8 g e'4-! d-!
     c r r2
     r r4 d %20
     c r r2
@@ -130,14 +130,14 @@ PanisCornoI = {
     R1*5 %34
     r4 g g r %35
     g1
-    g4 r \pao g r
+    g4\f r \pao g r
     R1
     d'4 r d r
     R1 %40
     r4 \pa d d \pd r
     R1*7 %48
-    \pao d4\f r \pao d r
-    d r r2 %50
+    \pao d4\pE r \pao d r
+    d\f r r2 %50
     d4 r r2
     d4 r r2
     R1
@@ -147,11 +147,11 @@ PanisCornoI = {
     c1\p
     c4\f r c r %70
     R1
-    \pao g4\f r \pao g r
+    \pao g4 r \pao g r
     R1*4 %76
     \pa c4\f c,8. c16 c4 \pd r
     r r8 \pa g'\p g g g g \pd
-    g4\f \pa c,8. c16 c4 \pd r
+    g4 \pa c,8.\f c16 c4 \pd r
     r r8 \pa c c c c c %80
     c4 \pd r r2
     \pao g'4\p r r2
@@ -159,11 +159,11 @@ PanisCornoI = {
     r8 d' d d d4 r
     R1*8 %94
     g,4 r g r %95
-    g1
-    g4 r r2
+    g1\f
+    g4\p r r2
     R1*2
-    \pao g4\f r \pao g r %100
-    c r8 g e'4 d
+    \pao g4 r \pao g r %100
+    c\f r8 g e'4 d
     c r8 g e' e d d
     c4 r r2
     r r4 d
@@ -175,7 +175,7 @@ PanisCornoI = {
     e4 r r2 %110
     e1~\p
     e~
-    e
+    e~
     e2 r
     R1*3 %117
     r2 e\f
@@ -194,7 +194,7 @@ PanisCornoI = {
     c r
     c c4 c
     c r r2
-    r g'4\f g8 g %150
+    r g'4\fE g8 g %150
     g4 r r8 \pa g g g \pd
     g4 r r8 c c c
     \pao g4 r r8 f' f f
@@ -206,7 +206,8 @@ PanisCornoI = {
     R1*18 %176
     \pao d'4\f r r2
     \pao d4 r r2
-    R1*11 %189
+    \pao d4^\critnote r r2
+    R1*10 %189
     c4\fE r r2 %190
     R1*11 %201
     r8 d\pE d d d4 r

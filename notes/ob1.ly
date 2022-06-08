@@ -127,16 +127,16 @@ PanisOboeI = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoPanis
-    b''4\fE f8 f f4 r
+    \pa b''4\fE f8 f f4 r
     f f8 f f4 f
     f es2 d4
     g8 c, c4 f8 a, a4
     b8 f f4 r2 %5
     R1
     r4 b2 d4
-    g8. f16 f2 f,4
+    g8.( f16) f2 f,4
     f f'2 f4
-    c'8. b16 b2 b,4 %10
+    c'8.( b16) b2 b,4 %10
     b r g' r
     es r c4. b8
     a f' f f f4 r
@@ -158,30 +158,30 @@ PanisOboeI = {
     R1 %40
     r4 g,\pE g r
     R1*7 %48
-    f'2\fE e
-    f4 c2 b4 %50
+    f'2 e
+    f4\f c2 b4 %50
     a8 f' c2 b4
     a r8 c d4 r8 g,
     c4 r8 c b4 \appoggiatura a8 g4
     c r8 f b b g g
     f4 r r2 %55
     R1*3
-    r2 c\f
+    r2 c\fE
     b4 r r2 %60
     R1*6 %66
     f'2\pE es4 d
     d c r2
     f1\p
     f4\f r f r %70
-    es1\pE
+    es1\p
     es4\f r es r
     des\p r e( f)
     r2 e4( f)
     R1*2 %76
     r4 b,2\f d4
-    g8. f16 f2\p f,4
+    g8.( f16) f2\p f,4
     f f'2\f f4
-    c'8. b16 b2 b,4 %80
+    c'8.( b16) b2 b,4 %80
     b r r2
     c4\p r r2
     R1
@@ -190,11 +190,11 @@ PanisOboeI = {
     r8 f f f f4 r
     R1*8 %94
     es8([ c)] a r es'([ c)] a r %95
-    c1
-    d4 r r2
+    c1\f
+    d4\p r r2
     R1*2
-    d2\f c %100
-    b'4 f2 a4
+    d2 c %100
+    b'4\f f2 a4
     b f2 a4
     b8 r f r g r c, r
     f r d d es es c c
@@ -217,10 +217,10 @@ PanisOboeI = {
     es4 r es r
     es r r2
     es4 r r2
-    r fis,\f
+    r fis,\fE
     g4 r r2 %130
     R1*2
-    r4 cis\f d cis
+    r4 cis\fE d cis
     d8 a a a a4 r
     R1*5 %139
     r2 g'4\fE r %140
@@ -248,7 +248,7 @@ PanisOboeI = {
     c es, d d
     c r r2 %180
     R1*8 %188
-    r4 r8 e,\f f es' d c
+    r4 r8 e,\fE f es' d c
     b4 b'2\p b4~ %190
     b r r2
     R1*7 %198
@@ -264,10 +264,10 @@ PanisOboeI = {
     d r r2
     R1*2
     es8([ c]) a r es'([ c)] a r
-    c1 %215
-    d4 r r2
+    c1\f %215
+    d4\pE r r2
     R1
-    r4 b\f b8 d f d
+    r4 b\fE b8 d f d
     b2 es
     d g %220
     f2. es4

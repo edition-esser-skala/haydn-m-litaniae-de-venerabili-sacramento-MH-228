@@ -194,12 +194,12 @@ PanisBasso = {
     f4. f8 a,2
     b4 r r2
     R1*99 %106
-    \mvTr g'2\fE^\tutti fis
+    \mvTr g'2\fE^\tuttiE fis
     g c,
     d2. d4
     g, r r2 %110
     R1*35 %145
-    \mvTr es'2\p^\tutti d
+    \mvTr es'2\p^\tuttiE d
     es as,
     b1
     es4 r r2
@@ -213,7 +213,7 @@ PanisBasso = {
     f4. f8 a,2
     b4 r r2
     R1*60 %218
-    \mvTr b'2\fE^\tutti a
+    \mvTr b'2\fE^\tuttiE a
     b es, %220
     f1
     b,4 r r2

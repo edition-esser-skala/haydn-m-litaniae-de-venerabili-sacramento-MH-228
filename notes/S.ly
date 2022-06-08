@@ -196,7 +196,7 @@ PanisSoprano = {
     R1*13 %20
     \mvTr b'1~\pE^\solo
     b4 f2 g4
-    \appoggiatura f8 es4. es8 es4 r
+    \appoggiatura f es4. es8 es4 r
     c'2( f8[ es)] d([ c)]
     \appoggiatura cis d4 d r2 %25
     g,2 es'
@@ -221,8 +221,8 @@ PanisSoprano = {
     f r c' c %45
     f16[ e f c] a4~ a16[ c b a] b[ c d e]
     f[ e f c] a[ c b a] d[ e f e] \appoggiatura g f8[ e16 d]
-    c8[ a' g f] e[ f e d]
-    c4 \appoggiatura b16 a8[( g16 f]) g2\trill
+    c8[ a' g f] e[ f] e([ d])
+    c4 \appoggiatura b16 a8[ g16 f] g2\trill
     f4 r r2 %50
     R1*4
     f'1~ %55
@@ -230,7 +230,7 @@ PanisSoprano = {
     \appoggiatura c b2 b4 b8 b
     b4( g'2) b,8 b
     \appoggiatura b a4 a r2
-    \once \tieDashed g'1~ %60
+    g'1~ %60
     g4 b,2 es4
     \appoggiatura d c2 c
     es d4( c)
@@ -278,7 +278,7 @@ PanisSoprano = {
     d2.( c8.) c16
     b4 r r2 %110
     R1*35 %145
-    \mvTr es,2\p^\tutti f
+    \mvTr es,2\p^\tuttiE f
     g c
     b2.( as4)
     g r r2
@@ -310,7 +310,7 @@ PanisSopranoLyrics = \lyricmode {
   re -- re no --
   bis.
 
-  De -- %21
+  DE -- %21
   us ab --
   scon -- di -- tus
   et __ sal --
@@ -337,8 +337,8 @@ PanisSopranoLyrics = \lyricmode {
   bis, mi -- se -- %45
   re -- _ _
   _ _ _ _
-  _ _
-  _ re __ no --
+  _ _ re
+  no -- _ _
   bis. %50
 
   Pa -- %55

@@ -135,7 +135,7 @@ PanisOboeII = {
     f r %5
     R1
     r4 d2 b'4
-    c c2 f,4
+    c c2 es,4-\critnote
     d d'2 c4
     b b2 f4 %10
     g r es' r
@@ -144,7 +144,7 @@ PanisOboeII = {
     R1*3 %16
     d4\fE d2 es4
     f d2 es4
-    d r8 d es4 r8 a,
+    f r8 f es4 r8 a,
     b4 r8 b g g a a %20
     b4 b2\p b4~
     b r r2
@@ -159,22 +159,22 @@ PanisOboeII = {
     R1 %40
     r4 e\pE e r
     R1*7 %48
-    a2\fE g
-    f4 a2 g4 %50
+    a2 g
+    f4\f a2 g4 %50
     f8 f a2 g4
     f r8 a b4 r8 e,
     f4 r8 f g4 \appoggiatura f8 e4
     f4 r8 a d d e e
     f4 r r2 %55
     R1*3
-    r2 a,\f
+    r2 a,\fE
     g4 r r2 %60
     R1*6 %66
     b2\pE c4 b
     b a r2
     d1\p
     d4\f r d r %70
-    c1\pE
+    c1\p
     c4\f r c r
     b\p r e( f)
     r2 e4( f)
@@ -191,11 +191,11 @@ PanisOboeII = {
     r8 a a a a4 r
     R1*8 %94
     c8([ a)] f r c'[( a)] f r %95
-    a1
-    b4 r r2
+    a1\f
+    b4\p r r2
     R1*2
-    b2\f a %100
-    b4 d2 es4
+    b2 a %100
+    b4\f d2 es4
     f d2 es4
     f8 r d r es r a, r
     b r b b g g a a
@@ -214,14 +214,14 @@ PanisOboeII = {
     g b4 g
     fis r r2 %120
     R1*4
-    r8 c\f g' es c c' es c %125
+    r8 \mvTr es\f-\critnote g es c c' es c %125
     as4 r as r
     as r r2
     as4 r r2
-    r es\f
+    r es\fE
     d4 r r2 %130
     R1*2
-    r4 g\f fis g
+    r4 g\fE fis g
     fis8 fis fis fis fis4 r
     R1*5 %139
     r2 g4\fE r %140
@@ -249,7 +249,7 @@ PanisOboeII = {
     g c, c h
     c r r2 %180
     R1*8 %188
-    r4 r8 e,\f f es' d c
+    r4 r8 e,\fE f es' d c
     b4 b2\p b4~ %190
     b r r2
     R1*7 %198
@@ -265,10 +265,10 @@ PanisOboeII = {
     b4 r r2
     R1*2
     c8([ a]) f r c'[( a)] f r
-    a1 %215
-    b4 r r2
+    a1\f %215
+    b4\pE r r2
     R1
-    r4 d,\f d8 d' f d
+    r4 d,\fE d8 d' f d
     b2 c
     b b %220
     d a

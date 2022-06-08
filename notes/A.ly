@@ -193,7 +193,7 @@ PanisAlto = {
     d([ f)] es([ d)] d4( c)
     b4 r r2
     R1*99 %106
-    \mvTr d2\fE^\tutti d
+    \mvTr d2\fE^\tuttiE d
     g g
     g( fis4.) fis8
     g4 r r2 %110
@@ -206,8 +206,8 @@ PanisAlto = {
     c4. c'8 c4 b
     b a r2
     R1
-    r4 d, \once \tieDashed f!2~ %120
-    f8[ as] as g \once \tieDashed f2~
+    r4 d, f!2~ %120
+    f8[ as] as g f2~
     f8[ as] as([ g)] \appoggiatura g f4 as8 f
     es8.([ f16)] g4 c4. g8
     g([ as g as] g[ as)] g([ f)]
@@ -242,7 +242,7 @@ PanisAlto = {
     d([ f)] es([ d)] d4( c)
     b r r2
     R1*60 %218
-    \mvTr f'2\fE^\tutti f
+    \mvTr f'2\fE^\tuttiE f
     b b %220
     b( a)
     b4 r r2

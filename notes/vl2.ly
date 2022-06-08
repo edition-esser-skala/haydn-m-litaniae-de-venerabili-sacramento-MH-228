@@ -130,23 +130,23 @@ PanisViolinoII = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoPanis
-    b4\fE r r2
+    b4\fE r-\markup \remark "si levano le sordine" r2
     R1
-    b''16(-\markup \remark "senza sordino" a) b-! g-! es8 r b'16( a) b-! f-! d( es) f-! d-!
+    b''16( a) b-! g-! es8 r b'16( a) b-! f-! d( es) f-! d-!
     g f g es c8 r f16 e f c a b c a
     b a b f d f b f f4. es8 %5
-    d f es d d4 c
+    d( f) es d d4( c)
     b b'4. a16( b) c( b) c( b)
-    g'8.( f16) f8 f f,16( es d es) d( es f es)
+    g'8.( f16) f8 f-! f,16( es) d es d es f es
     d4 f'4. e16( f) g( f) g( f)
     c'8.( b16) b8 b, b,16 as g as g as b as %10
     g4 g''~ g16 a! b a b g d f
     es f g f g es h d c d es d es c g c
-    \appoggiatura b a8 g16 f f4 r a~\p
-    a8 c c4.( b8) b4~
-    b8 es es4.( es,8) es4~ %15
-    es8 d-\critnote es c' b4 a\trill
-    b'16\fE a b f d4~ d16( f) es-! d-! es f g a
+    \appoggiatura b a8 g16 f f4 r a~(\p
+    a8 c) c4.( b8) b4~(
+    b8 es) es4.( es,8) es4~( %15
+    es8 d)-\critnote es c' b4( a)
+    b'16(\f a) b-! f-! d4~ d16( f) es-! d-! es f g a
     b a b f d4~ d16 f es d es f g a
     b a b f d f es d g fis g es c es d c
     f e f d b a b c c2\trill %20
@@ -160,20 +160,20 @@ PanisViolinoII = {
     b4 b \appoggiatura d8 c4 b8 a
     b d, d d d d' d d
     c c, c c c c c c %30
-    b b d d f b a a
+    b b d d f b a g-\critnote
     f f f f f f f f
     es g g g g g g g
     g g g g g g b d,
     d4 c r8 a-! c-! f-! %35
     a( f) a( f) c'( a) c( a)
-    <a f'>4\f r q r
-    g\pE g4. a16 b c d e f
-    g4\fE r b,8(\fp g) e( g)
-    f( a) a a a a f f %40
-    f4 e r e'~
-    e8 g g4.( f8) f4~
-    f8 b b4. b,8 b4~
-    b8 a b g f4 e
+    <a f'>4 r q r
+    g g4. a16 b c d e f
+    g4 r b,8(\fp g) e( g)
+    f a a a a a f f %40
+    f4 e r e'~(
+    e8 g) g4.( f8) f4~(
+    f8 b) b4.( b,8) b4~(
+    b8 a) b g f4( e)
     f r8 c a' a g g %45
     f4 r8 a a a b b
     c r a' r b r d, r
@@ -183,31 +183,31 @@ PanisViolinoII = {
     f e f c a4~ a16 c b a b c d e
     f e f c a c b a d cis d b g b a g
     c h c a f a g f d b' a g \appoggiatura f8 e4
-    c16( f) f-! f-! f( a) a-! a-! b( g') g-! g-! <e b>4
+    c16( f) f-! f-! f( a) a a b( g') g g <e b>4
     <a, f'> a8.(\p f16) b4 g8.( e16) %55
     f8 \parOn a,-\parenthesize-! c-! \parOff f-\parenthesize-! a,4 r
     r8 b d g b,4 r
     r8 b g g' b,4 r
     r8 f'\f a c r fis, a c
     b4 b8.(\p g16) c4 a8.( fis16) %60
-    g8 b, d g b,4 r
+    g8 b,-! d-! g-! b,4 r
     r8 c es a c,4 r
     r8 c es a c,4 r
     r8 g d' g g,4 r
     r8 g' c es r d, g d' %65
     r c, g' c r c, f a
-    r f( b\fz d) c4 b\p
+    r f(\fz b d) c4 b\p
     b a r8 f\f f16 es f es
     d8(\p b') d( b) f'( d) f( d)
-    <d b'>4\f r q r %70
-    c8\pE c, c4. d16 e f g a b
-    c4\fE r es8(\fp c) es( a,)
+    <d b'>4 r q r %70
+    c8 c, c4. d16 e f g a b
+    c4 r es8(\fp c) es( a,)
     b4 b, b'(\fp a)
     r b b'(\fp a)
-    r a,(\f c es)\p %75
+    r a,(\f c) es\p %75
     des( c) b( a)
     b b4.\f a16( b) c( b) c( b)
-    g'8.( f16) f8 f f,16\p es d es d es f es
+    g'8.( f16) f8 f-! f,16(\p es) d es d es f es
     d4 f'4.\f e16( f) g( f) g( f)
     c'8.( b16) b8 b, b,16 as g as g as b as %80
     g8 es'\p g b r g b es
@@ -215,14 +215,14 @@ PanisViolinoII = {
     b4 b \appoggiatura d8 c4 b8 a
     \appoggiatura es' d4 c8 b \appoggiatura d c4 b8 a
     b4 b2 g4 %85
-    c, r r a'~
-    a8 c c4.( b8) b4~
-    b8 es es4.( es,8) es4~
-    es8 d es c' b4( a)
+    c, r r a'~(
+    a8 c) c4.( b8) b4~(
+    b8 es) es4.( es,8) es4~(
+    es8 d) es c' \once \slurDashed b4( a)
     b r8 f d' d c c %90
     b4 r8 f d' d c c
     b f f f f f f f
-    g g g g g g g b
+    g g g g g g b b
     a f f f f g a b
     c r c16 b c a f8 r c'16 b c a %95
     f8 r c'16 d es d c b a g f es d c
@@ -234,20 +234,20 @@ PanisViolinoII = {
     b a b f d4~ d16 f es d es f g a
     b a b f d f es d g fis g es c es d c
     f e f d b a b c c2\trill
-    b4(\ff d) d16 fis g fis g d b d %105
+    b4 d~\ff d16 fis g fis g d b d %105
     c d es d es c a g fis g a g fis es d c
     b4 r r8 d' d, a'
     g4 r r8 c c, c'
     b4 r r8 fis c' a
     g b d b g g b g %110
-    d d\p( fis a) c c( a fis)
+    d d\p( fis a) c-! c-! a( fis)
     g4 r r2
-    r8 d( fis a) c c( a fis)
+    r8 d( fis a) c c a( fis)
     g4 r r2
     c, b %115
     c b
-    r8 c(\f es fis) a4 g\p
-    g fis8\f fis fis fis fis fis
+    r8 c(\f es fis) a4\p g
+    g fis8 fis\f fis fis fis fis
     g g g g cis, cis g' g
     fis4 fis8(\p f) f2~ %120
     f8 d d es f2~
@@ -255,20 +255,20 @@ PanisViolinoII = {
     c8 es es es es es es es
     d4 es d h
     r8 c\f g' es c c' es c %125
-    es, es4\p es\f es es8~\p
-    es4 r r2
-    es4\fE r es8(\p d c b)
+    es, es4\p << { \oneVoice es es } \\ { s8 s\f s4\p } >> es8~
+    es4\f r r2
+    es4 r es8(\p d c b)
     \appoggiatura b a!4 a8 a a\f es' es es
     d d(\p g d) r fis( a fis) %130
     r g( b g) r a( d, a')
     r g( c a) g4( fis)
-    g4 g\f fis8( d) g, g'
-    fis4 r r fis~\p
-    fis8 a a4.( g8) g4~ %135
-    g8 c c4.( c,8) c4~
-    c8 h h4. h8( c d)
+    g4 g(\f fis8) d-! g,-! g'(
+    fis4) r r fis~(\p
+    fis8 a) a4.( g8) g4~( %135
+    g8 c) c4.( c,8) c4~(
+    c8 h) h4. h8( c) d
     c c es es g g c c
-    d, r b'\f r d, r a' r
+    d, r b' r d,\f r a' r
     d'16 c d b g4~ g16 a g fis g a b c %140
     d c d b g4~ g16 a g fis g a b c
     d c d b g fis g d es d es c \appoggiatura b a8 c16 a
@@ -286,9 +286,9 @@ PanisViolinoII = {
     b16 c d a b8 r b'16 a b f d es f d
     g f g es c8 r f16 e f c a b c a %155
     b a b f d f b f f4. es8
-    d( f es d) d4( c)
+    d( f) es d d4( c)
     b b'4. a16( b) c( b) c( b)
-    g'8.( f16) f8 f, c\p c c c
+    g'8.( f16) f8 f,\p c c c c
     b b d d f b a g %160
     f f f f f f f f
     es g g g g g g g
@@ -301,11 +301,11 @@ PanisViolinoII = {
     g(\p c,) es( c) g'( g,) h( d)
     c( g) h( g) h( g) h( d) %170
     g g g g d' d d d
-    c4 h r h~
-    h8 d d4.( c8) c4~
-    c8 f f4.( f,8) f4~
+    c4 h r h~(
+    h8 d) d4.( c8) c4~(
+    c8 f) f4.( f,8) f4~
     f8 es es es c c as' as %175
-    g r c\f r d r d r
+    g r c r f\f^\critnote r d r
     c'16 h c g es4~ es16 g f es f g a h
     c h c g es4~ es16 g f es f g a h
     c4 c,2 h4
@@ -314,13 +314,13 @@ PanisViolinoII = {
     f as,,2\fp f'4
     f es r8 g,-! b-! es-!
     g( es) g( es) b'( g) b( g)
-    <g es'>4\fE r q r %185
-    f\pE f~ f16 g a! b c d es c
-    f,4\fE r f r
-    f\pE c'2 b4
+    <g es'>4 r q r %185
+    f f~ f16 g a! b c d es c
+    f,4 r f r
+    f c'2 b4
     b a8 e\f f es d c
     b4 d8.(\p b16) es4 c8.( a16) %190
-    b4 r r8 b-! d-! g-!
+    b4 r r8 b-! d-! b'-!
     c,4 r r8 es g c
     c,4 r r8 c f c'
     b,4 r r8 d f b
@@ -331,12 +331,12 @@ PanisViolinoII = {
     g8 es-!\p g-! b-! r g b es
     r c, f a r f a c %200
     r b b b b( g) b( d,)
-    \appoggiatura d16 c8 b16 a a4 r a'~
-    a8 c c4.( b8) b4~
-    b8 es es4.( es,8) es4~
+    \appoggiatura d16 c8 b16 a a4 r a'~(
+    a8 c) c4.( b8) b4~(
+    b8 es) es4.( es,8) es4~
     es8 d f'4^\critnote g, g' %205
     f,8(\fp d') d( b) c,(\fp es) es( c)
-    b'16\fE a b f d4~ d16 f es d es f g a
+    b'16\f a b f d4~ d16 f es d es f g a
     b4 r r8 f\p c c'
     b4 r r8 es es, es'
     d4 r r8 a es' c %210

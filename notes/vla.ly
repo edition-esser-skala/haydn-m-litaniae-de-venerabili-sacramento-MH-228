@@ -146,7 +146,7 @@ PanisViola = {
     fis2\p g
     es c %15
     b4 es f f
-    f r8 f\f f f f f
+    f\f r8 f f f f f
     b,4 r8 f' f f f f
     b,4 r8 b es4 r8 es
     d4 r8 d g g f f %20
@@ -166,11 +166,11 @@ PanisViola = {
     r r4 g'
     f8 f, a c f,4 r %35
     f' r f r
-    c\f r c r
-    d\pE r r2
-    c4\fE r c r
-    d8\pE d d d d d d d %40
-    c4 c8. h16 c4 r
+    c r c r
+    d r r2
+    c4 r c r
+    d8 d d d d d d d %40
+    c4 c8.\trill h16 c4 r
     cis2 d
     b g'
     f4 b, c c
@@ -186,7 +186,7 @@ PanisViola = {
     a a d d d' d c c,
     f4 r r2 %55
     f,4\p r r8 f' a f
-    g4 r r8 b b g
+    g4 r r8 g^\critnote b g
     g,4 r r8 g' c, e
     f4 r d8\f d d d
     d4 r r2 %60
@@ -196,19 +196,19 @@ PanisViola = {
     g4 r r8 d g, d'
     es4 r h r %65
     c r es r
-    d8( f) f2\fz f4\p
+    d8(\fz f) f2 f4\p
     f r8 f\f f es d c
     b4\p r b r
-    b\f r b' r %70
-    g\pE r r2
-    f4\f r f r
-    ges2\pE f
+    b r b' r %70
+    g r r2
+    f4 r f r
+    ges2 f
     ges f
     es a, %75
     b4 ges' f f
     f r8 d!\f d d d d
-    c c c c c\pE c c c
-    b4 r8 d\fE b' b a a
+    c c c c\p c c c c
+    b4 r8 d\f b' b a a
     b f f f f f f f %80
     es b\p es g r es g b
     r a,! c f r c f a
@@ -229,7 +229,7 @@ PanisViola = {
     b,4 r es r
     f r r2
     b8 r r4 b,8 r r4
-    f'8\f r r4 f8 f f f %100
+    f'8 r r4 f8\f f f f %100
     d4 r8 f f f f f
     b,4 r8 f' f f f f
     b, r f' r es r es r
@@ -249,7 +249,7 @@ PanisViola = {
     R1
     r8 d d d a'\f a a a
     b b b b g g b, b
-    a4 r r h8(\p c) %120
+    a4 r r h8\p c %120
     d4 r r8 d h c
     d4 r r h
     c8 c c c c c c c
@@ -259,7 +259,7 @@ PanisViola = {
     c r r2
     c4 r r2
     r8 es\pE es es c\f a a a
-    b4\p r d r %130
+    b4 r d\p r %130
     g r fis r
     g( es) d( c)
     b g(\f a8) r g4(
@@ -278,7 +278,7 @@ PanisViola = {
     es g d b'
     g es as, as'
     b b b, b
-    b8 g'\f g g g g g g
+    b8 g' g g g\f g g g
     c, c c c f f f f %150
     f4 r r8 a,! f' a,
     b4 r r8 b es es,
@@ -288,7 +288,7 @@ PanisViola = {
     d d d d b4 d
     f2 f,
     f4 r8 d' d d d d
-    c c c c f,\p f f f
+    c c c\p c f, f f f
     f4 r r2 %160
     r4 r8 b b b b b
     b4 r r2
@@ -299,7 +299,7 @@ PanisViola = {
     r des'( as f) r2
     r8 f,\f f h h d! d d
     es4 r r2
-    r d4 d %170
+    r d4\p d %170
     g,2 g
     g4 g' g, r
     r h'4.( c8) c4
@@ -308,15 +308,15 @@ PanisViola = {
     c4\f r8 g' g g g g
     g4 r8 g g g g g
     g g es es as as g g
-    g4 c,2\pE c4 %180
+    g4 c,2\p c4 %180
     c r r2
     b!4 r r b
     b b8 g es4 r
     es' r es r
-    b\fE r b r %185
-    c\pE c c c
-    b\fE r r2
-    r4 f'\pE b, g'
+    b r b r %185
+    c c c c
+    b r r2
+    r4 f' b, g'
     f r8 e\f f es d c
     b4 r r f\p %190
     f r r b
@@ -325,8 +325,8 @@ PanisViola = {
     b r r b
     es r r2 %195
     R1*2
-    r8 f\f f f f f f f
-    es\p b es g r es g b
+    r8 f f f f\f f f f
+    es b\p es g r es g b
     r a, c f r c f a %200
     b4 r r2
     r8 f c' a f4 r
@@ -343,7 +343,7 @@ PanisViola = {
     f4 r f r
     f r r2 %215
     b,4 b es es
-    f8 f f f f\fE f f f
+    f8 f f f f\f f f f
     f4 r r8 d f d
     b b' b b r a a a
     r b b b r es, es es %220

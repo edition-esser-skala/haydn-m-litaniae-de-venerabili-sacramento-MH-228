@@ -10,7 +10,7 @@ fC = \set Staff.forceClef = ##t
 
 
 tempoKyrie = \tempoMarkup "Adagio"
-tempoPanis = \tempoMarkup "Allegro spirituoso"
+tempoPanis = \tempoMarkup "Allegro spiritoso"
 tempoSacrificium = \tempoMarkup "Largo"
 tempoCoeleste = \tempoMarkup "Allegretto"
 tempoIncruentum = \tempoMarkup "Andante"
