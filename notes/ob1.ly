@@ -300,7 +300,7 @@ CoelesteOboeI = {
   \relative c' {
     \clef treble
     \key c \minor \time 3/4 \tempoCoeleste
-    \partial 4 r4 R2.
+    \partial 4 \pa r4 R2.
     c'4\fE r r
     c r r
     R2.
@@ -333,23 +333,23 @@ CoelesteOboeI = {
     es r r
     R2.
     b'2.~ %50
-    b~
+    \once \tieDashed b~
     b2 es,4
     c8 as g4 f
     es r r
     R2.*3 %57
-    r4 r8 g(\f b des)
+    r4 r8 \once \slurDashed g(\f b des)
     f,4( e) r
     R2.*10 %69
     d'2.\f %70
     es
     f8. d16 es4 c
     h r r
-    r8 c,\p c c c c
+    r8 c, c c c c
     c4 r r %75
-    c'\f r r
+    c' r r
     R2.
-    es\pE
+    es\p
     f
     es2 r4 %80
     R2.
@@ -359,16 +359,16 @@ CoelesteOboeI = {
     es r r %85
     f2 es4
     es d r
-    g8\f g16 g g8\p g g g
-    g\f c, c[ c c c]
-    f f16 f f8\p f f f %90
-    f\f b, b4 es
+    g8\f g16 g g8 g g g
+    g c, c2^\critnote
+    f8 f16 f f8 f f f %90
+    f b, b4 es
     des2 des4
     des c es
     des2 des4
     des c r %95
     R2.*4
-    r4 r r8. des16\f %100
+    r4 r r8. des16\fE %100
     des2 r4
     R2.*2
     r4 r8 as'16\fE as as8 as
@@ -379,7 +379,7 @@ CoelesteOboeI = {
     c b8 b b b
     b4 r r %110
     R2.*2
-    r4 r8 c,16\f c c8 c
+    r4 r8 c,16\fE c c8 c
     c4 c r
     R2.*3 %117
     r4 r8 d'16\fE d d8 d
@@ -388,7 +388,7 @@ CoelesteOboeI = {
     f4 es es
     es d r
     R2.*8 %130
-    r4 r8 c\f c c
+    r4 r8 c\fE c c
     as'( h,) c4 r8 g'
     as( h,) c4 r
     R2.*4 %137
@@ -397,9 +397,9 @@ CoelesteOboeI = {
     es\ppE %140
     es'4( d) r
     as'2.~\f
-    as\p
+    as~\p
     as~
-    as4 as as\ff %145
+    as4 as as\f %145
     as2 r4\fermata
     R2.*6 %152
     r4 r es~\f

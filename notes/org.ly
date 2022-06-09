@@ -776,7 +776,7 @@ CoelesteOrgano = {
   \relative c {
     \clef bass
     \key c \minor \time 3/4 \tempoCoeleste
-    \partial 4 r4 \mvTr c4\fE-\soloE r8 f es d
+    \partial 4 r4 \mvTr c4\fE-\solo r8 f es d
     c4 r8 f es d
     c4 r8 c d es
     f4 g h,
@@ -796,32 +796,32 @@ CoelesteOrgano = {
     c4 r8 es c es
     g4 h, c
     g r8 g a h %20
-    r c16\f c c8\p c c c
-    r \mvTr f16\f-\tuttiE f f8 f f f
-    r d16-\soloE d d8\p d d d
-    r \mvTr es16\f-\tuttiE es es8 es es es
+    r c16-!\f c-! c8-! c\p c c
+    r \mvTr f16\f-\tutti f f8 f f f
+    r d16-!-\solo d-! d8-! d\p d d
+    r \mvTr es16\f-\tutti es es8 es es es
     r c16 c c8 c c c %25
     r b16 b b8 b b b
     ces ces ces ces ces ces
-    b4 b b-\soloE
-    b8 b16\pE c d8 es d b
+    b4 b b
+    b8-\solo b16\pE c d8 es d b
     es es es es es es %30
     e e e e e e
     f4 f, as
     b r8 b d b
-    c c' c\fp c c c
-    f, f' f\fp f f f %35
-    f, f' f\fp f f f
+    c\f c'\p c c c c
+    f,\f f'\p f f f f %35
+    f,\f f'\p f f f f
     b,4 b, r
-    as!8\f as' as as as as
-    r as\p as as as as
+    as!8\f as'\p as as as as
+    r as as as as as
     r as as as as as %40
     r as as as as as
     r as\f as as as as
-    d, d d d d\p d
+    d, d d d\p d d
     es d c b as g
     as a b b b b %45
-    es4 r8 as\fE g f
+    es4\f r8 as g f
     es4 r8 as g f
     es4 r8 es f g
     as4 b d,
@@ -829,18 +829,18 @@ CoelesteOrgano = {
     d4 r8 b d b
     es4 r8 es g es
     as as b b b, b
-    es4 g\p d
+    es4\p g d
     es r8 es es es %55
     d4 r8 b b b
     c4 as as
-    as g8 \mvTr g'(\fE-\unisonoE b des)
+    as g8 \mvTr g'(\f-\unisonoE b) des
     f,4( e) r
     f\p as e %60
     f r8 f f f
     e4 r8 c c d
     e4 e f
-    c r8 \mvTr g'(\f-\unisonoE e c)
-    b4 b\p b %65
+    c r8 \mvTr \once \slurDashed g'(\f-\unisonoE e c)
+    b4\p b b %65
     b as8 \mvTr c'\f-\unisonoE as g
     fis4\p fis fis
     g g, h
@@ -850,8 +850,8 @@ CoelesteOrgano = {
     g8 g' c, c' as, as'
     g g, g' f es d
     c4\p es g
-    c, r8 f\fE es d %75
-    c4 r8 c\pE d es
+    c, r8 f es d %75
+    c4 r8 c d es
     f4 g h,
     c r8 c' c, c'
     h4 r8 d, g, h
@@ -862,43 +862,43 @@ CoelesteOrgano = {
     h4 r8 d, g, h
     c4 r8 es c es %85
     g4 h, c
-    g8 g'16\f g g8 g,\pE a h
-    r c16\f c c8\p c c c
-    r \mvTr f16\f-\tuttiE f f8 f f f
-    r d16-\soloE d d8\p d d d %90
-    r \mvTr es16\f-\tuttiE es es8 es es es
+    g8 g'16\f g g8 g,\p a h
+    r c16\f c c8 c\p c c
+    r \mvTr f16\f-\tutti f f8 f f f
+    r d16-\solo d d8 d\p d d %90
+    r \mvTr es16\fE-\tutti es es8 es es es
     f f f f g g
     as as as as es es
     f f f f g g
     as4 as, r %95
-    \mvTr as\p-\soloE r r
+    \mvTr as\p-\solo r r
     as r r
     r8 as as as as as
     as as as as as as
-    as as as\f as as as-\tuttiE %100
+    as as as as\f as-\tutti as %100
     g g g4 r
-    r8 \mvTr g'\p-\soloE g g f f
+    r8 \mvTr g'\p-\solo g g f f
     es4 r es
-    as,8 as'16\fE g as8 as, as as'
-    r c16-\tuttiE as des8 des, des des' %105
+    as,8 as'16 g as8 as, as as'
+    r \mvTr c16\fE-\tutti as des8 des, des des' %105
     r b16 g! c8 c, c c'
     r a16 f b8 b, b b'
     r g16 es as8 as d,! d
     es4 es, r
-    \mvTr des'8\pE-\soloE des des des des des %110
+    \mvTr des'8\pE-\solo des des des des des %110
     des des des des des des
     c4 r c
-    f c r8. \mvTr c16\fE-\tuttiE
+    f c r8. \mvTr c16\fE-\tutti
     f4 c r
-    \mvTr f8\p-\soloE f f f es! es %115
+    \mvTr f8\p-\solo f f f es! es %115
     d!4 r c'~\f
-    c\p h fis
-    g8 g16\f g g8 g, g g'
-    r8. c,16-\tuttiE c'4 h
+    c h\p fis
+    g8 g16\f g g8 g,\p g g'
+    r8. \mvTr c,16\f-\tutti c'4 h
     r8. c,16 c'4 h %120
     r8. h16 c4 fis,
     g g, r
-    d'8-\soloE d d d d d
+    \mvTrh d'8\fp-\solo d d d d d
     r d\pE d d d d
     r d d d d d %125
     r d d d d d
@@ -906,11 +906,11 @@ CoelesteOrgano = {
     h h h\p h h h
     c4 d es
     f g g, %130
-    c r8 c\f d es
+    c\f r8 c d es
     f d es4 r8 c
     f d es4 r
-    e r r
-    f r r %135
+    e-! r r
+    f-! r r %135
     es!8\fp es es es es es
     c\fp c c c c c
     h4\f r r
@@ -920,15 +920,15 @@ CoelesteOrgano = {
     d8\f d d d d d
     r d\p d d d d
     r d d d d d
-    r d d d d\ff d %145
+    r d\f d d d d %145
     d2 r4\fermata
     es8\p as g f es d
     c4 r8 f es d
     c4 r8 f es d
     c4 r r %150
     R2.
-    r8 as as(\cresc g) as( g)
-    as4 c'-!\mf fis,-!
+    r8 as as( g) as( g)
+    as4 c'-! fis,-!
     g8 g g\f g g g
     c,4 r8 f es d %155
     c4 r8 f es d
@@ -974,7 +974,7 @@ CoelesteBassFigures = \figuremode {
   r2.
   <6! [5-]>
   r
-  r4 <6>8 <[6]> <6> <7->
+  r4 \bo <[6]>8 <6> q \bc <[7-]>
   <4>8 <3>2 <5!>8 %30
   <6>4. \bo <[7-]>8 <6> <5->
   <4> <3>4. <6>8 \bc <[5-]>
@@ -987,7 +987,7 @@ CoelesteBassFigures = \figuremode {
   r8 <2> r2
   r2. %40
   r
-  r
+  r2 <6>4
   <7>2 <6>8 <5>
   r4. \bo <[6]>4 \bc q8
   <7> <\t> <5 4>4 <\t 3> %45
@@ -1010,10 +1010,10 @@ CoelesteBassFigures = \figuremode {
   \bo <[6]>4. \bc <[_!]>4 <6!>8
   <5->2.
   <6 4>4 <[5] _!>2
-  r4 <4! _->2 %65
+  <4! _->2. %65
   <\t \t>4 <6>2
-  r4 <7 _!>2
-  <[7!] _!>2.
+  <7 _!>2.
+  <[7!] _!>
   <9 4>4 <5> <[7 _!]>
   <_!>2. %70
   <6 4>
@@ -1040,7 +1040,7 @@ CoelesteBassFigures = \figuremode {
   <6-> <6 5->4
   <9 4-> <[8] 3> <6>
   <6->2 <6 5->4
-  <9 4-> <[8 3]>2 %95
+  <9 4-> <[8] 3>2 %95
   r2.
   <6 4->2 <7 \t>4
   <[8] 3>2.
@@ -1048,18 +1048,18 @@ CoelesteBassFigures = \figuremode {
   <4- 2>2. %100
   <6 5->
   r8 \bo <[6]>4. \bc q4
-  <8> <6 4> <7->
+  <3> <6 4> <7->
   <9 4-> <[8] 3>2
-  r8 <[6 5-]> r2 %105
+  r8 <6 5-> r2 %105
   r8 <6! 5 [_-]> r2
-  r8 <6 5> <[_-]>2
-  r8 <6 5-> r4 <[7]>
+  r8 <6 5> <_->2
+  r8 <6 5-> r4 <7>
   <6 4> <[5] 3>2
   <2>2. %110
   <\t>2 <6>4
   <7 _!>2 \bo <[8 6 _!]>8 \bc <[7 5 \t]>
-  r4 <_!>4.. q16
-  r4 q2
+  r4 <_!>4.. <\t>16
+  r4 <_!>2
   r2 <6>4 %115
   <7 [5!] _+>2 <[6!] 4+ 3>4
   r <6> <7 [_!]>
@@ -1068,7 +1068,7 @@ CoelesteBassFigures = \figuremode {
   r <[6!] 4+ 3> <6> %120
   r8. <[6 5!]>16 r4 <7 _!>
   <6 4> <[5] _!>2
-  <[6!] 5- 3>2.
+  <5- 3>2.
   r
   r %125
   r
@@ -1082,8 +1082,8 @@ CoelesteBassFigures = \figuremode {
   <7->
   r %135
   <4! 2+>
-  <[6! 4+ 3]>
-  <6 5>
+  <\t \t>
+  <6 5!>
   r
   r %140
   r
@@ -1092,7 +1092,7 @@ CoelesteBassFigures = \figuremode {
   r
   r %145
   r
-  <6>8 \bo <[3]> <3> q q q
+  \bo <[6]>8 <3> q q q q
   <3>2 <6>8 <7>
   r2 <6>8 \bc <[7]>
   r2. %150

@@ -315,7 +315,7 @@ CoelesteBasso = {
     es8. h16 c8 c c c
     es8.([ h16)] c4 c,8 c
     as'4. as8 g f %15
-    es8.([ d16)] c4 r
+    es8.([\trill d16)] c4 r
     g'2.
     g
     h,4( f') es
@@ -329,7 +329,7 @@ CoelesteBasso = {
     ces2 ces4
     b b r
     \mvTr b'4.(\pE^\solo c!8) b([ as!)]
-    \appoggiatura b16 as8. g16 g4 g %30
+    \appoggiatura b as8. g16 g4 g %30
     c c8 des c b
     \appoggiatura b as4 as8 g f es!
     d8. c16 b4 r
@@ -344,7 +344,7 @@ CoelesteBasso = {
     \appoggiatura es d4 d r
     c'2 b8([ as)]
     g2 es'4~
-    es f,2 %45
+    es f,2\trill %45
     es4 r r
     R2.*7 %53
     b'4 b b
@@ -354,7 +354,7 @@ CoelesteBasso = {
     d8.([ es32 f)] es4 r
     R2.
     c'4 c c %60
-    c8([ as] as4.) c8
+    c8([ as]) as4.( c8)
     c8. g16 g2
     c,4( b') as
     as g r
@@ -391,12 +391,12 @@ CoelesteBasso = {
     as4 as as
     as( c') c
     c2 \appoggiatura b16 as8 \appoggiatura g16 f8
-    \appoggiatura es des?4 des r8. \mvTr as16\fE^\tutti %100
+    \appoggiatura es des4 des r8. \mvTr as16\fE^\tutti %100
     g4 g r
     \mvTr b'2.~\pE^\solo
     b4 c des
     des c r
-    r8. \mvTr c16\fE^\tuttiE des4 des, %105
+    r8. \mvTr c16\fE^\tutti des4 des, %105
     r8 b' c8. c,16 c4
     a'8 a b4 b,
     r8. g'16 as4 d,!8 d
@@ -421,14 +421,14 @@ CoelesteBasso = {
     \appoggiatura c h4 h r
     as2 as4
     g8[( es' d h c g)]
-    as([ f)] g2 %130
+    as([ f)] g2\trill %130
     c,4 r r
     R2.*2
     e2.
     f %135
     fis
     es'
-    d4( f,) as
+    d4( f,!) as
     d,( f) h,
     c as' g %140
     fis g r
@@ -436,7 +436,7 @@ CoelesteBasso = {
     f!2 f'8([ d)]
     \appoggiatura c h4 h r
     f2 f'8([ d)] %145
-    \appoggiatura c h2 h4\fermata
+    \appoggiatura c4 h2 h4\fermata
     c2 c4
     es8([ h)] c2
     es8([ h)] c4 r
@@ -444,8 +444,13 @@ CoelesteBasso = {
     c
     c~
     c4 c' fis,
-    g( d'2)
-    c4 r r %155
+    << {
+      \voiceOne g( d'2)
+      c4
+    } \\ \context Voice = "Basso" {
+      \voiceTwo g2.
+      c,4
+    } >> \oneVoice r r %155
     R2.*10 %165
     R2.\fermata \bar "|." %166 finis
   }

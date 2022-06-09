@@ -489,17 +489,17 @@ CoelesteSoprano = {
     r4 r r8. \mvTr des16\fE^\tutti %100
     des4 des, r
     R2.*2
-    r4 r r8. \mvTr as'16\fE^\tutti
+    r4 r r8. \mvTr as'16\fE^\tuttiE
     ges'4 f r8 f %105
     f8. f16 es4 es8 es
     es4 des r8. des16
     des4 c c
     c8. b16 b4 r
     R2.*3 %112
-    r4 r r8. \mvTr g16\fE^\tutti
+    r4 r r8. \mvTr g16\fE^\tuttiE
     as4 g r
     R2.*3 %117
-    r4 r r8. \mvTr g16\fE^\tutti
+    r4 r r8. \mvTr g16\fE^\tuttiE
     g'4 fis r8. d16
     g4 fis r8. d16 %120
     f4 es es

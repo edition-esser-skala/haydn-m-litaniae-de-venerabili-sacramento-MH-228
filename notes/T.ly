@@ -427,7 +427,7 @@ CoelesteTenore = {
     \clef "treble_8"
     \key c \minor \time 3/4 \autoBeamOff \tempoCoeleste
     \partial 4 r4 R2.*20 %20
-    r4 r r8 \mvTr c\fE^\tutti
+    r4 r r8 \mvTr c\fE^\tuttiE
     c4 c r
     r r r8 b
     b4 b b8 b
@@ -436,7 +436,7 @@ CoelesteTenore = {
     a2 es'4
     d d r
     R2.*59 %87
-    r4 r r8 \mvTr c\fE^\tutti
+    r4 r r8 \mvTr c\fE^\tuttiE
     c4 c r
     r r r8 b %90
     b4 b b8 b
@@ -445,19 +445,19 @@ CoelesteTenore = {
     as4( f') es
     es es r %95
     R2.*4
-    r4 r r8. \mvTr f,16\fE^\tutti %100
+    r4 r r8. \mvTr f,16\fE^\tuttiE %100
     es4 es r
     R2.*3
-    r8. \mvTr es'16\fE^\tutti des4 des %105
+    r8. \mvTr es'16\fE^\tuttiE des4 des %105
     r8 des c8. c16 c4
     c8 c b4 b
     r8. b16 as4 f'8 f
     es8. es16 es4 r
     R2.*3 %112
-    r4 r r8. \mvTr c16\fE^\tutti
+    r4 r r8. \mvTr c16\fE^\tuttiE
     c4 c r
     R2.*4 %118
-    r8. \mvTr es16\fE^\tutti es4 d
+    r8. \mvTr es16\fE^\tuttiE es4 d
     r8. es16 es4 d %120
     r8. d16 c4 c8 c
     c8. h16 h4 r

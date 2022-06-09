@@ -396,8 +396,8 @@ CoelesteViolaIII = {
     g r8 g g g %5
     g4 r8 g g g
     g4 r8 c d es
-    f( d) es4 r8 c
-    f( d) es4 r8 c
+    f d es4 r8 c
+    f d es4 r8 c
     as as g g g g %10
     g4 r r
     r8 f\p es( as) g( h)
@@ -409,9 +409,9 @@ CoelesteViolaIII = {
     g,4 r r
     g g g
     g r r %20
-    r8 c16-!\f c-! c8\p c c c
+    r8 c16-!\f c-! c8-! c\p c c
     r f16\f f f8 f f f
-    r b,16-! b-! b8\p b b b
+    r \parOn b,16-\parenthesize-! b-! \parOff b8-\parenthesize-! b\p b b
     r es16\f es es8 es es es
     r c16 c c8 c c c %25
     r b16 b b8 b b b
@@ -428,7 +428,7 @@ CoelesteViolaIII = {
     c4( b) r
     R2.*4 %41
     r8 as\f as as as as
-    f f f f b,\p b
+    f f f f\p b, b
     b4 r r
     R2. %45
     g4\f r8 as g f
@@ -439,11 +439,11 @@ CoelesteViolaIII = {
     f4 r8 d' b d
     es4 r8 g es g
     as as b b b, b
-    es4 g\p d
+    es4\p g d
     es r r %55
     b r r
     R2.
-    b4 b8 g'(\f b des)
+    b4 b8 g'(\f b) des
     f,4( e) r
     f\p as e %60
     f r r
@@ -452,16 +452,16 @@ CoelesteViolaIII = {
     c r8 g'(\f e c)
     b g\p g g g g %65
     g4 as8 c'\f as g
-    fis( a,)\p a a a a
+    fis(\p a,) a a a a
     d4 r g,
     c as! fis
     g\f r r %70
     g r r
-    g c as
+    g-! c-! as-!
     g'8 g, g' f es d
     c g'\p g g g g
     g4 r r %75
-    c,\f r8 es,\pE d c
+    c, r8 es, d c
     f4 g g
     g r8 g g g
     g4 r8 h h d
@@ -473,10 +473,10 @@ CoelesteViolaIII = {
     g,2 r4 %85
     r g g
     g r r
-    c,8\fE c' c\p c c c
+    c,8\f c'16-\critnote c c8 c\p c c
     r f16\f f f8 f f f
-    r b,16 b b8\p b b b %90
-    r es16\f es es8 es es es
+    r b,16 b b8 b\p b b %90
+    r es16\fE es es8 es es es
     as as as as es es
     es2 c8 c
     as as f' f es es
@@ -489,22 +489,22 @@ CoelesteViolaIII = {
     g g g4 r
     R2.
     es'4\p r g,
-    es8 as16\f g as8 as as4
-    r8 c'16 as des8 des, des des' %105
+    es8 as16 g as8 as as4
+    r8 c'16\f as des8 des, des des' %105
     r b16 g! c8 c, c c'
     r a16 f b8 b, b b'
     r g16 es as8 as d,! d
     es4 es, r
     R2. %110
-    es8\pE es' es es f f
+    es8\p es' es es f f
     g2 e4
     c c8 c16\f c c8 c
     c4 c r
     r8 f,\p f f es! es %115
     d!2 r4
     R2.
-    r8 g'16\f g g8 g, g g'
-    r8. c,16 c'4 h
+    r8 g'16\f g g8 g,\p g g'
+    r8. c,16\f c'4 h
     r8. c,16 c'4 h %120
     r8. g16 g4 a
     g g, r
@@ -513,13 +513,13 @@ CoelesteViolaIII = {
     d4 d2\p
     g,4 r r
     R2. %130
-    r4 r8 c\f d es
-    f( d) es4 r8 c
-    f( d) es4 r
-    des8\fp des des des des des
-    c\fp c c c c c %135
-    es!\fp es es es es es
-    a,\fp a a a a a
+    r4 r8 c\fE d es
+    f d es4 r8 c
+    f d es4 r
+    des8\f des\p des des des des
+    c\f c\p c c c c %135
+    es!\f es\p es es es es
+    a,\f a\p a a a a
     h4\f r r
     r r h\pp
     c as' g %140
@@ -527,21 +527,21 @@ CoelesteViolaIII = {
     r8 h,\f h d f d
     as'4 r r
     R2.
-    r8 d, d d d\ff d %145
+    r8 d,\f d d d d %145
     d2 r4\fermata
     R2.*5 %151
-    r8 as\pE as(\crescE g) as( g)
-    as4 r fis\mfE
+    r8 as\p as( g) as( g)
+    as4 r fis
     g r r
-    es\fE r8 as' g f %155
+    es\f r8 as' g f %155
     es4 r8 as g f
     es4 r8 g, f es
     d4 g g
     g r8 g g g
     g4 r8 g g g %160
     g4 r8 c d es
-    f( d) es4 r8 c
-    f( d) es4 r8 c
+    f d es4 r8 c
+    f d es4 r8 c
     as as g g g g
     c,4 r r %165
     c r r\fermata \bar "|." %166 finis

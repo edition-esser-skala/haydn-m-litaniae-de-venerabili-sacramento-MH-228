@@ -339,18 +339,18 @@ CoelesteOboeII = {
     as8 f es4 d
     es r r
     R2.*3 %57
-    r4 r8 g(\f b des)
+    r4 r8 \once \slurDashed g(\f b des)
     f,4( e) r
     R2.*10 %69
     h'2.\f %70
     c
     d8. h16 c4 c,
     d r r
-    r8 c\p c c c c
+    r8 c c c c c
     c4 r r %75
-    c\f r r
+    c r r
     R2.
-    c'\pE
+    c'\p
     d
     c2 r4 %80
     R2.
@@ -360,16 +360,16 @@ CoelesteOboeII = {
     c r r %85
     d2 c4
     c h r
-    es8\f es16 es es8\p es es es
-    as,4\f as2
-    as8 as16 as as8\p as as as %90
-    g4\f g2
+    es8\f es16 es es8 es es es
+    as,4 as2
+    as8 as16 as as8 as as as %90
+    g4 g2
     as b4
     b as g
     as2 b4
     b as r %95
     R2.*4
-    r4 r r8. b16\f %100
+    r4 r r8. b16\fE %100
     b2 r4
     R2.*2
     r4 r8 c16\fE c c8 c
@@ -380,7 +380,7 @@ CoelesteOboeII = {
     as g8 g g g
     g4 r r %110
     R2.*2
-    r4 r8 c,16\f c c8 c
+    r4 r8 c,16\fE c c8 c
     c4 c r
     R2.*3 %117
     r4 r8 h'16\fE h h8 h
@@ -389,7 +389,7 @@ CoelesteOboeII = {
     d4 c c
     c h r
     R2.*8 %130
-    r4 r8 c\f c c
+    r4 r8 c\fE c c
     as'( h,) c4 r8 g'
     as( h,) c4 r
     R2.*4 %137
@@ -398,9 +398,9 @@ CoelesteOboeII = {
     c\ppE %140
     c'4( h) r
     f'2.~\f
-    f\p
+    f~\p
     f~
-    f4 f f\ff %145
+    f4 f f\f %145
     f2 r4\fermata
     R2.*6 %152
     r4 r c~\f

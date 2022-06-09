@@ -271,7 +271,7 @@ CoelesteCornoII = {
     e2 r4
     R2.*3 %21
     r8 d'16\f d d8 d d d
-    r g,16 g g8\p g g g
+    r g,16 g g8 g\p g g
     r c,16\f c c8 c c c
     r c16 c c8 c c c %25
     g' g16 g g8 g g g
@@ -288,13 +288,13 @@ CoelesteCornoII = {
     r4 c8 c g g
     e4 r r
     R2.*15 %69
-    e2.~\f %70
+    e2.~\fE %70
     e~
     e4 r r
     e r r
     r e'\p e
     c r r %75
-    c\f r r
+    c r r
     R2.
     r4 e, e
     e2.~
@@ -305,17 +305,17 @@ CoelesteCornoII = {
     e r r
     e r r %85
     e2.~
-    e8 e16 e e4 r
-    r8 c'16\f c c8\p c c c
-    r d16\fE d d8 d d d
-    r g,16 g g8\p g g g %90
+    e8 e16\f e e4 r
+    r8 c'16 c c8 c\p c c
+    r d16\f d d8 d d d
+    r g,16 g g8 g\p g g %90
     r c,16\f c c8 c c c
     r4 r c'
     c2 r4
     r r c8. c16
     c2 r4 %95
     R2.*5 %100
-    c,8.\f c16 c4 r
+    c,8.\fE c16 c4 r
     R2.*2
     r4 r8 c'16\fE c c8 c
     c4 r r %105
@@ -324,15 +324,17 @@ CoelesteCornoII = {
     c8. c,16 c8 c c c
     c4 r r %110
     R2.*7 %117
-    r8 e16\fE e e8 e e4
-    r8. c'16 c4 e
+    r8 e16\fE e e8 e\p e4
+    r8. c'16\f c4 e
     r8. c16 c4 e %120
     R2.
     e,8. e16 e4 r
-    R2.*17 %139
-    e4\ppE r r %140
+    R2.*15 %137
+    \mvTr e2.~\p_\critnote
+    e~
+    e4 r r %140
     R2.*5 %145
-    r2 r4\fermata
+    R2.\fermata
     R2.*9 %155
     c'4\fE r r
     c r r
@@ -342,7 +344,7 @@ CoelesteCornoII = {
     e2 r4
     R2.*2
     r4 e e
-    r c c %165
+    e_\critnote c c %165
     c r r\fermata \bar "|." %166 finis
   }
 }

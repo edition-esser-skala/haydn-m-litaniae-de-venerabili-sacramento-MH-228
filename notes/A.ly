@@ -369,7 +369,7 @@ CoelesteAlto = {
     \clef treble
     \key c \minor \time 3/4 \autoBeamOff \tempoCoeleste
     \partial 4 r4 R2.*20 %20
-    r4 r r8 \mvTr g'\fE^\tutti
+    r4 r r8 \mvTr g'\fE^\tuttiE
     f4 f r
     r r r8 f
     es4 es g8 g
@@ -378,7 +378,7 @@ CoelesteAlto = {
     es2 ges8([ es)]
     f4 f r
     R2.*59 %87
-    r4 r r8 \mvTr es\fE^\tutti
+    r4 r r8 \mvTr es\fE^\tuttiE
     f4 f r
     r r r8 as %90
     g([ es)] es4 g8 g
@@ -390,17 +390,17 @@ CoelesteAlto = {
     r4 r r8. \mvTr b16\fE^\tuttiE %100
     b4 b, r
     R2.*3
-    r8. \mvTr as'16\fE^\tutti as4 as %105
+    r8. \mvTr as'16\fE^\tuttiE as4 as %105
     r8 g! g8. g16 g4
     f8 f f4 f
     r8. es16 es4 as8 as
     as8. g16 g4 r
-    R2.*3
-    r4 r r8. \mvTr e16\fE^\tutti
+    R2.*3 %112
+    r4 r r8. \mvTr e16\fE^\tuttiE
     f4 e r
-    R2.*4
-    r8. \mvTr c'16\fE^\tutti a4 g
-    r8. c16 a4 g
+    R2.*4 %118
+    r8. \mvTr c'16\fE^\tuttiE a4 g
+    r8. c16 a4 g %120
     r8. g16 g4 a8 a
     g8. g16 g4 r
     R2.*23 %145
