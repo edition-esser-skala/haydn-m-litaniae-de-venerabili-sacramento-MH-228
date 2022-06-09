@@ -240,7 +240,7 @@ SacrificiumCornoII = {
     \clef treble
     \key c \major \time 4/4 \tempoSacrificium
     R1*15 %15
-    e'4\fE r r e,
+    \mvTr e4\fE-\critnote r r e
     r e8 e e4 r
     R1
     r2 e8\p r e r

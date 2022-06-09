@@ -377,7 +377,7 @@ SacrificiumTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \minor \time 4/4 \autoBeamOff \tempoSacrificium
-    r2 r8 \mvTr d4\f^\tutti d8
+    r2 r8 \mvTr d4\fE^\tuttiE d8
     d8. d16 d4 r8 f,4 b8
     b8. b16 b4 c8. c16 c8 c
     b8. b16 b4 d8. d16 d8 d
@@ -389,7 +389,7 @@ SacrificiumTenore = {
     as as r des es des r4 %10
     r2 f,4\p ges
     ces( b) as as8 as
-    as4 g8 r r2
+    as4 g!8 r r2
     es'!4\f des ges( f)
     es8 es4\p es8 es4 d %15
     r d8\f d es d r4

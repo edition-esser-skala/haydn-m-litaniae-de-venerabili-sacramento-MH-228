@@ -361,7 +361,7 @@ SacrificiumViola = {
   \relative c' {
     \clef alto
     \key c \minor \time 4/4 \tempoSacrificium
-    r2 r8 d4\f d8
+    r2 r8 d4\fE d8
     d4 d r8 f,4 f8
     es b' b b c c c c
     b b b b d d d d
@@ -369,17 +369,17 @@ SacrificiumViola = {
     as as des des c c c c
     c c f, f b des g, b
     as as as as as as des des
-    eses eses eses eses eses eses des des
+    eses^\critnote eses eses eses eses eses des des
     as as r as' as as r4 %10
     r2 f,8\p f ges ges
     ces ces b b as as as as
     as([ c)] c r r2
     es!8\f es des des ges ges f f
-    es\p es es es es4 d %15
+    es es\p es es es4 d %15
     r g,8\f g' a g r4
     a8 d, r4 <h d>4\p <g d'>
     <c es> <d f> <c es>2
-    <h d>8( <c es> <h d> <a c>) g'32([ d) h-! h-!] h( d) g-! g-!
+    <h d>8( <c es>) <h d>( <a c>) g'32([ d) h-! h-!] h( d) g-! g-!
     g([ d) h-! h]-! h( d) g-! g-!
     g,2 r\fermata \bar "||" %20 finis
   }

@@ -319,7 +319,7 @@ SacrificiumAlto = {
   \relative c' {
     \clef treble
     \key c \minor \time 4/4 \autoBeamOff \tempoSacrificium
-    r2 r8 \mvTr as'4\f^\tutti f8
+    r2 r8 \mvTr as'4\fE^\tuttiE f8
     f8. f16 f4 r8 d4 d8
     es8. es16 es4 es8. es16 es8 es
     es8. d16 d4 f8. f16 f8 f
@@ -330,7 +330,7 @@ SacrificiumAlto = {
     r as as as16 as ges8. ges16 ges8 ges
     ges f r as as as r4 %10
     r2 as4\p ges
-    f des8 r des4 c!8([ h)]
+    f des^\critnote r8 des([ c!8)] h
     c4 c8 r r2
     c'4\f des c as
     r8 as([\p g!)] fis g4 g %15
@@ -354,7 +354,7 @@ SacrificiumAltoLyrics = \lyricmode {
   pro -- pi -- ti -- a -- to -- ri -- um pro
   vi -- vis, pro vi -- vis %10
   et de --
-  fun -- ctis, et de --
+  fun -- ctis, et __ de --
   fun -- ctis,
   et de -- fun -- ctis,
   et __ de -- fun -- ctis, %15

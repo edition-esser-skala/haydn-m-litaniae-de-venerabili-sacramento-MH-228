@@ -260,7 +260,7 @@ SacrificiumBasso = {
   \relative c {
     \clef bass
     \key c \minor \time 4/4 \autoBeamOff \tempoSacrificium
-    \mvTr h4\f^\tutti h h8. h16 h4
+    \mvTr h4\fE^\tuttiE h h8. h16 h4
     r b8 b b8. b16 b4
     b8. b16 b4 a8. a16 a8 a
     b8. b16 b4 b8. b16 h8 h

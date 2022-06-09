@@ -418,7 +418,7 @@ SacrificiumSoprano = {
   \relative c' {
     \clef treble
     \key c \minor \time 4/4 \autoBeamOff \tempoSacrificium
-    r2 r8 \mvTr f'4\f^\tutti as,8
+    r2 r8 \mvTr f'4\fE^\tutti as,8
     as8. as16 as4 r8 f'4 as,8
     ges8. ges16 ges4 ges8. ges16 ges8 ges
     ges8. f16 f4 b8. as16 as8 as
@@ -431,7 +431,7 @@ SacrificiumSoprano = {
     r2 ces4\p b
     as( ges) f f8 f
     f4 e8 r r2
-    ges'?4\f f es( des)
+    ges'4\f f es!( des)
     c8 c4\p c8 c4 h %15
     r h8\f h c h r4
     es8 d r4 g,\p g
