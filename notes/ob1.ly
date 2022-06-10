@@ -4,7 +4,7 @@ KyrieOboeI = {
   \relative c' {
     \clef treble
     \key g \minor \time 3/4 \tempoKyrie
-    \pa b'4\fE a r8. a16
+    b'4\fE a r8. a16
     es'4 d g~
     g fis8 d es4~
     es d8 b c4~
@@ -127,7 +127,7 @@ PanisOboeI = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoPanis
-    \pa b''4\fE f8 f f4 r
+    b''4\fE f8 f f4 r
     f f8 f f4 f
     f es2 d4
     g8 c, c4 f8 a, a4
@@ -300,7 +300,7 @@ CoelesteOboeI = {
   \relative c' {
     \clef treble
     \key c \minor \time 3/4 \tempoCoeleste
-    \partial 4 \pa r4 R2.
+    \partial 4 r4 R2.
     c'4\fE r r
     c r r
     R2.
@@ -423,7 +423,7 @@ IncruentumOboeI = {
   \relative c' {
     \clef treble
     \twofourtime \key es \major \time 2/4 \tempoIncruentum
-    \pa R2*4 %4
+    R2*4 %4
     as''4.\p g16 es %5
     d b as'4 g16 es
     d8. es16 f8 as,
@@ -516,15 +516,15 @@ ViaticumOboeI = {
   \relative c' {
     \clef treble
     \key g \minor \time 4/4 \tempoViaticum
-    \pa es'4.\fE g,8 as4 g
+    r4-\critnote g'\fE as g
     R1
-    r2 r4 es'\p
-    es d r8 es4 es8
+    r2 r4 es'
+    es d r8 es4\p es8
     r d4 d8 r c4 c8 %5
     c4 b r2
     r r4 a'\f
-    a8( b) r b, b( a) a'4~
-    a8( b) r cis, cis( d) r4
+    a8( b) r b, b a a'4
+    a8( b) r cis, cis d r4
     a2\p a %10
     r4 r8 g' g4( fis8) r\fermata \bar "||" %11 finis
   }
@@ -535,7 +535,7 @@ PignusOboeI = {
     \clef treble
     \twotwotime \key g \minor \time 2/2 \tempoPignus
     R1*20 %20
-    \pa g'1\fE
+    g'1\fE
     d2. d4
     b'2 g
     es'2. es4

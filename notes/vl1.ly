@@ -696,11 +696,11 @@ ViaticumViolinoI = {
     \key g \minor \time 4/4 \tempoViaticum
     r2 r4 r16 g''\p( c g)
     g8( as8.) as16( b f) fis8( g8.) g16( b as)
-    g8( f8.) f16( as g) f8~ f32 d( f es) es4
+    g8( f8.) f16( as g) f8~ (f32 d f es) es4
     r r16 d( g d) d8( es8.) es16( f c)
     cis8( d8.) d16( f es) d8( c8.) c16( es d) %5
-    c8~ c32 a( c b) b8 b a4 as
-    g8 g4 g8 g4 fis16 a'(\f d a)
+    c8~( c32 a c b) b8 b a4 as
+    g8 g4 g8 g4 fis16 a'(\f d) a-!
     a8( b) r16 b,( g' b,) b8( a) r16 a'( d a)
     a8( b) r16 g( b cis,) cis8( d4) a8\p
     a( e'4) a,8 a4 r16 a( d a) %10

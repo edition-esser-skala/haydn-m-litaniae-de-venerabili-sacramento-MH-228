@@ -517,15 +517,15 @@ ViaticumOboeII = {
   \relative c' {
     \clef treble
     \key g \minor \time 4/4 \tempoViaticum
-    g'4.\fE es8 f4 es
+    r4-\critnote es\fE f es
     R1
-    r2 r4 c'\p
-    c b! r8 c4 c8
+    r2 r4 c'
+    c b! r8 c4\p c8
     r b4 b8 r a4 a8 %5
     a g g4 r2
     r r4 fis'\f
-    fis8( g) r g, g( fis) fis'4~
-    fis8( g) r g, g( fis) r4
+    fis8( g) r g, g fis fis'4
+    fis8( g) r g, g fis r4
     g2\p fis %10
     r4 r8 g' g4( fis8) r\fermata \bar "||" %11 finis
   }

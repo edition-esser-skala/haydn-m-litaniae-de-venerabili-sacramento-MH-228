@@ -707,14 +707,14 @@ ViaticumTenore = {
     \key g \minor \time 4/4 \autoBeamOff \tempoViaticum
     r4 \mvTr b\fE^\tutti d8. d16 g,8 r
     R1
-    r2 r4 c\pE
+    r2 r4 c
     c8. c16 b!8 r r2
-    r r4 d %5
+    r r4 d\p %5
     d8( es4) d16 cis cis8( d4) f!16([ h,)]
     h8( c4) g8 a2
-    r4 g8\fE g g fis r4
-    r b8 b b( a4) d8
-    e(\pE a,4) e'8 d2 %10
+    r4 g8\f g g fis r4
+    r b8 b b( a4) d8\p
+    e( a,4 e'8) d2 %10
     R1\fermata \bar "||" %11 finis
   }
 }

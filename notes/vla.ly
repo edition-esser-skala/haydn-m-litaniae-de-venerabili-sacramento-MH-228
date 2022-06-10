@@ -704,8 +704,8 @@ ViaticumViola = {
     d8( es8.) es16( d cis) cis8( d8.) d16( f! h,)
     h8( c4) g8 a2
     cis8\f r e r d r d r
-    es r es r d r d r
-    cis\p r cis r d d,4 d8~ %10
+    es r es r d r d\p r
+    cis r cis r d d,4 d8~ %10
     d fis16( a) a( g) d'( g) g4( fis8) r\fermata \bar "||" %11 finis
   }
 }

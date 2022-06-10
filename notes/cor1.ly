@@ -433,7 +433,7 @@ ViaticumCornoI = {
     R1*7 %7
     r2 e'4\fE r
     r2 e4 r
-    r2 e,\p %10
+    r2 e,~\p %10
     e e\fermata \bar "||" %11 finis
   }
 }

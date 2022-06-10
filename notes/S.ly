@@ -749,14 +749,14 @@ ViaticumSoprano = {
     \key g \minor \time 4/4 \autoBeamOff \tempoViaticum
     r4 \mvTr g'\fE^\tutti as8. as16 g8 r
     R1
-    r2 r4 es'\pE
-    es8. es16 d8 g16([ d)] d8( es4) f16 c
+    r2 r4 es'
+    es8. es16 d8 g16([\p d)] d8( es4) f16 c
     cis8( d4) f16([ es)] d8 c4 es16[ d] %5
     c8. b16 b4 a as
     g2~ g8. fis16 fis4
-    r b8\fE b b a r4
-    r cis8 cis cis( d4) a8
-    a(\pE e'4 a,8) a2 %10
+    r b8\f b b a r4
+    r cis8 cis cis( d4) a8\p
+    a( e'4 a,8) a2 %10
     R1\fermata \bar "||"
   }
 }

@@ -697,13 +697,13 @@ ViaticumViolinoII = {
     \key g \minor \time 4/4 \tempoViaticum
     R1
     r16 c'(\p f c) es8( d8.) d16( es h) h8( c)~
-    c16 c( es d) c8( h) d~ d32 h( d c) c4
+    c16 c( es d) c8( h) d~( d32 h d c) c4
     r2 r16 g( c g) b!8( a!)~
     a16 a( b fis) fis8( g8.) g16( b a) g8( fis)~ %5
     fis16 fis( a g) g4 r8 d4 d8~
     d c4 cis8 d4 r16 fis'8\f fis16
     fis8( g) r16 g,( b g) g8( fis) r16 fis'8 fis16
-    fis8( g) r16 b,( g' b,) b8( a4) fis8\p
+    fis8( g) r16 \once \slurDashed b,( g' b,) b8( a4) fis8\p
     g2 fis4 r16 fis8 fis16 %10
     fis( g) d( c) c( b) g( b) b4( a8) r\fermata \bar "||" %11 finis
   }
