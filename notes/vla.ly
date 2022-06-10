@@ -589,8 +589,8 @@ IncruentumViola = {
     r b\p b b
     r es es es
     r a, a a %30
-    r b\f d d
-    g\p g f f
+    r b d d
+    g g f f
     f b, b b
     es4 r
     r8 b g' f %35
@@ -622,22 +622,22 @@ IncruentumViola = {
     des4 r
     r r8 f %65
     es4 r
-    r g8\f f
-    es\pE c c c
-    g es' es es
-    as, as' as as %70
-    es, es' es e
-    f, f' f f
-    d,! b' b b
+    r g8 f
+    es c c c
+    g-! es' es es
+    as,-! as' as as %70
+    es,-! es' es e
+    f,-! f' f f
+    d,!-! b' b b
     b4 r8 es
     b' b, r b %75
     es es, r es'
     b' b, r b
     es2\fz
     f
-    b,4\pE r %80
+    b,4\p r %80
     b r
-    b'8\f as! g f
+    b'8-!\f as!-! g-! f-!
     r es\p g d
     r es b as
     g4 r8 c %85
@@ -646,7 +646,7 @@ IncruentumViola = {
     b
     b4 r
     r8 b'\f g es %90
-    b4\pE r
+    b4\p r
     b r
     b r8 b
     es\f es es es
@@ -654,13 +654,13 @@ IncruentumViola = {
     g,4 g'
     f8 f f f
     f4. f8
-    es( b) r as'16( f)
-    es8( b) r \once \slurDashed as'16( f) %100
+    es( b) r as'16 f
+    es8 b r as'16 f %100
     g4 r8 es,
     es4 r
     r r8 c'
     c4 r
-    c r %105
+    R2-\critnote %105
     r8 f\f f f
     r es\p b g
     r as as as

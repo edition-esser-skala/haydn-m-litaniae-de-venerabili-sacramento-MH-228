@@ -358,7 +358,7 @@ IncruentumCornoII = {
     g~
     g4 r
     r8 c\f g c,
-    \once \tieDashed g2~\p
+    g2~\p
     g~ %10
     g4 r
     e'\f r8 g
@@ -375,7 +375,7 @@ IncruentumCornoII = {
     g, r8 d'\p %40
     c4 r
     R2
-    g8\fE r g' d
+    g8\f r g' d
     g, r g' d
     g, g, r4 %45
     R2
@@ -405,13 +405,13 @@ IncruentumCornoII = {
     c~ %100
     c4 r
     R2*16 %117
-    c'4\sf g'
+    c'4\fz g'
     c, r
     R2 %120
-    c4\f g
+    c4\fE g
     c, r
-    r8 g\p c e
-    g2
+    r4_\critnote c~\p
+    c8 g c e
     g4 r %125
     g r
     R2

@@ -423,7 +423,7 @@ IncruentumOboeI = {
   \relative c' {
     \clef treble
     \twofourtime \key es \major \time 2/4 \tempoIncruentum
-    R2*4 %4
+    \pa R2*4 %4
     as''4.\p g16 es %5
     d b as'4 g16 es
     d8. es16 f8 as,
@@ -446,21 +446,21 @@ IncruentumOboeI = {
     d2\p
     es8 d g4
     es8^\critnote d r4
-    es2\fzE
+    es2\fz
     d %40
     c4\p r8 c
-    f\f d es c
-    b f'4 a8
+    f d es c
+    b\f f'4 a8
     b f4 a8
     b f r4 %45
     R2
     a,\p
-    b8 b-!\f g-! des'-!
-    e,-! c'-! r4
+    b8 \parOn b-\parenthesize-!\f g-! des'-!
+    e,-! \parOff c'-\parenthesize-! r4
     R2*6 %55
-    b16(\pE as g as) b( des c b)
+    b16(\p as g as) b( des c b)
     a2
-    as16( g f g) as( c b as)
+    \slurDashed as16( g f g) as( c b as) \slurSolid
     g2
     R2*8 %67
     r4 es'4~\p
@@ -472,9 +472,9 @@ IncruentumOboeI = {
     b
     R2*2 %76
     b2~
-    b8 g\fzE f16 es d c
-    b8( a) f'( a,)
-    b\pE r b'4 %80
+    b8 g f16 es d c
+    b8( a) f' a,
+    b r b'4 %80
     r b
     r8 as,!\f g f
     es4 r
@@ -492,16 +492,16 @@ IncruentumOboeI = {
     as8 g c4
     as8 g r4
     R2
-    des2\sf
-    c4\p r8 as'16 f %120
+    des2\fz
+    c4\pE r8 as'16 f %120
     es4\fE d!
     es8 es,\p g b
     es g, b es
     g2~
     g4 es %125
-    g,2\fE
+    g,2
     f
-    es8 es' es es
+    es8 es'\f es es
     es b'4 as8
     g b4 as8 %130
     g r r4

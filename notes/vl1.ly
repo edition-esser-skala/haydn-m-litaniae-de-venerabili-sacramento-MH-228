@@ -564,41 +564,41 @@ IncruentumViolinoI = {
     \twofourtime \key es \major \time 2/4 \tempoIncruentum
     R2*11 %11
     es'4.\f b'8
-    \appoggiatura as g4 f16 f b d,
-    \tuplet 3/2 8 { es[ d c] b as g f[ as g] f c' es, }
+    \appoggiatura as g4 f16 f( b) d,
+    \tuplet 3/2 8 { es[-! d-! c]-! b as g f[ as g] f c' es, }
     es8\trill d f'4~\p %15
-    f16 b32( c) d16 d d8 d,
+    f16 b32( c d16) d d8 d,
     f( e) es4~
-    es16 es,32( d) c16 c c8 es
+    es16 es,32( d c16) c c8 es
     cis16( d) d8 r16 f( b d)
-    f8 f4 \once \tieDashed f8~ %20
+    f8 f4 f8~ %20
     f f4 f8~
     f f b, as!
     as g c4~
     c8 h4 f'8~
     f es g g %25
     g c, c b!
-    b\f \tuplet 3/2 8 { a16 c a } f'8 r
+    b \tuplet 3/2 8 { a16\f c a } f'8 r
     r b,\p b b
     r b b b
     f4. es8 %30
-    d[ r16 b']\f a b c b
+    d[ r16 b']\fz a( b) c( b)
     es8\p es es es
     d d d d
     c16( h) c( g') f( es) g( es)
     b'8 d, c c %35
     b4 r8 d,
     es d r d
-    es d r16 g\fz b g
-    es'4~ es16 g( f es)
-    d4~ d16 f( es d) %40
-    c\p g' f es d c es c
+    es d r16 g(\fz b g)
+    es'4~ es16 g f( es)
+    d4~ d16 f es( d) %40
+    c(\p g' f es) d( c es c)
     \tuplet 3/2 8 { b'[\f b b] b d, b es[ es es] es c a }
     b8 \tuplet 3/2 8 { f'16 f f f[ d b] es c a' }
     \tuplet 3/2 8 { b f d b'[ b b] f d b es[ c a'] }
     \tuplet 3/2 8 { b f d } b'8 r \tuplet 3/2 8 { f,16\p f f } %45
-    f4( g8) \tuplet 3/2 8 { es16 es es }
-    es4 es16.( c32) es16.( c32)
+    f4( \scriptOut g8-!) \tuplet 3/2 8 { es16 es es }
+    es4~ es16. c32 es16.( c32)
     b8 b'-!\f g-! des'-!
     e,-! c'-! r4
     c2\p %50
@@ -611,29 +611,29 @@ IncruentumViolinoI = {
     es16( des c des) es( ges f es)
     d2
     des16( c b c) des( f es des)
-    c as es8 r b' %60
+    c( as) es8 r b' %60
     \appoggiatura b as4 g16( b) es( g)
     as( es) es4 des8
     \appoggiatura c b4 as8( a)
     b4 ges'
     \appoggiatura b,8 a4 b8( h) %65
     c4 as'
-    \appoggiatura c,8 h4 c16(\f h c d)
-    \appoggiatura f es8\p es4 es8~
+    \appoggiatura c,8 h4 c16(\f h) c( d)
+    \appoggiatura f es8 es4\p es8~
     es des(\f b') des,\p
     des4 c8 c~ %70
     c b(\f g') b,\p
     b4 as8 as~
     as as(\f f') as,\p
-    g16( b) es( g) f( es) d( c)
+    g16( b es g) f( es) d( c)
     b4 as %75
     g8 g f16( es) d( c)
     b8( g') as( f)
-    g16( b es\fz g) f( es) d( c)
+    g16(\fz b es g) f( es) d( c)
     b8( a) f'( a,)
     b(-.\p b-. b-. b-.) %80
     \once \slurDashed b(-. b-. b-. b-.)
-    b-!\f as!-! g-! f-!
+    b as!\f-! g-! f-!
     es4.\p b'8
     \appoggiatura as g4 f
     es c' %85
@@ -645,30 +645,30 @@ IncruentumViolinoI = {
     as4~\p as16 f g es
     d[ b as'8.]( f16) g( es)
     d8 d16 es f8 as,
-    g16(\f d es es') des4~
-    des8\p b g b %95
+    g16 d(\f es es') des4~
+    des8 b\p g b %95
     des8.( c16) c4~
     c8 f as c,
     c8.( b16) b8 b
     es8.( g16) d( f) b,( d)
-    es8.( g16) \slurDashed d( f) b,( d) \slurSolid %100
+    es8.( g16) d( f) b,( d) %100
     es8 b es, des
     des c f4~
     f8 e4 b'8~
     b as c c
     c f, f c' %105
-    b\f \tuplet 3/2 8 { d16 f d } b8 r
+    b \tuplet 3/2 8 { d16\f f d } b8 r
     r es\p es es
     r es es es
     b4. as8
-    g[ r16 es]\fz d( es f es) %110
+    g[ r16 es]\fz d( es) f( es) %110
     as8\p as as as
     g g g g
     f16( e) f( c') b( as) c( as)
     es'8 g, f f
     es4 r8 g %115
     as g r g
-    as g r16 c(\sf es c)
+    as g r16 c(\fz es c)
     as'4~ as16 c b as
     g([ b) des,8.]( f16) es( des)
     c\p( e f e) f( g as f) %120
@@ -683,9 +683,9 @@ IncruentumViolinoI = {
     \tuplet 3/2 8 { es16[ b g] es' es es b[ g es] as f d' }
     \tuplet 3/2 8 { es[ b g] es' es es b[ g es] as f d' } %130
     \tuplet 3/2 8 { es b g } es'8 r \tuplet 3/2 8 { b,16\p b b }
-    b4( c8) \tuplet 3/2 8 { as16 as as }
-    as4 as16.( f32) as16.( f32)
-    es8-!\f g-! c-! d,-!
+    b4( \scriptOut c8-!) \tuplet 3/2 8 { as16 as as }
+    as4~ as16. f32 as16.( f32)
+    es8 g-!\f c-! d,-!
     es4 r\fermata \bar "|." %135 finis
   }
 }

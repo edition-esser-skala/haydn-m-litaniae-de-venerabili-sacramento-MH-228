@@ -447,21 +447,21 @@ IncruentumOboeII = {
     b'2\p
     c8 b b4
     c8 b r4
-    b\fzE c
+    b\fz c
     f, b %40
     g\p r8 a
-    b\f b c a
-    b d4 es8
+    b b c a
+    b\f d4 es8
     d d4 es8
     d4 r %45
     R2
     es,\p
-    d8 b'-!\f g-! des'-!
-    e,-! c'-! r4
+    d8 \parOn b'-\parenthesize-!\f g-! des'-!
+    e,-! \parOff c'-\parenthesize-! r4
     R2*6 %55
-    g16(\pE f e f) g( b as g)
+    g16(\p f e f) g( b as g)
     f2~
-    f16( es d es) f( as g f)
+    \slurDashed f16( es d es) f( as g f) \slurSolid
     es2
     R2*8 %67
     r4 c'~\p
@@ -473,9 +473,9 @@ IncruentumOboeII = {
     b
     R2*2 %76
     b2~
-    b8 b\fzE a16 g f es
-    d8( c) d( es)
-    d\pE r b'4 %80
+    b8 b a16 g f es
+    d8( c) d es
+    d r b'4 %80
     r b
     r8 as!\f g f
     es4 r
@@ -493,16 +493,16 @@ IncruentumOboeII = {
     f8 es es4
     f8 es r4
     R2
-    b\sf
-    as4\p r8 c16 as %120
+    b\fz
+    as4\pE r8 c16 as %120
     g4\fE f
     es8 r r4
     r8 es\pE g b
     es2~
     es4 g, %125
-    es2\fE
+    es2
     d
-    es8 g g g
+    es8 g\f g g
     g g'4 f8
     es g4 f8 %130
     es r r4

@@ -564,8 +564,8 @@ IncruentumSoprano = {
     f8 d b d
     f([ e)] es r
     R2*2
-    f2~ %20
-    f
+    f2 %20
+    f~
     f8 \appoggiatura es16 d8 \appoggiatura c b8 as!
     as16 g g8 c4~
     c8 h4 f'8
@@ -627,7 +627,7 @@ IncruentumSoprano = {
     es8 b r4
     R2*5 %106
     es4~ es16[ g] f([ es)]
-    \appoggiatura d8 c4~ c16[ es] d([ c)]
+    \appoggiatura d c4~ c16[ es] d([ c)]
     b4.( as8)
     g4 r %110
     R2*4

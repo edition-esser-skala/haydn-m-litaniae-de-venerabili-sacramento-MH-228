@@ -549,7 +549,7 @@ IncruentumTenore = {
     as16[ g f g] as[ c b as]
     g4 r
     as4. es'16 des %60
-    \appoggiatura des c8. c16 b4
+    \appoggiatura des8 c8. c16 b4
     as f'
     \appoggiatura as,8 g4 as8([ ges)]
     f( f'4) es8
@@ -596,9 +596,9 @@ IncruentumTenore = {
     b2
     b4 r
     r8 es,([ g)] b
-    \once \tieDashed es2~
+    es2~
     es4 b %125
-    \once \tieDashed b2~
+    b2~
     b4 as
     g r
     R2*6 %134

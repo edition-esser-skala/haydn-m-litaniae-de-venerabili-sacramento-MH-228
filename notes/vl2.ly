@@ -566,20 +566,20 @@ IncruentumViolinoII = {
     R2*11 %11
     es16(\f b') g( es) b( g') as( f)
     f( es) b( es) d( b) d( f)
-    \tuplet 3/2 8 { es[ f g] b as g f[ as g] f c' es, }
+    \tuplet 3/2 8 { es[-!-\critnote g-! as-!] b as g f[ as g] f c' es, }
     es8\trill d d'4~\p %15
-    d16 d32( es) f16 f f8 b,,
+    d16 d32( es f16) f \kneeBeam f8 b,,
     d( cis) c4~
-    c16 c32( b) a16 a a8 c
+    c16 c32( b a16) a a8 c
     a16( b) b8 r4
     b'8.( d16) a( c) f,( a) %20
     b8.( d16) a( c) f,( a)
     b8 d, d f
     f es r g
     as( f) r d'
-    h c r h %25
+    h( c) r h %25
     c g g g
-    f\f \tuplet 3/2 8 { f16 a f } a,8 r
+    f \tuplet 3/2 8 { f16\f a f } a,8 r
     r f'\p f f
     r g g g
     d4. c8 %30
@@ -590,7 +590,7 @@ IncruentumViolinoII = {
     f b b a %35
     b4 r8 b,
     c b r b
-    c b r16 g'\fz b g
+    c b r16 g'(\fz b g)
     b4 c
     b8( f) r f\p %40
     g4. a8
@@ -598,8 +598,8 @@ IncruentumViolinoII = {
     b8 \tuplet 3/2 8 { f'16 f f f[ d b] es c a' }
     \tuplet 3/2 8 { b f d b'[ b b] f d b es[ c a'] }
     \tuplet 3/2 8 { b f d } b'8 r \tuplet 3/2 8 { d,,16\p d d } %45
-    d4(-\critnote es8) \tuplet 3/2 8 { c16 c c }
-    c4 c16.( a32) c16.( a32)
+    d4(-\critnote \scriptOut es8-!) \tuplet 3/2 8 { c16 c c }
+    c4~ c16. a32 c16.( a32)
     b8 b'-!\f g-! des'-!
     e,-! c'-! r4
     r8 as\p f g %50
@@ -619,14 +619,14 @@ IncruentumViolinoII = {
     f4. es8
     \appoggiatura des c4 b8( as'!) %65
     g! g'4 f8
-    \appoggiatura es d!4 c8\f g16( h,)
-    c8\p g'4 g8~
+    \appoggiatura es d!4 c8 g16(\f h,)
+    c8 g'4\p g8~
     g b(\f des) b\p
     b4 as8 as~ %70
     as g(\f b) g\p
     g4 f8 f~
     f f(\f as) f\p
-    es16( g) b( es) d( c) b( as)
+    es16( g b es) \slurDashed d( c) b( as) \slurSolid
     g4 f %75
     es8 es d16( c) b( as)
     g8( es') f( d)
@@ -634,7 +634,7 @@ IncruentumViolinoII = {
     d8( c) d( es)
     d(\p f) as!( g) %80
     g( f) as( g)
-    f-!\f as-! g-! f-!
+    f as-!\f g-! f-!
     es16(\p b') g( es) b( g') as( f)
     f( es) b( es) d( b) d( f)
     es( b') b4 as8 %85
@@ -642,23 +642,23 @@ IncruentumViolinoII = {
     d4. es8
     f d4 es8
     f8. g16 as8 f
-    f es r16 \once \slurDashed b'(\f es g) %90
+    f es r16 b'(\f es g) %90
     f4~\p f16 d es g,
     f[ d f'8.]( d16) es( g,)
     f8 f16 g as8 f
-    g16(\f d es g) b4~
-    b8\p g es g %95
+    g16 d(\f es g) b4~
+    b8 g\p es g %95
     b2
     as8 c f as,
     as4. as8
-    g8.( b,16) f'( as) d,( f)
-    g8.( b16) \slurDashed f( as) d,( f) \slurSolid %100
+    g8.( b16)-\critnote f( as) d,( f)
+    g8.( b16) f( as) d,( f) %100
     es8 es g, b
     b as r c
     des b r g'
     e( f) r e
     f c c f %105
-    f\f \tuplet 3/2 8 { b16 d b } d,8 r
+    f \tuplet 3/2 8 { b16\f d b } d,8 r
     r es\p es es
     r es es es
     g4. f8
@@ -678,15 +678,15 @@ IncruentumViolinoII = {
     g g4 g8~
     g es'4 es8~
     es16 g, g g g g g g %125
-    b, g'8 g16 b, g'8 g16
+    b,-\critnote es8 es16 b g'8 g16
     d\f f'8 f16 b,, d8 d16
     es8 es' g b
     \tuplet 3/2 8 { es16[ b g] es' es es b[ g es] as f d' }
     \tuplet 3/2 8 { es[ b g] es' es es b[ g es] as f d' } %130
     \tuplet 3/2 8 { es b g } es'8 r \tuplet 3/2 8 { g,,16\p g g }
-    g4( as8) \tuplet 3/2 8 { f16 f f }
-    f4 f16.( d32) f16.( d32)
-    es8-!\f es-! as-! as,-!
+    g4( \scriptOut as8-!) \tuplet 3/2 8 { f16 f f }
+    f4~ f16. d32 f16.( d32)
+    es8 es-!\f as-! as,-!
     g4 r\fermata \bar "|." %135 finis
   }
 }

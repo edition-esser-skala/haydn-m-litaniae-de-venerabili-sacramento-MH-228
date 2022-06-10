@@ -491,7 +491,7 @@ IncruentumAlto = {
     c'~
     c16[ b a b] c[ es des c]
     b2~
-    b16[ as g as] b[ des c b]
+    b16[ as! g as] b[ des c b]
     as4 r %60
     R2*4
     r4 b,8 h16 h %65
@@ -531,7 +531,7 @@ IncruentumAlto = {
     b8 \appoggiatura as16 g8 \appoggiatura f16 es8 des
     des16 c c8 f4~
     f8 e4 b'8
-    b[ as] \once \tieDashed c4~
+    b[ as] c4~
     c8[ \appoggiatura b16 as8] \appoggiatura g16 f8 es!8 %105
     es d r4
     R2*4 %110
