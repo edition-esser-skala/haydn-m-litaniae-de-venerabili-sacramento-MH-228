@@ -744,7 +744,7 @@ PignusViolinoI = {
     r2 f'4 f
     f2. as,4
     g2 es'4 d %35
-    c2 d4 c
+    c2 d4( c)
     c2 f~
     f4 b f2~
     f4 d f2~
@@ -758,11 +758,11 @@ PignusViolinoI = {
     f4 b g c
     b2 a
     b f'~\p
-    f8 e( f e) f4-! d-! %50
+    f8 e f( e) f4 d-! %50
     b-! g-! g'2~
-    g8 fis( g fis) g4-! es-!
+    g8 fis g( fis) g4 es-!
     c a c'2~
-    c8 h( c h) c4-! es,!-!
+    c8 h c( h) c4 es,!-!
     d-! f-!\f g,-! g'-! %55
     a, b c, a'
     r b8 a b4 f
@@ -772,7 +772,7 @@ PignusViolinoI = {
     a f, b8 c d es
     f4 f, d' c
     b d, f'2~
-    f8 e( f e) f4 c
+    f8 e f( e) f4 c
     a f d' es %65
     d2. a4
     b2 r
@@ -781,17 +781,17 @@ PignusViolinoI = {
     g4 f! es! d %70
     cis2 r
     r g'~
-    g8 f( g f) g4 e
+    g8 f g( f) g4 e
     cis a g'2~
-    g8 f( g f) g4 e %75
+    g8 f g( f) g4 e %75
     f e d2~
     d cis
     d a'~\p
-    a8 g( a g) a4-! f-!
-    d-! b-! b'2~ %80
-    b8 \once \slurDashed a( b a) b4-! g-!
+    a8 g a( g) a4 f-!
+    \parOn d-\parenthesize-! \parOff b-\parenthesize-! b'2~ %80
+    b8 a b( a) b4 g-!
     e-! cis-! g'2~
-    g8 f( g f) g b a g
+    g8 f g( f) g b a g
     f\f e d cis d c b a
     b a g f e4 cis' %85
     d8 es! d c d c b a
@@ -802,7 +802,7 @@ PignusViolinoI = {
     fis,2 fis4 fis
     g as g f
     es2 g'~
-    g8 fis( g fis) g4 f
+    g8 fis \once \slurDashed g( fis) g4 f
     es c g2~ %95
     g f
     g g~
@@ -819,9 +819,9 @@ PignusViolinoI = {
     g
     f
     es2 g'~\p %110
-    g8 \once \slurDashed f( g f) g4-\parenthesize-! b,-!
+    g8 f \once \slurDashed g( f) g4 b,-!
     as-! f-! as'2~
-    as8 \once \slurDashed g( as g) as4 as,\f
+    as8 g \once \slurDashed as( g) as4 as,\f
     g8 b c b es d c b
     c b as g as g f es %115
     d4 b'8 es, c'4 d,
@@ -869,14 +869,14 @@ PignusViolinoI = {
     b'2 g
     es'2. es4
     fis,2 d'~ %160
-    d8 c( d c) d4 b~
+    d8 c \once \slurDashed d( c) d4 b
     b g c2~
     c a
     r g'4 g
     g2. g,4 %165
     fis fis g a
     b1
-    a~
+    a
     a2 g~
     g fis %170
     g d'~

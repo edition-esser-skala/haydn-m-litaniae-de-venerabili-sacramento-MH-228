@@ -837,7 +837,7 @@ PignusAlto = {
     g4 d g2~
     g4 b g2~
     g a4 g
-    fis g2( fis4)
+    fis( g2 fis4)
     g2 r %195
     R1*5 %200
     d2 d
@@ -993,8 +993,8 @@ PignusAltoLyrics = \lyricmode {
   mi -- se -- re -- %190
   re, mi --
   se -- re --
-  _ _
-  re no --
+  _ re
+  no --
   bis, %195
 
   mi -- se -- %201

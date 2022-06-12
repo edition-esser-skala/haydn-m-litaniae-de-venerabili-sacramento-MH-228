@@ -742,7 +742,7 @@ PignusTenore = {
     b'2 g
     es'2. es4
     fis,2 fis4 fis %15
-    g a \once \tieDashed b2~
+    g a b2~
     b4 c d2
     r g4 g
     g2. g,4
@@ -767,7 +767,7 @@ PignusTenore = {
     d2. f4
     d2. d4
     d2. f4 %40
-    d2( c4) b
+    d2 c4( b)
     a( b2 a4)
     b2 b~
     b4 d b2~
@@ -828,7 +828,7 @@ PignusTenore = {
     des' des( c) b
     a!2 es'!~
     es d4( c) %130
-    b( a) g2
+    b4.(^\critnote a8) g2
     r d'~
     d b4( g)
     c,2 c'~
@@ -933,7 +933,7 @@ PignusTenoreLyrics = \lyricmode {
   mi -- se --
   re -- re,
   mi -- se -- %40
-  re -- re
+  re -- re __
   no --
   bis, mi --
   se -- re --

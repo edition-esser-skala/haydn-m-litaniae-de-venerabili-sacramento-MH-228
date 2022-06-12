@@ -846,8 +846,8 @@ PignusBasso = {
     b2. d4
     b2. f4 %45
     b2. d4
-    b d es c
-    f es f2
+    b( d es) c
+    f( es f2)
     b, r
     R1*7 %56
     r2 b'~
@@ -902,7 +902,7 @@ PignusBasso = {
     d,2. d4 %120
     c' c( b) as
     g b des2~
-    des c4 b
+    des c4( b)
     as4.( g8) f2
     r c'~ %125
     c as4( f)
@@ -1018,8 +1018,8 @@ PignusBassoLyrics = \lyricmode {
   mi -- se --
   re -- re, %45
   mi -- se --
-  re -- _ _ _
-  _ re no --
+  re -- re
+  no --
   bis,
 
   mi -- %57
@@ -1074,7 +1074,7 @@ PignusBassoLyrics = \lyricmode {
   glo -- ri -- %120
   ae, mi -- se --
   re -- _ _
-  _ re
+  re __
   no -- bis,
   mi -- %125
   se --

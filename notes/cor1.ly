@@ -443,7 +443,7 @@ PignusCornoI = {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoPignus
     R1*14 %14
-    e'1~\fE %15
+    e'1\fE %15
     e
     R1*4 %20
     e2 r
@@ -483,15 +483,15 @@ PignusCornoI = {
     r2 c4 c %65
     c2. d4
     e2 e4 e
-    \pa e2. c4 \pd
-    e2 r
+    e2^\critnote r
+    e r
     R1*8 %77
     r4 e\p e e
     e2 r
     R1*13 %92
-    d1\fE
+    \pa d1\fE
     e4 e8 e e4 e
-    f2 r %95
+    f2 \pd r %95
     R1*4
     \pao c2 r %100
     \pao c r
@@ -520,8 +520,8 @@ PignusCornoI = {
     e r
     e r
     R1*4 %153
-    r4 e, e e
-    e1 %155
+    r4 \pa e, e e
+    e1 \pd %155
     R1*14 %169
     e'4 e e e %170
     c2 r

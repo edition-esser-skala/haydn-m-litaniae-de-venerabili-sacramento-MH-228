@@ -759,11 +759,11 @@ PignusViolinoII = {
     d4 f2 es4
     d2 c
     b d'~\p
-    d8 c( d c) d4-! b-! %50
+    d8 c d( c) d4 b-! %50
     g-! es-! es'2~
-    es8 d( es d) es4-! c-!
-    a f a'2~
-    a8 g( a g) a4-! a,-!
+    es8 d es( d) es4 c-!
+    a-! f-! a'2~
+    a8 g a( g) a4 a,-!
     b-! f'-!\f g,-! g'-! %55
     a, b c, a'
     r b8 a b4 f
@@ -771,41 +771,41 @@ PignusViolinoII = {
     f d d'8 c d c
     c4 c, c' g'\trill %60
     a f, b2~
-    b8 a( b a) b4 f
+    b8 a b( a) b4 f
     d b b' b
     a2. e4
     f2. g4 %65
     f1
     f2 b~
-    b8 a( b a) b4 g
+    b8 a b( a) b4 g
     d b b'8( a) b( a)
     b4 a g f! %70
     e2 r
     r e~
-    e8 d( e d) e4 cis
+    e8 d e( d) e4 cis
     a' e e2~
-    e8 d( e d) e4 cis %75
+    e8 d \once \slurDashed e( d) e4 cis %75
     a' g f2
     e1
     d2 f'~\p
-    f8 e( f e) f4-! d-!
+    f8 e f( e) f4 d-!
     b-! g-! g'2~ %80
-    g8 \once \slurDashed f( g f) g4-! e-!
+    g8 f g( f) g4 e-!
     cis-! a-! e'2~
-    e8 d( e d) e g f e
+    e8 d e( d) e g f e
     f\f e d cis d c b a
     b a g f e4 cis' %85
     d8 es! d c d c b a
     g2 b,~
-    b8 a( b a) b2
+    b8 a b( a) b2
     d es~
-    es8 d( es d) es4 c %90
+    es8 d \once \slurDashed es( d) es4 c %90
     a2 es'
     d2. d4
     es g f es
     d2 r
     r c'~ %95
-    c8 h( c h) c4 as
+    c8 h c( h) c4 as
     f d g f
     es2 r
     R1
@@ -820,9 +820,9 @@ PignusViolinoII = {
     es2. es4
     es2 d
     es es'~\p %110
-    es8 d( es d) es4-\parenthesize-! g,-!
+    es8 d \once \slurDashed es( d) es4 g,-!
     f-! d-! f'2~
-    f8 \once \slurDashed es( f es) f4 f,\f
+    f8 es \once \slurDashed f( es) f4 f,\f
     g8 b c b es d c b
     c b as g as g f es %115
     d4 b'8 es, c'4 d,
@@ -857,7 +857,7 @@ PignusViolinoII = {
     r a8 c, a'4 a %145
     r c8\f a c4 c
     b b, b'2~
-    b8 a( b a) b4 g
+    b8 a \once \slurDashed b( a) b4 g
     g d g b
     a1~ %150
     a2 a
@@ -870,7 +870,7 @@ PignusViolinoII = {
     es2 c
     a'2. a4 %160
     b,2 g'~
-    g8 f!( g f) g4 es
+    g8 f! \once \slurDashed g( f) g4 es
     es c d2~
     d g4 f!
     e2 a4 a %165

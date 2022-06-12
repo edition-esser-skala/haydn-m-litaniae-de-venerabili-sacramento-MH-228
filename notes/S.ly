@@ -873,7 +873,7 @@ PignusSoprano = {
     fis,2. fis4
     es' es( d) c %135
     h2 f'!~
-    f es4( d)
+    f es4 d
     es4.( d8) c2
     r g'~
     g es4( c) %140
@@ -1038,7 +1038,7 @@ PignusSopranoLyrics = \lyricmode {
   glo -- ri --
   ae, mi -- se -- %135
   re -- _
-  re __
+  _ re
   no -- bis,
   mi --
   se -- %140

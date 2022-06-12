@@ -568,8 +568,8 @@ PignusOboeII = {
     es2 r
     es2. g4
     f1
-    c'
-    b4 d2\f \once \tieDashed c4~ %55
+    c'\f
+    b4 d2 c4~ %55
     c b2 a4
     b2 r
     b r
@@ -587,13 +587,13 @@ PignusOboeII = {
     e2 r
     r e8 d e d
     e2 r
-    r e4 cis %75
-    a cis d a
+    r cis4^\critnote e %75
+    a, cis d a
     b2 e,
     d r
     R1*4 %82
-    cis'2.\pE e4
-    d1\fE
+    cis'2.\fE e4
+    d1
     b8 a g f e2 %85
     d r
     b' r
@@ -609,8 +609,8 @@ PignusOboeII = {
     R1*4
     b1 %105
     c
-    es,~
-    es
+    es,
+    es~
     es2 d
     es r %110
     es1\p
@@ -621,8 +621,8 @@ PignusOboeII = {
     r4 g\f f d
     es2 r
     R1*3 %120
-    d2\p r
-    es r
+    d1\p^\critnote
+    es2 r
     g1
     f2 r
     R1*3 %127
@@ -639,7 +639,7 @@ PignusOboeII = {
     g~
     g~
     g %140
-    f
+    f~
     f
     es
     R1*3 %146
@@ -647,7 +647,7 @@ PignusOboeII = {
     r b8 g b4 b
     r b8 g b4 b
     r a8 fis a4 a %150
-    r c a a
+    r a-\critnote a a
     d,2 d
     d c
     d1

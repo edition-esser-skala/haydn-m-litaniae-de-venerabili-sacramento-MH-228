@@ -715,7 +715,7 @@ PignusViola = {
     \clef alto
     \twotwotime \key g \minor \time 2/2 \tempoPignus
     R1*10 %10
-    g1
+    g1\fE
     d2. d4
     b'2 g
     es'2. es4
@@ -760,11 +760,11 @@ PignusViola = {
     f2 r8 e( f e)
     f2 r4 c'
     b2 r %55
-    r4 d,\f g es
+    r4 d,\f-! g-! es-!
     d2 r
     R1
     r2 f~
-    f8 \once \slurDashed e( f e) f4 c %60
+    f8 e f( e) f4 c %60
     a f es' es
     d2. a4
     b2 d
@@ -773,12 +773,12 @@ PignusViola = {
     r b4 c
     d2 r
     r g2~
-    g8 fis( g fis) g4 d
+    g8 fis g( fis) g4 d
     g,2. gis4 %70
     a2 cis~
-    cis8 h( cis h) cis4 a
+    cis8 h cis( h) cis4 a
     e cis cis'2~
-    cis8 h( cis h) cis4 a
+    cis8 h cis( h) cis4 a
     e cis r2 %75
     r d'4 a
     b b a2
@@ -786,14 +786,14 @@ PignusViola = {
     d'2 r4 a'
     g2 r4 g, %80
     g'2 r4 b
-    a2 r8 gis a gis
+    a2 r8 gis( a gis)
     a2 r4 cis,\f
     d a' b f
     g d a' a, %85
     d2 r
     R1*2
     r2 c~
-    c8 h( c h) c4 g %90
+    c8 h \once \slurDashed c( h) c4 g %90
     es c c' c
     b!2 h
     c4 es d c
@@ -802,7 +802,7 @@ PignusViola = {
     c1^\critnote
     g2. g4
     es'2 c
-    as'2. as,4
+    as2.^\critnote as4
     g2 g4 as %100
     b c b as
     g2 g'~
@@ -851,16 +851,16 @@ PignusViola = {
     fis r %145
     r4 a'8\f d, a'4 a
     g g, g'2~
-    g8 fis( g fis) g4 d
+    g8 fis \once \slurDashed g( fis) g4 d
     d g, b g
     c1~ %150
     c2 d4 es
     d2. a4
     b2 g
     a c~
-    c8 b( c b) c4 a %155
+    c8 b \once \slurDashed c( b) c4 a %155
     d b d2~
-    d8 c( d c) d4 b
+    d8 c \once \slurDashed d( c) d4 b
     g' d r2
     a1
     d,2. d4 %160
