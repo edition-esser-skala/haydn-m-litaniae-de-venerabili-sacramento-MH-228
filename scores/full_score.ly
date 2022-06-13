@@ -25,8 +25,8 @@
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \transposedName "Corno I, II" "B" "flat"
-            % \transpose c b,
+            \set Staff.instrumentName = \markup \center-column { "Corno" \concat { "in " #(make-one-pitch "B" "flat") " alto" } }
+            % \transpose c b
             \partCombine \KyrieCornoI \KyrieCornoII
           >>
         >>
@@ -82,7 +82,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 65 }
+      \midi { \tempo 4 = 60 }
     }
   }
   \bookpart {
@@ -105,8 +105,8 @@
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "1, 2" }
-            % \transpose c b,
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "alto" "1, 2" }
+            % \transpose c b
             \partCombine \PanisCornoI \PanisCornoII
           >>
         >>
@@ -321,7 +321,7 @@
         \new FiguredBass { \CoelesteBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 85 }
+      \midi { \tempo 4 = 80 }
     }
   }
   \bookpart {
@@ -584,7 +584,7 @@
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }
             % \transpose c b,
             \partCombine \AgnusCornoI \AgnusCornoII
           >>

@@ -15,7 +15,7 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedName "Corno" "B" "flat"
+            \set GrandStaff.instrumentName = \markup \center-column { "Corno I, II" \concat { "in " #(make-one-pitch "B" "flat") " alto" } }
             \new Staff {
               \set Staff.instrumentName = "I"
               \KyrieCornoI
@@ -36,7 +36,7 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedNameShort "cor" "B" "flat"
+            \set GrandStaff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "alto" }
             \new Staff {
               \set Staff.instrumentName = "1"
               \PanisCornoI
@@ -164,7 +164,7 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedNameShort "cor" "B" "flat"
+            \set GrandStaff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" }
             \new Staff {
               \set Staff.instrumentName = "1"
               \AgnusCornoI
