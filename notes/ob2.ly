@@ -707,19 +707,19 @@ AgnusOboeII = {
     \clef treble
     \key g \minor \time 3/4 \tempoAgnus
     R2.*4-\markup \remark "fl 2" %4
-    r8 d'4\f d8 es c %5
+    r8 d'4\fE d8 es c %5
     b4 r r
     R2.*3
-    r8 f'4\fzE a,16( b) c( es) d( c) %10
+    r8 f'4 a,16( b) c( es) d( c) %10
     b4 r r
-    r8 f'4 a,16( b) c( es) d( c)
-    b2.
+    r8 f'4 \slurDashed a,16( b) c( es) d( c) \slurSolid
+    b2.\p
     e
     es2 r4 %15
     R2.
     b8\fz r b r r4
     R2.*2
-    r4 b8\pE r a r %20
+    r4 b8\p r a r %20
     b4 d\f c
     b2 a4
     b r r
@@ -740,7 +740,7 @@ AgnusOboeII = {
     a4 r r
     f' r r
     R2.*2 %50
-    r8 c\p c16( d) e( f) g( b) a( g)
+    r8 c~\p c16 d e( f) g( b) a( g)
     f2.
     g2 r4
     R2.*3 %56
@@ -753,7 +753,7 @@ AgnusOboeII = {
     b4 r r
     r r8 a4\f c8
     b4 r r
-    c2\pE c4 %70
+    c2\p c4 %70
     \appoggiatura c8 b4 r r
     h2 d4
     \appoggiatura d8 c4 r r
@@ -779,9 +779,9 @@ AgnusOboeII = {
     b e2
     es r4 %100
     R2.
-    b8 r b\fz r r4
+    b8\fz r b r r4
     R2.*2
-    r4 b8\pE r a r %105
+    r4 b8\p r a r %105
     b4 r b'\f
     b, r r\fermata
     R2.
@@ -789,33 +789,33 @@ AgnusOboeII = {
     b8. d,16 c4 r8. c16 %110
     c'4 b r
     R2.
-    r4 r a~
+    r4 r a~\p
     a8 g fis c' b fis
     g g4\f g g8 %115
     g8. d16 c4 r8. c16
     c'4 b b~\p
     b a8 fis c'4~
-    c b8 g a4
-    a8.( g16) g4 r8 g %120
+    c b8 g a4~
+    a8. g16 g4 r8 g %120
     g4 fis r
-    cis'\f d r
+    cis'\fE d r
     g, fis r
     cis' d r
     g, fis r %125
     R2.
-    r4 fis\f a
+    r4 fis\fE a
     a8. g16 g4 g\p
     g( fis8) fis\f fis fis
     g( d') d4~ d16 fis, a fis %130
-    g( b) d d d4~ d16 fis,( g d')
-    d8( cis) c4~ c16 es,( d c')
-    c8( h) b4~ b16 d( fis g)
-    es( c) c( a) g4 fis
+    g( b) d d d4~ d16 fis, g d'
+    d8( cis) c4~ c16 es, d c'
+    c8( h) b4~ b16 d fis g
+    es c c a g4 fis
     g d' c8 es %130
     a,2.~
     a4 r r
-    g4.\p a8( g fis)
-    g4\fE es\p es
+    g4. a8 g( fis)
+    g4 es\p es
     f es r %140
     R2.
     r4 r d'8\f d
@@ -828,7 +828,7 @@ AgnusOboeII = {
     c h r
     R2.*2 %151
     r4 g\p d'4
-    c2.\f
+    c2.~\f
     \tempoAgnusB c
     h\fermata \bar "|." %155 FINIS
   }

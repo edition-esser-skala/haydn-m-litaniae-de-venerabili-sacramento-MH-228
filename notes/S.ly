@@ -1145,7 +1145,7 @@ AgnusSoprano = {
     es[ d c d] es16.[ d32 f16. es32] g8.[ es16]
     d16.[ c32 es16. d32] f4 es8 d
     d4 c r8 f,
-    b8.([\trill c16] d8.[\trill es16]) f8 f
+    << \context Voice = "Soprano" { b8.[ c16] d8.[ es16] f8 f } \\ {  s8 s^\turn s s^\turn s4 } >>
     f8. c16 c4 r %70
     R2.
     r4 r r8 d
@@ -1169,8 +1169,8 @@ AgnusSoprano = {
     d~ d16[ b c d] es[ f g a]
     b8[ b,] b4 r
     r d2
-    d4 es4. e8~ %95
-    e[ f] d4 c8. b16
+    d4.^\critnote es4 e8~ %95
+    e[ f] d4 c8.\trill b16
     b4 r r
     R2.*9 %106
     R2.\fermata
@@ -1184,7 +1184,7 @@ AgnusSoprano = {
     \mvTr g\fE^\tutti fis fis8 fis
     es'4 d r
     R2.*3 %120
-    r4 r \mvTr d8\fE^\tutti d
+    r4 r \mvTr d8\fE^\tuttiE d
     g([ cis, d a)] b([ fis)]
     g([ b16 a)] a4 d8 d
     g([ cis, d a)] b([ fis)]
@@ -1192,7 +1192,7 @@ AgnusSoprano = {
     a b b4.( a8)
     a4 r r
     R2.
-    r4 d\fE d
+    r4 d\f d
     d2. %130
     d4 d d
     d8([ cis)] c2
@@ -1202,12 +1202,12 @@ AgnusSoprano = {
     r c c
     es, d8 r  r4
     R2.
-    r4 g\pE g
+    r4 g\p g
     as g2 %140
     as4 g c8 b
-    b4\fE a d8 d
+    b4\f a d8 d
     d4 es16[ e f e] f[ fis g fis]
-    g8. g,16 a2\trill
+    g8^\critnote g, a2\trill
     g4 r r %145
     r r as'~
     as g8([ es)] f4~
@@ -1259,7 +1259,7 @@ AgnusSopranoLyrics = \lyricmode {
   ca -- _ _
   _ _ _ ta
   mun -- di: Ex --
-  au -- di nos
+  au -- _ di nos
   Do -- mi -- ne, %70
 
   ex --

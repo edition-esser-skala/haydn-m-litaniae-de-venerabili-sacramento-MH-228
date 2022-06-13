@@ -1075,7 +1075,7 @@ AgnusTenore = {
     \mvTr b4\fE^\tutti a c8 es %110
     a,4 b r
     R2.*4 %115
-    \mvTr b4\fE^\tutti a es'8 es
+    \mvTr b4\fE^\tuttiE a es'8 es
     a,4 b \mvTr g'\pE^\solo
     g fis8 d es4~
     es d8 b c4~
@@ -1084,11 +1084,11 @@ AgnusTenore = {
     r r \mvTr d8\fE^\tutti d
     g([ cis, d a)] b([ fis)]
     g([ b16 a)] a4 d8. d16
-    g8([ cis, d cis)] d4\pE %125
+    g8([ cis, d cis)] d4\p %125
     e2.
     d4 r r
     R2.
-    r4 a\fE a
+    r4 a\f a
     g2( a4) %130
     g g d'
     e( es4.) d8
@@ -1098,21 +1098,21 @@ AgnusTenore = {
     r fis, fis
     a a8 r r4
     R2.
-    r4 b\pE b
+    r4 b\p b
     b b2 %140
     h4 c c8 c
-    cis4\fE d r
+    cis4\f d r
     r r a8 a
     g g g4( fis)
     g r g'~ %145
-    g f!8([ d)] \once \tieDashed f4~
+    g f!8([ d)] f4~
     f es8[ c] d4~
     d c8[ es] c4~
     c h? g8 g
     g4 g r %150
-    r d'\pE d
+    r d'\p d
     c d2
-    c2.~\fE
+    c2.~\f
     \tempoAgnusB c
     h\fermata \bar "|." %155 FINIS
   }

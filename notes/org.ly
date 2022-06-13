@@ -1877,12 +1877,12 @@ AgnusOrgano = {
   \relative c {
     \clef bass
     \key g \minor \time 3/4 \tempoAgnus
-    \mvTr b4\p-\soloE r b'
+    \mvTr b4\p-\solo r b'
     a r es
     d r8 d b d
     f f f f f f
     b4 r8 b,\f a f' %5
-    b4 r8 d,\pE d d
+    b4 r8 d,\p d d
     es4 r r
     r c8 c d d
     es es es es e e
@@ -1906,14 +1906,14 @@ AgnusOrgano = {
     f' r r
     f r r
     f r a,
-    b8 b b'\f f d b %30
+    b8 b b'\fz f d b %30
     f'4\p r f,
     b r8 b' a g
     fis4 fis fis
     g g g
     a a a %35
-    b b8\f a g f!
-    e4 r e\pE
+    b b8\f a g\p f!
+    e4 r e
     f r h,
     c c r8 c'
     a f c4 r %40
@@ -1936,7 +1936,7 @@ AgnusOrgano = {
     f f\f c4 c
     f, r f'\p
     e r e
-    es? r c %60
+    es r c %60
     c b g
     d' r d
     g, r8 g'\f f! e
@@ -1945,21 +1945,21 @@ AgnusOrgano = {
     f r a,
     b r8 b es e
     f f f f es\f es
-    d b r b\p b b
+    d\p b r b b b
     a f r a a f %70
     b b' r b, as as'
     g g, r g g g
     c c c c b! b
     a! a a a a' a
     b es, f f f, f %75
-    b\f d d d\p d d
+    b d\f d d\p d d
     es es es es f f
     g g g g f f
     es es es es e e
     f f f f f f %80
     f f f f f f
     ges ges ges ges ges ges
-    ges ges ges \cresc ges ges ges
+    ges \cresc ges ges ges ges ges
     f\f f f,4 r8 f'\p
     d! b f4 r %85
     r r r8 f'
@@ -1968,17 +1968,17 @@ AgnusOrgano = {
     r es es es es es
     f g f f f f %90
     \kneeBeam b, f''\fz d b f[ d]
-    b b'\p b,4 r
+    b\p b' b,4 r
     b b' r8 b,\f
     es es e e e e
     f4 r r %95
     r f8 f f f
-    b, b b'\p f d b
+    b, b\p b' f d b
     f' f f f f f
     g g g g g g
     a a a a a a %100
     b g es c f es
-    d r d\fz r d r
+    d\fz r d r d r
     es r r4 r8 es\p
     d d es es e e
     f g f f f, f %105
@@ -1986,26 +1986,26 @@ AgnusOrgano = {
     f2.\fermata
     b,4 r r
     r16 fis'(-\unisonoE g b) cis,( d g d) a( b d b)
-    g4-\tuttiE a r8. a'16 %110
-    fis4 g r8 \mvTr g,\p-\soloE
+    g4-\tutti a r8. a'16 %110
+    fis4 g r8 \mvTr g,\p-\solo
     d' d d d d d
     d d d d d d
     d4 r d
     g, r r %115
-    \mvTr g'\fE-\tuttiE a r8. a16
-    fis4 g r8 \mvTr g,\p-\soloE
+    \mvTr g'\fE-\tutti a r8. a16
+    fis4 g r8 \mvTr g,\p-\solo
     d' d d d d d
     d d d d d d
     es es es es d cis %120
     d4 d, r
-    \mvTr es'\fE-\tuttiE d r
+    \mvTr es'\fE-\tutti d r
     es d r
     es d r
     es d d8\p d %125
     cis cis cis cis cis cis
-    d d d'\f d d d
-    es es es es d cis\pE
-    d4 r8 d\f d, c!
+    d \mvTr d\f-\solo d' d d d
+    es es es es\p d cis
+    d4 r8 \mvTr d\f-\tutti d, c!
     b b b b c c %130
     b b b b b' b
     a a a g fis fis
@@ -2014,14 +2014,19 @@ AgnusOrgano = {
     g,4 r8 g c a %135
     d r d r d r
     fis4. r8 r4
-    r8 es'\p d c d d,
-    es[\f r16 es] es8\p es es es
+    r8 \mvTr es'\p-\solo d c d d,
+    es[ r16 es]\f es8 es\p es es
     d4 es es %140
     f es es
-    g\f fis \clef treble d''8 d
-    d4 es16 e f e f fis g fis
-    g8 \clef bass es,,[ c a] d d,
-    g g g g g g %145
+    \mvTr g\f-\tutti fis \clef treble << {
+      d''8^\orgE d
+      d4 es16( e f e) f( fis g fis)
+      g8
+    } \\ {
+      r4 r r r8 c,,_\markup \remark { "Bassi" \italic "8vb" }
+      b
+    } >> \clef bass es,![ c a d d,]
+    g g-\tasto g g g g %145
     g g g g g g
     g g g g g g
     g g g g g g
@@ -2029,7 +2034,7 @@ AgnusOrgano = {
     c4 g r %150
     r h'\p h
     c h r
-    r16 h(\f c es) fis,( g c g) d( es g es)
+    r16 \mvTr h(\f-\unisono c es) fis,( g c g) d( es g es)
     \tempoAgnusB c2.
     g\fermata \bar "|." %155 FINIS
   }
@@ -2064,14 +2069,14 @@ AgnusBassFigures = \figuremode {
   <2> <[6]>2
   r2.
   <6 4>
-  <[7] 3>2 <[7]>4
+  \bo <[7]>2 \bc q4
   <9 4> <8 [3]>2 %30
   <6 4> <7>4
   \bo <[9 4]>8 <8 3>4. \bc <[6\\ \l]>4
   <7>8 <6> r2
   <4>8 <3> r2
   <7>8 <6\\> r2 %35
-  <5+>8 <6> r2
+  \bo <[5+]>8 \bc <[6]> r2
   <7>2 <\t>4
   <9 4> <[8] 3> <7>
   <6 4> <5 [_!]>2
@@ -2084,7 +2089,7 @@ AgnusBassFigures = \figuremode {
   r2.
   r
   r
-  <6>4 \bo <[6] 4> \bc <[5] 3>
+  <6>4 <6 4> <[5] 3>
   r2. %50
   <_!>
   <6 4>
@@ -2105,27 +2110,27 @@ AgnusBassFigures = \figuremode {
   r2 <6>8 <7>
   <6 4>4 \bo <[5] 3> <2>
   <6>2.
-  \bc <[6]> %70
-  r2 <6>4
+  <6> %70
+  r2 \bc <[6]>4
   <7 _!>2.
-  <9 4>8 <[8] 3>4. <[2]>8 <3>
-  <6 4> <[7 5]>4. <6 4>8 <5 3>
+  <9 4>8 \bo <[8] 3>4. \bc <[\t] \t>8 <3>
+  <6 4> <7 [5]>4. <6 4>8 <5 3>
   r <6> <6 4>4 <[5] 3> %75
   r8 <[6]> r2
   r <6 4>4
   <6>2 <7 4>8 <6 \t>
   <6>2 <7>4
   <6 4> <[5] 3>2 %80
-  \bo <5 [3]>8 \bc <6- [4]> r2
-  <[5-]>2.
+  <5 \t>8 <6- \t> r2
+  \bo <[5- 2]>8 \bc <[\t 3]> r2
   \bo <7 [5-]>8 \bc <6! [\t]> r2
   <6- 4>4 <[5] 3>2
-  <6>4 <6 4> <[7 3]> %85
+  <6>4 <6 4> <[7] 3> %85
   r2.
-  <[6]>4 <6 4> \bo <[7 3]>8 \bc <[\t \t]>
+  <[6]>4 <6 4> <[7] 3>
   r2 \bo <[7- \l]>4
   <7 2+>8 <\t \t> <8 3>4. <6>8
-  <6 4> \bc <[\t \t]> <6 4>4 <5 3> %90
+  <6 4> \bc <[\t \t]> <6 4>4 <[5] 3> %90
   r2.
   r
   r
@@ -2135,7 +2140,7 @@ AgnusBassFigures = \figuremode {
   r2.
   <8 6>2 <7 [5]>4
   <5>8 <6!> r2
-  <6>8 <6 5-> r2 %100
+  <6>8 <5-> r2 %100
   r4 <6 5>2
   \bo <[6]>4 \bc <[5-]>2
   r r8 <2>
@@ -2146,10 +2151,10 @@ AgnusBassFigures = \figuremode {
   r2.
   r
   r4 <6\\>4.. <\t>16 %110
-  <[7]>2.
+  <7>2.
   <6 4>4 <[5] _+> <9 7>
   <\t \t> <8 6> <7 _+>
-  \bo <[\t \t]>8 <6 4> <5 _+> \bc <[9 7]> <8 6> <7 5>
+  r2 <8 6>8 <7 5>
   r2. %115
   r4 <6\\>4.. <\t>16
   <7>2.
@@ -2171,7 +2176,7 @@ AgnusBassFigures = \figuremode {
   <9 4> <[8] _!> <_->2
   <[5]>8 <6> <6 4>4 <[5] _+>
   r2 <7>16 <6> r8 %135
-  <[7 _+]>2.
+  <7 _+>2.
   <7>4 <6>2
   r8 <3> <\t> <6> <6 4> <[5] _+>
   r2.
@@ -2179,7 +2184,7 @@ AgnusBassFigures = \figuremode {
   <6 4! [_-]>4 <6>2
   <[6!] 4+ _->4 <6 [_!]>2
   r2.
-  r4 \bo <[6] 5> \bc <[_+]>
+  r4 <6 5> <_+>
   r2. %145
   r
   r
@@ -2188,7 +2193,7 @@ AgnusBassFigures = \figuremode {
   r <_!>2 %150
   r4 \bo <[6]> <5>
   r \bc <[6]>2
-  \bo <[8 3]>2. \bassFigureExtendersOn
-  <8 3> \bassFigureExtendersOff
-  \bc <[_! \l]> %155 FINIS
+  r2.
+  <3>
+  <_!> %155 FINIS
 }

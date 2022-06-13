@@ -706,19 +706,19 @@ AgnusOboeI = {
     \clef treble
     \key g \minor \time 3/4 \tempoAgnus
     R2.*4-\markup \remark "fl 1" %4
-    r8 f'4\f b8 c es, %5
+    r8 f'4\fE b8 c es, %5
     d4 r r
     R2.*3
-    r8 f\fzE f16( a) c( b) a( g) f( es) %10
+    r8 f~ f16 a c( b) a( g) f( es) %10
     d4 r r
-    r8 f f16( a) c( b) a( g) f( es)
-    d2.
+    r8 f~ f16 a c( b) a( g) f( es)
+    d2.\p
     b'
     c2 r4 %15
     R2.
     b8\fz r b r r4
     R2.*2
-    r16 es,(\pE e f) d8 r c r %20
+    r16^\critnote f(\p e es) d8 r c\trill r %20
     b4 f'\f es
     d2 c4
     b r r
@@ -739,7 +739,7 @@ AgnusOboeI = {
     f4 r r
     a r r
     R2.*2 %50
-    r8 e\p e16( f) g( a) b( d) c( b)
+    r8 e~\p e16 f g( a) b( d) c( b)
     a2.
     b2 r4
     R2.*3 %56
@@ -752,7 +752,7 @@ AgnusOboeI = {
     d4 r r
     r r8 f4\f a8
     b4 r r
-    f2\pE es4 %70
+    f2\p es4 %70
     \appoggiatura es8 d4 r r
     g2 f4
     \appoggiatura f8 es4 r r
@@ -778,9 +778,9 @@ AgnusOboeI = {
     d b'2
     c r4 %100
     R2.
-    b8 r b\fz r r4
+    b8\fz r b r r4
     R2.*2
-    r16 f(\p e es) d8 r c r %105
+    r16 f(\p e es) d8 r c\trillE r %105
     b4 r d'\f
     d, r r\fermata
     R2.
@@ -788,38 +788,38 @@ AgnusOboeI = {
     g8. g,16 fis4 r8. fis16 %110
     es'4 d r
     R2.
-    r4 r c~
+    r4 r c~\p
     c8 b a es' d c
     b8 g'4\f g g8 %115
     g8. g,16 fis4 r8. fis16
     es'4 d g~\p
     g fis8 d es4~
-    es d8 b c4
-    c8.( b16) b4 r8 e %120
+    es d8 b c4~
+    c8. b16 b4 r8 e %120
     b4 a r
-    g'\f fis r
+    g'\fE fis r
     cis d r
     g fis r
     cis d r %125
     R2.
-    r4 a\f d
-    c8. b16 b4 e\p
-    b( a8) a\f a a
+    r4 a\fE c
+    c8. b16 b4.^\critnote e8\p
+    b4( a8) a\f a a
     g( d') d4~ d16 fis, a fis %130
-    g( b) d d d4~ d16 fis,( g d')
-    d8( cis) c4~ c16 es,( d c')
-    c8( h) b4~ b16 d( fis g)
-    g( es) es( c) b4 a
-    g b' b16( a) a( c) %135
+    g( b) d d d4~ d16 fis, g d'
+    d8( cis) c4~ c16 es, d c'
+    c8( h) b4~ b16 d fis g
+    g es es c b4 a
+    g b' b16 a a c %135
     c,2.~
     c4 r r
-    b4.\p c8( b a)
-    g4\fE g\p g
+    b4. c8 b( a)
+    g4 g\p g
     as g r %140
     R2.
     r4 r d'8\f d
-    d4 es16-! e( f e) f-! fis( g fis)
-    g4 a,2\trill
+    d4 es16 e f e f fis g fis
+    g8-\critnote g, a2\trill
     g4 r g~ %145
     g f as'~
     as g f~
@@ -827,7 +827,7 @@ AgnusOboeI = {
     es d r
     R2.*2 %151
     r4 g\p f
-    es2.\f
+    es2.~\f
     \tempoAgnusB es
     d\fermata \bar "|." %155 FINIS
   }

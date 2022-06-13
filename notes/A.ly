@@ -1051,11 +1051,11 @@ AgnusAlto = {
     b4 a r
     R2.
     r4 r r8 f %70
-    b8.([\trill c16] d8.[\trill es16]) f8 f
+    << \context Voice = "Alto" { b8.[ c16] d8.[ es16] f8 f } \\ {  s8 s^\turn s s^\turn s4 } >>
     f8. h,16 h4 r8 h
     h([ c)] c4 r8 d
     d([ es)] es es([ d c])
-    b16([ d c es] b4 a8.) b16 %75
+    b!16([ d c es] b4 a8.) b16 %75
     b4 r r
     R2.*4 %80
     r4 r des
@@ -1070,8 +1070,8 @@ AgnusAlto = {
     b~ b16[ d, es f] g[ a b c]
     d4 b r
     r b2
-    b4 c cis~ %95
-    cis8[ d] b4 a8. b16
+    b4.^\critnote c4 cis8~ %95
+    cis[ d] b4 a8.\trill b16
     b4 r r
     R2.*9 %106
     R2.\fermata
@@ -1085,14 +1085,14 @@ AgnusAlto = {
     \mvTr d\fE^\tutti c c8 c
     c4 b r
     R2.*4 %121
-    \mvTr g'4\fE^\tutti fis2
+    \mvTr g'4\fE^\tuttiE fis2
     b8([ g)] fis4 r8 a
     g4 fis8 fis fis d
-    cis([ g')] fis4 fis8\pE fis %125
+    cis([ g')] fis4 fis8\p fis %125
     g4. g8 g4
     fis r r
     R2.
-    r4 fis\fE fis
+    r4 fis\f fis
     g2( fis4) %130
     g g g
     g( fis8[ g]) a4
@@ -1102,10 +1102,10 @@ AgnusAlto = {
     r a a
     c, a8 r r4
     R2.
-    r4 es'\pE es
+    r4 es'\p es
     f! es2 %140
     d4 es g8 g
-    e4\fE a, r
+    e4\f a, r
     r r d8 d
     d b es4( d)
     d r r %145
@@ -1114,9 +1114,9 @@ AgnusAlto = {
     as8[ f] g4 a~
     a d, f8 d
     c4 h r %150
-    r d\pE f
+    r d\p f
     es( d) g
-    g2.~\fE
+    g2.~\f
     \tempoAgnusB g
     g\fermata \bar "|." %155 FINIS
   }
@@ -1162,7 +1162,7 @@ AgnusAltoLyrics = \lyricmode {
   mun -- di:
 
   Ex -- %70
-  au -- di nos
+  au -- _ di nos
   Do -- mi -- ne, ex --
   au -- di, ex --
   au -- di nos __

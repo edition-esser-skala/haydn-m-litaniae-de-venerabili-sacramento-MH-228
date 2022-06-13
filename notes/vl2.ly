@@ -933,8 +933,8 @@ AgnusViolinoII = {
     es es es es f f
     g g es es d d
     g, c es4 d
-    d\fz c8 a4 a8 %10
-    b b b b b b
+    d c8 a4\fz a8 %10
+    b\p b b b b b
     a a c c f f
     f b b b b b
     g, b' b b b b
@@ -959,22 +959,22 @@ AgnusViolinoII = {
     a a, a a a a
     r b b b b b
     r es es es es es %35
-    d g,16(\f d') d( g) g( b) b4~
-    b16( a) a(\pE g) b( g) b4 g8
+    d g,16(\f d') d( g) g( b) b4~\p
+    b16 a a( g) b( g) b4 g8
     g g f f f f
-    a16( f) a( f) e4 r
-    r8 a,4 f'8( g g,) %40
-    a a'4 f'8( g g,)
-    a a,4 f'8( g b,)
+    a16( f a f) e4 r
+    r8 a,4 f'8( g) g, %40
+    a a'4 f'8( g) g,
+    a a,4 f'8( g) b,
     a r a' r a f
     f[ f] f b4 a16 g
     f8 f f f e e %45
     f f4\fz f f8
     f16 a,\p a a a f' g a b c d e
-    f-!\fp e( d c) d-! c( b a) d-! c( b a)
+    \scriptOut f(-!\fp e d c) \scriptOut d(-! c b a) \scriptOut d(-! c b a)
     \appoggiatura c b8 a16 g f\f a8 a16 g, b8 b16
     a8 f'\p f f f f %50
-    e( g) g g g g
+    e g g g g g
     f a a a a a
     g e' e e, e e
     f a d d c c
@@ -991,41 +991,41 @@ AgnusViolinoII = {
     f b b b b b %65
     f c' c c c c
     b b4 d8 c b
-    b4 a16. a32\f a8. f16([ a f)]
-    b8 f f\p f f f
+    b4 a16. a32\f a8. \once \slurDashed f16([ a f)]
+    b8\p f f f f f
     f a a a a c %70
     r f, f f f f
     g h h h h h
     h( c) c c c d
-    d( es) es es d( c)
+    d( es) es es( d) c
     b16( d) c( es) b8 b a a %75
-    b\f f f f\p f b
+    b f\f f f\p f b
     b g g g d d
     es es es es f f
     g g c c b b
     b b a a a a %80
+    a-\critnote a a a a a
     a( b) b b b b
-    b b b b b b
-    b b, b\cresc b b b
-    b\f a a16 a'(\p c a) f( es) c( a)
-    b8 d!4 b'8( c c,) %85
-    d b'4 d8( es a,)
-    b d,4 b'8( c es,)
-    d d'4 f8~ f16( es) es( d)
-    d4( es16) es(\f g es) g( es)\p d( c)
+    b\cresc b, b b b b
+    b(\f a) a16 a'(\p c a) f( es) c( a)
+    b8 d!4 b'8( c) c, %85
+    d b'4 d8( es) a,
+    b d,4 b'8( c) es,
+    d d'4 f8~ f16 es es d
+    d4( es16) es(\f g es) g( es) d(\p c)
     b8 b b b a a %90
     b b4\fz b b8
-    b16 d,\p  d d d b' c d es f g a
-    b-!\fp a( g f) g-! f( es d) g-! f( es d)
+    b16\p d, d d d b' c d es f g a
+    \scriptOut b(-!\fp a g f) \scriptOut g(-! f es d) \scriptOut g(-! f es d)
     es(\f g,) g g g( b) b b b( g') g g
     f,4 r r %95
-    r b16 d8 d16 c, es8 es16
-    d8 b b'\p f d b
+    r b16\f d8 d16 c, es8 es16
+    d8 b\p b' f d b
     d2 c4
-    b8 b' b b b b
+    b8-! b' b b b b
     c c c c f, f %100
     b, d g g f f
-    f r f\fz r b, r
+    f\fz r f r b, r
     es r r4 r8 a\p
     b f g g g g
     f b, f'4 r %105
@@ -1035,7 +1035,7 @@ AgnusViolinoII = {
     b fis'( g b) cis,( d g d) a( b d b)
     g( b d g) fis8[ r16 a,] c( es fis a) %110
     c( a c es) d8 r b4~\p
-    b( a16) d( cis d) fis,( a) a( c)
+    \once \slurDashed b( a16) d( cis d) fis,( a) a( c)
     c4( b16) g( fis g) a( c) c( fis)
     fis8( g a) fis,( g a)
     r16 fis(\f g b) cis,( d g d) a( b d b) %115
@@ -1056,23 +1056,23 @@ AgnusViolinoII = {
     g( d') d4~ d16 fis,( a fis) %130
     g( b) d d d4~ d16 fis,( g d')
     d8( cis) c4~ c16 es,( d c')
-    c8( h) b4~ b16 d( fis, g)
+    c8( h) b4~ b16 d fis,( g)
     es( c) c( a) g8 g fis fis
     g d' b16( d) g( b) b( a) a( c) %135
     c( fis,) fis( a) a( c,) c( es) es( a,) a( c)
-    \once \tieDashed c,4~ c8 r16 cis\p d( c b a)
-    g fis'( g fis) g( fis) c'( a) g8 fis\trill
-    r16. b,32\f b16. b32 b8\p b b b
+    c,4~ c8[ r16 cis]\p d( c b a)
+    g( fis' g fis) g( fis c' a) g8( fis)\trill
+    r16. b,32\f b16. b32 b8 b\p b b
     f'! f es es es es %140
     d d es es g g
     e\f e a,4 d'8 d
-    d16-! d( es d) es-! e( f e) f-! fis( g fis)
+    d16-! d( es d) es( e f e) f( fis g fis)
     g8 g, g4 fis
     g8[ r16 g,] b( g)  d'( b) g( g') g g %145
     h,( d) d d d( h') h h h( as') as as
     f( as) as as c,( g') g g f( d') d d
     d,( f) f f g,( es') es es es( c') c c
-    c,( es) es es g,( d') d d f,( d') d( d,)
+    c,( es) es es g,( d') d d f,( d') d d,
     c4 h16 fis'( g h) cis,( d g d) %150
     g,4 r r
     c'\p d r

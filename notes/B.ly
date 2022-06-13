@@ -1161,23 +1161,23 @@ AgnusBasso = {
     R2.*106 %106
     R2.\fermata
     R2.*2
-    \mvTr g'4\fE^\tutti a a8 a %110
+    \mvTr g'4\fE^\tuttiE a a8 a %110
     fis4 g r
     R2.*4 %115
     \mvTr g4\fE^\tuttiE a a8 a
     fis4 g r
-    r r \mvTr c\pE^\solo
+    r r \mvTr c\pE^\soloE
     c b8 g a4~
     a16[ fis a g] g2 %120
     g4 fis r
     \mvTr es\fE^\tutti d2
     es4 d r8 d
     es4 d8 d d d
-    es4 d d8\pE d %125
+    es4 d d8\p d %125
     cis4. cis8 cis4
     d r r
     R2.
-    r4 d4.\fE c!8
+    r4 d4.\f c!8
     b2( c4) %130
     b b b'
     a4. g8 fis4
@@ -1187,10 +1187,10 @@ AgnusBasso = {
     r d' d
     fis fis8 r r4
     R2.
-    r4 es\pE es
+    r4 es\p es
     d es2 %140
     f4 es es8 es
-    g4\fE fis r
+    g4\f fis r
     r r c8 c
     b es c4( d)
     g, g' g %145
@@ -1199,9 +1199,9 @@ AgnusBasso = {
     h c fis,~
     fis g h,8 h
     c4 g r %150
-    r h'\pE h
+    r h'\p h
     c h2
-    c2.\fE
+    c2.\f
     \tempoAgnusB c,
     g\fermata \bar "|." %155 FINIS
   }

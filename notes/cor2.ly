@@ -563,11 +563,11 @@ AgnusCornoII = {
     \clef treble
     \key c \major \time 3/4 \tempoAgnus
     R2.*4 %4
-    r4 r8 c'\f d d %5
+    r4 r8 c'\fE d d %5
     c4 r r
     R2.*3
     r8 g\p g g g g %10
-    g4 g2~
+    g2.~^\critnote
     g8 g g g g g
     g2.
     c
@@ -607,13 +607,13 @@ AgnusCornoII = {
     g~ %65
     g
     c2 r4
-    r r g'\f
+    r r g'\fE
     c, r r
     R2.*6 %75
     r8 c\f c r r4
     R2.*7 %83
     r4 r8 g\pE g g
-    g2 r8 g' %85
+    g2 r8 g'\fz %85
     e c g4 r
     R2.*4 %90
     r8 c4\fz c c8
@@ -627,20 +627,20 @@ AgnusCornoII = {
     c
     g2 r4 %100
     R2.
-    c,8 r c\fz r r4
+    c,8\fz r c r r4
     R2.*3 %105
     r4 r c\f
     g' r r\fermata
     r4 c c
     c r r
-    R2.*5 %114
+    R2.*5_\markup \remark { \concat { "in B" \flat " alto" } } %114
     r8 c,4\fE c c8 %115
     c4 r r8. d'16
     d4 c r
     e,2.~\p
     e
     R2.*9 %128
-    r4 r8 e\f e e
+    r4 r8 e\fE e e
     e4 r8 e e e %130
     e4 r r
     R2.*2
@@ -654,9 +654,9 @@ AgnusCornoII = {
     r4 r e'8\f e
     e4 r e,8 e
     e c r4 e8 e
-    e4 r r %145
+    c4_\critnote r r %145
     R2.*8 %153
-    \tempoAgnusB d'2\fE f4
-    e2.\fermata \bar "|." %155 FINIS
+    \tempoAgnusB \mvTr d'2.\fE_\critnote
+    e\fermata \bar "|." %155 FINIS
   }
 }
