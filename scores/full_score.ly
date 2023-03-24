@@ -273,7 +273,7 @@
         \new StaffGroup <<
           \new GrandStaff <<
             \new Staff {
-              \set Staff.instrumentName = \markup \center-column { "vla" "1" }
+              \set Staff.instrumentName = \markup \center-column { "vla" "1" \critnote }
               \CoelesteViolaI
             }
             \new Staff {
