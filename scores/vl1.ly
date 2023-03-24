@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 #(define option-instrument-name "vl 1")
@@ -45,6 +45,18 @@
         \new Staff {
           \set Staff.instrumentName = "vla 1"
           \CoelesteViolaI
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4*" "Cœleste antidotum"
+    \addTocLabel "coeleste"
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "vl 1"
+          \CoelesteViolinoI
         }
       >>
     }
