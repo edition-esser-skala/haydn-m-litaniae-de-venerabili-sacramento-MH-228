@@ -1,10 +1,10 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieViolinoII = {
   \relative c' {
     \clef treble
     \key g \minor \time 3/4 \tempoKyrie
-    \mvTr b4\fE-\markup \remark "con sordino" c r8. fis16
+    \mvTr b4\fE-\conSord c r8. fis16
     a4 b r8 b
     b4( a8) r c,16( fis a c)
     c4( b8) r a,16( c fis a)
@@ -130,7 +130,7 @@ PanisViolinoII = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoPanis
-    b4\fE r-\markup \remark "si levano le sordine" r2
+    b4\fE r-\markup \whiteout \remark "si levano le sordine" r2
     R1
     b''16( a) b-! g-! es8 r b'16( a) b-! f-! d( es) f-! d-!
     g f g es c8 r f16 e f c a b c a
@@ -383,6 +383,179 @@ SacrificiumViolinoII = {
     c8 h g'32[ d h h] h d g g g,,4 r
     R1*2
     R1\fermata \bar "||" %20 finis
+  }
+}
+
+CoelesteViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoCoeleste
+    \partial 4 g'4\fE c8.(\trill h32 c)] c8-! c-! c-! c-!
+    es8. g,16 c8-! c c c
+    es16( g,) es' h c8 c, c c
+    as'16 g f es d c h as g f' es d
+    es c' g es c8 es es8.(\trill d32 c) %5
+    d16 g d h g8 f' f8.(\trill es32 d)
+    es16 g es c g8 g' \appoggiatura f16 es8 d16 c
+    h d f as g es' d c h( c) es,( g)
+    h, d f as g es' d c h( c) es,( g)
+    as f es d g es d c d8 h' %10
+    c16 g'\p-! es-! c-! g es' c g es c' g es
+    c4 r r
+    g'\p r8 as g f
+    g4 r8 c, c c
+    c4 h d %15
+    c r8 es es8.(\trill d32 c)
+    d16 g d h g8 f' f8.(\trill es32 d)
+    es16 g es c g8 g' \appoggiatura f16 es8 d16 c
+    h4 d c
+    c h8 g' g g %20
+    r g16-!\f g-! g8-! g\p g g
+    as,16\f as c f c' b as g f g as f
+    b,8 f'16-! f-! f8-! f\p f f
+    g,16\f g b es b' as g f es f g es
+    a, b c d es a c a es' a, c a %25
+    b c d c b a g f es d c b
+    a es' es es es ges ges ges ges a a a
+    b b f d b f'' d b f d' b f
+    d4 r b\p
+    b r8 g' g g %30
+    g g g g g g
+    c,4 r f
+    f r8 b, b d
+    es es a,\f es'\p es es
+    es es a,\f a'\p a a %35
+    a a a,\f a'\p a a
+    a4( b) r
+    f2\f c'4
+    \appoggiatura es, d2 r4
+    f2\p as8 f %40
+    \appoggiatura es4 d2 r4
+    f2\f c'4
+    as2 g8\p f
+    es16( f) d( es) c( d) b( c) as c g b
+    as c es c b4 r %45
+    es8.(\trill\f d32 es) es8 es es es
+    g8. b,16 es8 es es es
+    g16( b,) g' d es8 b' b b
+    c16 b as g f es d c b as' g f
+    g es' b g es8 es es8.(\trill d32 es) %50
+    f16 as f b, d8 f f8.(\trill es32 f)
+    g16 b g es g,8 b' b8.(\trill as32 b)
+    c16 es c as g es d es f8 d
+    es b\p b( es) as(^\critnote f)
+    es4 r8 g g g %55
+    f4 r8 d d d
+    es2 as4
+    f es8 g(\f b) des
+    f,4( e) r
+    as,4\p c8( f) b( g) %60
+    f4 r8 as as as
+    g4 r8 e e( f)
+    g2 f4
+    f e8 g(\f e c)
+    b e\p e e e e %65
+    e4 f8 c'\f as g
+    fis(\p c') c c c c
+    h( d,) d d d d
+    d( h) c c c c
+    h8.\f g16 h8 g' g g %70
+    c,8. g16 c8 g' g g
+    h,16 d g f es d c h c d es f
+    g8 g, g' f es d
+    r es\p es es es es
+    es4 r8 as g f %75
+    g4 r8 c, c c
+    c4 h d
+    c r8 es es8.(\trill d32 c)
+    d16 g d h g8 f' f8.(\trill es32 d)
+    es16 g es c g8 g' \appoggiatura f16 es8 d16 c %80
+    h4 d c
+    c h8 g' g h
+    c2.
+    d
+    c %85
+    r4 d, c
+    c h r
+    g'8 g g g16\f g g8 g
+    as,16 as c f as as as as as as as as
+    d,8\p as' as as16\f as as8 as %90
+    g,16 g b es g g g g g g g g
+    f as des des des des des des es, b' des des
+    des b des b c as es c c' es es es
+    f, as des des f, as des des es, b' des des
+    des b des b c as es c as c' as es %95
+    c4\p c8( es) c( es)
+    des( as) f'( des) b( des)
+    c( es) es es es es
+    es( c) c2
+    b4 b des16\f c b as %100
+    b8 des'16 b des b g es des c b as
+    g8 es'\p es es as as
+    g( b) as( c) es,( b')
+    b4 as16 as\f g f es des c b
+    as as' as as as, as' as as as as as as %105
+    b, des' des des g, es' es es es es es es
+    f, c' c c f, des' des des des des des des
+    es, b' b b es, as as as as as as as
+    as4 g16 es' d! c b as g f
+    es8 es\p es es es es %110
+    es g g g f f
+    e4.( b'8) as g
+    f4 e8 e16\f e e8 e
+    f4 e16 h' c des c b as g
+    f8 as\p as as g g %115
+    fis c' c c fis,4~\f
+    fis g\p es
+    es d16 g\f fis g h g fis g
+    g,8. es'16 es'4 d
+    r8. es,16 es'4 d %120
+    r8. d16 c4 c
+    c h r
+    f2 as4
+    \appoggiatura c, h2 r4
+    f'2\p as4 %125
+    \appoggiatura c, h2 r4
+    f'2\f f4
+    f2.\p
+    es4 f g
+    f8( d') c4( h) %130
+    c8 g\f \appoggiatura as16 g8 f16 es \appoggiatura f es8 d16 c
+    h d f as g es' d c h( c) es,( g)
+    h, d f as g es' d c h( c) es,( g)
+    g,8-! g'\p g g g g
+    f\f f\p f f f f %135
+    c\f c\p c c c c
+    fis\f fis\p fis fis fis fis
+    f\f r f\p f as! as
+    d, d f f h, h
+    c c(\pp as') as( g) g( %140
+    fis) fis( g4) r
+    f!2\f as4
+    \appoggiatura c, h2 r4
+    f'2\pE as4
+    \appoggiatura c, h2 h8\ff f' %145
+    f2 r4\fermata
+    c8\p c' b!16( c) as( b) g( as) f( g)
+    es4 r8 c c c
+    c4 r8 c c c
+    c4 r r %150
+    r8 g\pp c16( d) h( d) c( d) h( d)
+    c8 es16 c as(\cresc b!) g( b) as( b) g( b)
+    as4 c-!\mf es-!
+    g,-! r g'\f
+    c8.(\trill h32 c) c8 c c c %155
+    es8. g,16 c8 c c c
+    es16( g,) es' h c8 c, c c
+    as'16 g f es d c h as g f' es d
+    es c' g es c8 es es8.(\trill d32 c)
+    d16 g d h g8 f' f8.(\trill es32 d) %160
+    es16 g es c g8 g' \appoggiatura f16 es8 d16 c
+    h16 d f as g es' d c h( c) es, g
+    h, d f as g es' d c h c es, g
+    as f es d g es d c d8 h
+    c16 g'' es c g es' c g es c' g es %165
+    c4 r r\fermata \bar "|." %166 finis
   }
 }
 
@@ -927,7 +1100,7 @@ AgnusViolinoII = {
   \relative c' {
     \clef treble
     \key g \minor \time 3/4 \tempoAgnus
-    R2.*4_\markup \remark "con sordino"
+    R2.*4_\conSord
     r8 f'16(\f d) a( b) f( d') c8. c,16 %5
     b4 r8 f'\p f b,
     es es es es f f
@@ -1031,7 +1204,7 @@ AgnusViolinoII = {
     f b, f'4 r %105
     d'16(\f es) e( f) b,( c) cis( d) g,( a) b( e,)
     f4 r r\fermata
-    r16 a(-\markup \remark "senza sordino" b d) e,( f b f) cis( d f d)
+    r16 a(-\senzaSord b d) e,( f b f) cis( d f d)
     b fis'( g b) cis,( d g d) a( b d b)
     g( b d g) fis8[ r16 a,] c( es fis a) %110
     c( a c es) d8 r b4~\p

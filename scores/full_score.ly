@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
@@ -321,7 +321,7 @@
         \new FiguredBass { \CoelesteBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 75 }
     }
   }
   \bookpart {
@@ -645,7 +645,7 @@
         \new FiguredBass { \AgnusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 65 }
+      \midi { \tempo 4 = 60 } % 30
     }
   }
 }
